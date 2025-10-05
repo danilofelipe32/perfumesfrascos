@@ -1526,5 +1526,47 @@ export const perfumes: Perfume[] = [
     },
     story: "Puro e multifacetado como um diamante perfeitamente lapidado. Prisma Cristalino é uma fragrância que refrata a luz, criando um espectro de aromas brilhantes. Um floral frutado cintilante que celebra a clareza, a pureza e a beleza radiante.",
     categories: ["Fresco", "Floral"],
+  },
+  {
+    id: 112,
+    name: "Ébano Dourado",
+    designer: "Forma & Essenza",
+    imageUrl: "https://i.imgur.com/x5e9ha2.jpg",
+    year: 2024,
+    notes: {
+      top: ["Pimenta Preta", "Bergamota"],
+      heart: ["Couro Negro", "Incenso", "Patchouli"],
+      base: ["Vetiver", "Madeira de Ébano", "Fava Tonka"],
+    },
+    story: "A fusão da força bruta com o luxo refinado. Ébano Dourado é uma fragrância que evoca a arquitetura moderna, onde a madeira escura e o couro encontram o brilho do ouro. Um perfume para quem constrói o próprio destino com confiança e estilo.",
+    categories: ["Amadeirado", "Couro"],
+  },
+  {
+    id: 113,
+    name: "Jóia de Lápis-lazúli",
+    designer: "Maison Royale",
+    imageUrl: "https://i.imgur.com/AnArE26.jpg",
+    year: 2022,
+    notes: {
+      top: ["Aldeídos", "Bergamota", "Gálbano"],
+      heart: ["Íris", "Jacinto Azul", "Rosa de Maio"],
+      base: ["Musgo de Carvalho", "Sândalo", "Almíscar"],
+    },
+    story: "Uma joia perdida de uma corte esquecida, encontrada para adornar a realeza moderna. Jóia de Lápis-lazúli é um perfume de elegância atemporal, um floral atalcado com a nobreza da íris e a profundidade do musgo, evocando uma nostalgia luxuosa.",
+    categories: ["Floral", "Chipre"],
+  },
+  {
+    id: 114,
+    name: "Flor Escarlate",
+    designer: "Atelier Rouge",
+    imageUrl: "https://i.imgur.com/ylRkl2N.jpg",
+    year: 2023,
+    notes: {
+      top: ["Pimenta Rosa", "Romã", "Laranja Sanguínea"],
+      heart: ["Rosa Vermelha Absoluta", "Tuberosa", "Jasmim"],
+      base: ["Patchouli", "Benjoim", "Almíscar Vermelho"],
+    },
+    story: "Uma flor que desabrocha com a intensidade de uma paixão avassaladora. Flor Escarlate é uma declaração ousada, um floral vibrante e especiado que captura a coragem e a beleza ardente do vermelho. Um perfume para quem não tem medo de ser o centro das atenções.",
+    categories: ["Floral", "Oriental"],
   }
 ];
