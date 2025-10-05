@@ -1,4 +1,3 @@
-
 export interface Perfume {
   id: number;
   name: string;
@@ -11,4 +10,5 @@ export interface Perfume {
     base: string[];
   };
   story: string;
+  categories: string[];
 }

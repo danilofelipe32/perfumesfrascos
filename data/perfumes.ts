@@ -13,6 +13,7 @@ export const perfumes: Perfume[] = [
       base: ["Âmbar", "Patchouli", "Fava de Baunilha"],
     },
     story: "Uma fragrância atemporal capturada em um frasco de um carmesim ardente. Rosa Incandescente é uma ode a declarações apaixonadas e encontros secretos, com um coração de rosa clássica envolto em couro quente e picante.",
+    categories: ["Oriental", "Floral", "Couro"],
   },
   {
     id: 2,
@@ -26,6 +27,7 @@ export const perfumes: Perfume[] = [
       base: ["Sândalo", "Fava Tonka", "Almíscar"],
     },
     story: "Criado para a realeza, o frasco do Monarca Dourado é uma obra-prima de filigrana e ouro. A fragrância em seu interior é igualmente opulenta, um floral solar radiante que impõe respeito e exala puro luxo.",
+    categories: ["Floral", "Gourmand"],
   },
   {
     id: 3,
@@ -39,6 +41,7 @@ export const perfumes: Perfume[] = [
       base: ["Iso E Super", "Vetiver", "Cedro Branco"],
     },
     story: "Um perfume que desafia a percepção, abrigado em um recipiente de geometria impossível. Matriz de Cobalto é uma fragrância fria e abstrata — uma chuva digital de íris e vetiver que parece ao mesmo tempo futurista e profundamente inteligente.",
+    categories: ["Fresco", "Aromático"],
   },
   {
     id: 4,
@@ -52,6 +55,7 @@ export const perfumes: Perfume[] = [
       base: ["Oud", "Ládano", "Castóreo"],
     },
     story: "A essência da meia-noite capturada em um frasco de azeviche polido. Oud Noturno é uma fragrância profunda e misteriosa que se desdobra nas sombras, uma mistura contemplativa de incenso sagrado e oud raro.",
+    categories: ["Oriental", "Amadeirado"],
   },
   {
     id: 5,
@@ -65,6 +69,7 @@ export const perfumes: Perfume[] = [
       base: ["Vetiver", "Madeira de Carvalho", "Patchouli"],
     },
     story: "Capturando a seiva de uma floresta antiga, o frasco da Alma Verdejante é um tributo à arte da nature. O perfume é uma folhagem verde hiper-realista, nítida e úmida como o chão de uma floresta após a chuva.",
+    categories: ["Aromático", "Amadeirado"],
   },
   {
     id: 6,
@@ -78,6 +83,7 @@ export const perfumes: Perfume[] = [
       base: ["Madeira de Hinoki", "Almíscar Branco", "Acorde de Seda"],
     },
     story: "Tão delicado e suave quanto uma pétala de peônia desabrochando ao amanhecer. Seda de Peônia é um floral aquarelado, uma fragrância gentil e romântica abrigada em um frasco que personifica pura graça e feminilidade.",
+    categories: ["Floral", "Fresco"],
   },
   {
     id: 7,
@@ -91,6 +97,7 @@ export const perfumes: Perfume[] = [
       base: ["Sândalo", "Cashmeran", "Benjoim"],
     },
     story: "Esculpido em mármore etéreo e coroado com ouro, este frasco contém um perfume de beleza escultural. Flor de Mármore é um floral branco cremoso e imponente que parece atemporal e poderosamente moderno.",
+    categories: ["Floral"],
   },
   {
     id: 8,
@@ -104,6 +111,7 @@ export const perfumes: Perfume[] = [
       base: ["Tabaco", "Absoluto de Baunilha", "Âmbar"],
     },
     story: "Um elixir tentador e perigoso, guardado por uma serpente dourada. Beijo Serpentine é uma mistura hipnótica de florais narcóticos e resinas doces e escuras — uma fragrância impossível de resistir.",
+    categories: ["Oriental", "Floral", "Gourmand"],
   },
   {
     id: 9,
@@ -117,6 +125,7 @@ export const perfumes: Perfume[] = [
         base: ["Ambregris", "Madeira Flutuante", "Almíscar"],
     },
     story: "Das mais profundas fossas oceânicas, uma única e luminosa flor emerge. Flor Abissal é um floral aquático com um coração misterioso e brilhante, abrigado em um frasco que captura a magia do mar profundo.",
+    categories: ["Fresco", "Floral"],
   },
   {
     id: 10,
@@ -130,6 +139,7 @@ export const perfumes: Perfume[] = [
         base: ["Patchouli", "Camurça", "Baunilha"],
     },
     story: "Uma fragrância de poder régio, envolta em um frasco que espelha uma joia real. Ametista Real é um perfume rico e atalcado de íris preciosa e violeta, exalando uma aura de confiança serena e porte majestoso.",
+    categories: ["Floral", "Aromático"],
   },
   {
     id: 11,
@@ -143,6 +153,7 @@ export const perfumes: Perfume[] = [
         base: ["Sândalo", "Almíscar Branco", "Madeira de Hinoki"],
     },
     story: "A arte da simplicidade, um perfume limpo e meditativo em um recipiente minimalista. Kanso Blanc é uma fragrância tranquila que evoca a sensação de linho limpo e contemplação silenciosa.",
+    categories: ["Fresco", "Floral"],
   },
   {
     id: 14,
@@ -156,6 +167,7 @@ export const perfumes: Perfume[] = [
         base: ["Cipreste", "Almíscar", "Madeira Flutuante"],
     },
     story: "Inspirado no horizonte infinito do mar Mediterrâneo. Sonho Lazúli é um cítrico aquático fresco e revigorante, capturando o momento perfeito do sol na pele e uma suave brisa do oceano.",
+    categories: ["Fresco"],
   },
   {
     id: 15,
@@ -169,6 +181,7 @@ export const perfumes: Perfume[] = [
         base: ["Oud", "Patchouli", "Fava Tonka"],
     },
     story: "Uma poção de romance sombrio contida em um recipiente vermelho-sangue. Elixir Carmesim é um gourmand decadente e inebriante, uma rica mistura de cereja em calda, rosa escura e café amargo.",
+    categories: ["Gourmand", "Oriental"],
   },
   {
     id: 16,
@@ -182,6 +195,7 @@ export const perfumes: Perfume[] = [
         base: ["Baunilha", "Sândalo", "Âmbar"],
     },
     story: "Aquecido pelo sol do deserto, o frasco Pedra do Sol brilha por dentro. A fragrância é um floral picante e radiante que se sente como luz do sol líquida, cheia de otimismo e energia vibrante.",
+    categories: ["Oriental", "Floral"],
   },
   {
     id: 17,
@@ -195,6 +209,7 @@ export const perfumes: Perfume[] = [
         base: ["Âmbar Gris", "Sândalo Cremoso", "Coco"],
     },
     story: "A essência do oceano capturada no nascer do sol. Concha Dourada é um tesouro marinho, um perfume solar que evoca a areia quente e o brilho dourado do sol sobre as ondas.",
+    categories: ["Fresco", "Floral"],
   },
   {
     id: 18,
@@ -208,6 +223,7 @@ export const perfumes: Perfume[] = [
         base: ["Vetiver de Java", "Couro", "Musgo de Carvalho"],
     },
     story: "Inspirado na força bruta da terra vulcânica. Rocha Negra é uma fragrância terrosa e magnética, para aqueles com um espírito indomável e uma presença marcante.",
+    categories: ["Chipre", "Couro"],
   },
   {
     id: 19,
@@ -221,6 +237,7 @@ export const perfumes: Perfume[] = [
         base: ["Almíscar Branco", "Semente de Ambreta"],
     },
     story: "Uma fragrância que joga com a luz e a sombra. Espectro Prateado é limpo, nítido e misterioso, como um raio de luar em uma noite clara de inverno.",
+    categories: ["Fresco", "Floral"],
   },
   {
     id: 20,
@@ -234,6 +251,7 @@ export const perfumes: Perfume[] = [
         base: ["Âmbar Negro", "Baunilha de Madagascar", "Sândalo Australiano"],
     },
     story: "A fragrância da arquitetura e da precisão. Prisma de Ouro é uma composição ousada e estruturada, onde cada nota tem seu lugar perfeito para criar uma aura de opulência moderna.",
+    categories: ["Oriental", "Amadeirado", "Couro"],
   },
   {
     id: 21,
@@ -247,6 +265,7 @@ export const perfumes: Perfume[] = [
         base: ["Patchouli", "Sândalo", "Vetiver"],
     },
     story: "Rico e profundo como o solo de onde brotam as maiores riquezas. Ouro Negro é uma fragrância gourmand escura e viciante, uma celebração do poder e da intensidade.",
+    categories: ["Gourmand", "Amadeirado"],
   },
   {
     id: 22,
@@ -260,6 +279,7 @@ export const perfumes: Perfume[] = [
         base: ["Almíscar Transparente", "Cedro Branco"],
     },
     story: "Puro e multifacetado como um cristal perfeitamente lapidado. Gema de Cristal é um floral frutado brilhante e cintilante que reflete a luz em todas as direções.",
+    categories: ["Floral", "Fresco"],
   },
   {
     id: 23,
@@ -273,6 +293,7 @@ export const perfumes: Perfume[] = [
         base: ["Patchouli", "Baunilha", "Âmbar"],
     },
     story: "A essência da paixão engarrafada. Coração Rubro é uma fragrância sedutora e doce, um convite para um romance ardente e inesquecível.",
+    categories: ["Gourmand", "Floral"],
   },
   {
     id: 24,
@@ -286,6 +307,7 @@ export const perfumes: Perfume[] = [
         base: ["Chocolate Amargo", "Patchouli", "Sândalo"],
     },
     story: "Raro, escuro e de brilho incomparável. Diamante Noir é um perfume Chipre Oriental opulento e misterioso, uma joia olfativa para momentos de pura sofisticação.",
+    categories: ["Chipre", "Oriental"],
   },
   {
     id: 25,
@@ -299,6 +321,7 @@ export const perfumes: Perfume[] = [
         base: ["Vetiver", "Musgo", "Cedro"],
     },
     story: "Um mergulho na vegetação exuberante de uma floresta tropical. Essência da Selva é uma fragrância verde e aromática, revigorante como o ar puro da natureza intocada.",
+    categories: ["Aromático", "Amadeirado"],
   },
   {
     id: 26,
@@ -312,6 +335,7 @@ export const perfumes: Perfume[] = [
         base: ["Âmbar", "Sândalo", "Mirra"],
     },
     story: "Inspirado nos intrincados padrões da arte oriental. Arabesco Dourado é um perfume especiado e resinoso, quente e envolvente como um conto das Mil e Uma Noites.",
+    categories: ["Oriental", "Gourmand"],
   },
   {
     id: 27,
@@ -325,6 +349,7 @@ export const perfumes: Perfume[] = [
         base: ["Musgo de Carvalho", "Fava Tonka", "Couro"],
     },
     story: "Um perfume clássico e atemporal, evocando a elegância e o poder de antigos impérios. Herança Imperial é um fougère nobre e sofisticado, para o cavalheiro moderno.",
+    categories: ["Aromático", "Couro"],
   },
   {
     id: 28,
@@ -338,6 +363,7 @@ export const perfumes: Perfume[] = [
         base: ["Baunilha Negra", "Patchouli", "Alcaçuz"],
     },
     story: "Uma mistura mágica que cativa os sentidos. Poção Encantada é um floral gourmand misterioso e enfeitiçante, guardado em um frasco que parece saído de um conto de fadas.",
+    categories: ["Gourmand", "Floral"],
   },
   {
     id: 29,
@@ -351,6 +377,7 @@ export const perfumes: Perfume[] = [
         base: ["Vetiver", "Madeira de Caxemira", "Asfalto Molhado"],
     },
     story: "A essência das luzes da cidade após a chuva. Urbano Noturno é uma fragrância moderna e ousada, com um toque mineral e amadeirado que captura a energia da metrópole.",
+    categories: ["Aromático", "Couro"],
   },
   {
     id: 30,
@@ -364,6 +391,7 @@ export const perfumes: Perfume[] = [
         base: ["Cera de Abelha", "Sândalo", "Fava Tonka"],
     },
     story: "Doce, solar e opulentamente floral. Néctar da Rainha é uma homenagem à abelha, um perfume que celebra a riqueza dourada do mel e a beleza das flores brancas.",
+    categories: ["Floral", "Gourmand"],
   },
   {
     id: 31,
@@ -377,6 +405,7 @@ export const perfumes: Perfume[] = [
         base: ["Tabaco", "Âmbar", "Couro"],
     },
     story: "Uma explosão de especiarias quentes e energia vibrante. Fúria Vermelha é um perfume intenso e apaixonado, para quem não tem medo de deixar uma marca inesquecível.",
+    categories: ["Oriental", "Couro"],
   },
   {
     id: 32,
@@ -390,6 +419,7 @@ export const perfumes: Perfume[] = [
         base: ["Almíscar Branco", "Musgo de Carvalho", "Sândalo"],
     },
     story: "A beleza silenciosa de um jardim coberto pela primeira geada. Jardim de Gelo é um floral fresco e cristalino, nítido e puro como o ar do inverno.",
+    categories: ["Fresco", "Floral"],
   },
   {
     id: 33,
@@ -403,6 +433,7 @@ export const perfumes: Perfume[] = [
         base: ["Ládano", "Sândalo", "Oud"],
     },
     story: "Uma viagem olfativa às margens do Nilo. Segredo do Faraó é uma fragrância resinosa e sagrada, que evoca os rituais e mistérios do Antigo Egito.",
+    categories: ["Oriental", "Amadeirado"],
   },
   {
     id: 34,
@@ -416,6 +447,7 @@ export const perfumes: Perfume[] = [
         base: ["Patchouli", "Baunilha Estelar", "Almíscar Nebuloso"],
     },
     story: "Um perfume que captura o brilho de uma nebulosa distante. Galáxia Púrpura é um frutado atalcado, sonhador e etéreo, com um toque de mistério cósmico.",
+    categories: ["Gourmand", "Floral"],
   },
   {
     id: 35,
@@ -429,6 +461,7 @@ export const perfumes: Perfume[] = [
         base: ["Âmbar", "Patchouli", "Fava Tonka"],
     },
     story: "Inspirado no esplendor decadente dos palácios venezianos. Veneza Dourada é um perfume opulento e festivo, que evoca bailes de máscaras e o brilho do ouro.",
+    categories: ["Oriental", "Floral"],
   },
   {
     id: 36,
@@ -442,6 +475,7 @@ export const perfumes: Perfume[] = [
         base: ["Cera de Abelha", "Baunilha", "Almíscar"],
     },
     story: "A doçura radiante do mel recém-colhido. Favo de Luz é uma fragrância gourmand solar e reconfortante, um tributo líquido ao trabalho incansável das abelhas.",
+    categories: ["Gourmand", "Floral"],
   },
   {
     id: 37,
@@ -455,6 +489,7 @@ export const perfumes: Perfume[] = [
         base: ["Vetiver", "Ládano", "Baunilha"],
     },
     story: "A essência de uma biblioteca antiga com lareira acesa. Ébano Esfumaçado é um perfume amadeirado e de couro, sofisticado, contemplativo e cheio de sabedoria.",
+    categories: ["Amadeirado", "Couro"],
   },
   {
     id: 38,
@@ -468,6 +503,7 @@ export const perfumes: Perfume[] = [
         base: ["Areia Quente", "Sândalo", "Mirra"],
     },
     story: "Uma flor rara que desabrocha sob o sol impiedoso. Flor do Deserto é um floral branco picante e quente, uma celebração da resiliência e da beleza inesperada.",
+    categories: ["Oriental", "Floral"],
   },
   {
     id: 39,
@@ -481,6 +517,7 @@ export const perfumes: Perfume[] = [
         base: ["Almíscar Branco", "Madeira de Cedro"],
     },
     story: "Uma lufada de ar fresco e revigorante. Sopro de Menta é uma fragrância aromática e limpa, perfeita para clarear a mente e renovar as energias.",
+    categories: ["Aromático", "Fresco"],
   },
   {
     id: 40,
@@ -494,6 +531,7 @@ export const perfumes: Perfume[] = [
         base: ["Patchouli Branco", "Almíscar", "Âmbar"],
     },
     story: "A quintessência do otimismo e do romance parisiense. La Vie en Rose é um floral frutado alegre e feminino, que celebra a beleza de ver a vida em tons de rosa.",
+    categories: ["Floral"],
   },
   {
     id: 41,
@@ -507,6 +545,7 @@ export const perfumes: Perfume[] = [
         base: ["Ambregris", "Madeira Flutuante", "Patchouli"],
     },
     story: "A força dramática e a energia de uma tempestade oceânica. Tempestade no Mar é um aquático aromático, poderoso e eletrizante, com um coração mineral e salgado.",
+    categories: ["Fresco", "Aromático"],
   },
   {
     id: 42,
@@ -520,6 +559,7 @@ export const perfumes: Perfume[] = [
         base: ["Âmbar", "Vetiver Defumado", "Oud"],
     },
     story: "Uma fragrância mítica, quente e prestes a eclodir com poder. Ovo de Dragão é um perfume resinoso e picante, guardando uma essência de fogo e lenda.",
+    categories: ["Oriental", "Amadeirado"],
   },
   {
     id: 43,
@@ -533,6 +573,7 @@ export const perfumes: Perfume[] = [
         base: ["Almíscar Transparente", "Sândalo"],
     },
     story: "A pureza cristalina de uma gota de orvalho sobre uma pétala ao amanhecer. Uma fragrância aquática e verde, delicada, limpa e serenamente bela.",
+    categories: ["Fresco", "Floral"],
   },
   {
     id: 44,
@@ -546,6 +587,7 @@ export const perfumes: Perfume[] = [
         base: ["Âmbar", "Madeira de Caxemira", "Almíscar"],
     },
     story: "A sensação tátil e o cheiro sofisticado de uma luva de couro perfeitamente confeccionada. Sussurro de Couro é uma interpretação suave e elegante do couro, unissex e moderna.",
+    categories: ["Couro", "Amadeirado"],
   },
   {
     id: 45,
@@ -559,6 +601,7 @@ export const perfumes: Perfume[] = [
         base: ["Âmbar", "Baunilha", "Madeira de Cedro"],
     },
     story: "Perca-se nos corredores de um mercado de especiarias exótico. Labirinto de Especiarias é uma fragrância quente, seca e envolvente, uma rica tapeçaria de aromas.",
+    categories: ["Oriental"],
   },
   {
     id: 46,
@@ -572,6 +615,7 @@ export const perfumes: Perfume[] = [
         base: ["Almíscar Branco Perolado", "Sândalo", "Íris"],
     },
     story: "O brilho suave e iridescente da lua cheia. Pérola Lunar é um floral branco luminoso e cremoso, com uma elegância etérea e misteriosa.",
+    categories: ["Floral"],
   },
   {
     id: 47,
@@ -585,6 +629,7 @@ export const perfumes: Perfume[] = [
         base: ["Vetiver", "Musgo de Carvalho", "Cedro do Atlas"],
     },
     story: "Conecte-se com a energia primária da terra. Força da Terra é uma fragrância terrosa e amadeirada, que evoca a sensação de estar descalço na terra úmida após a chuva.",
+    categories: ["Chipre", "Amadeirado"],
   },
   {
     id: 48,
@@ -598,6 +643,7 @@ export const perfumes: Perfume[] = [
         base: ["Sândalo", "Baunilha", "Almíscar"],
     },
     story: "Exuberante, exótico e impossível de ignorar. Pavão Real é um floral frutado opulento, uma exibição extravagante de cores e aromas tropicais.",
+    categories: ["Floral", "Gourmand"],
   },
   {
     id: 49,
@@ -611,6 +657,7 @@ export const perfumes: Perfume[] = [
         base: ["Madeira de Hinoki", "Almíscar Branco", "Incenso"],
     },
     story: "A serenidade e o equilíbrio de um templo antigo. Templo de Jade é uma fragrância meditativa e limpa, que inspira paz, harmonia e contemplação.",
+    categories: ["Fresco", "Aromático"],
   },
   {
     id: 50,
@@ -624,6 +671,7 @@ export const perfumes: Perfume[] = [
         base: ["Sândalo", "Almíscar", "Âmbar"],
     },
     story: "A celebração do florescer do amor e da primavera. Amor em Flor é um floral delicado e romântico, capturando a beleza efêmera das flores em seu auge.",
+    categories: ["Floral"],
   },
   {
     id: 51,
@@ -637,6 +685,7 @@ export const perfumes: Perfume[] = [
         base: ["Âmbar Cinza", "Vetiver", "Almíscar"],
     },
     story: "O cheiro do espaço frio e do pó de estrelas. Fragmento Estelar é uma fragrância mineral e abstrata, uma viagem olfativa para além da nossa atmosfera.",
+    categories: ["Fresco", "Aromático"],
   },
   {
     id: 52,
@@ -650,6 +699,7 @@ export const perfumes: Perfume[] = [
         base: ["Âmbar", "Benjoim", "Baunilha"],
     },
     story: "As cores quentes e a sensação reconfortante de um pôr do sol. Ocaso Dourado é um floral ambarado, radiante e sensual, como os últimos raios de sol do dia.",
+    categories: ["Oriental", "Floral"],
   },
   {
     id: 53,
@@ -663,6 +713,7 @@ export const perfumes: Perfume[] = [
         base: ["Madeira Flutuante", "Ambreta", "Cedro"],
     },
     story: "O cheiro de madeira branqueada pelo sol e salgada pelo mar. Madeira Flutuante é uma fragrância amadeirada e marinha, que evoca a tranquilidade de uma praia deserta.",
+    categories: ["Amadeirado", "Fresco"],
   },
   {
     id: 54,
@@ -676,6 +727,7 @@ export const perfumes: Perfume[] = [
         base: ["Musgo de Carvalho", "Âmbar", "Patchouli"],
     },
     story: "Um brinde à vitória e à celebração. Cálice de Ouro é um Chipre frutado, efervescente e luxuoso, digno de um banquete real.",
+    categories: ["Chipre", "Floral"],
   },
   {
     id: 55,
@@ -689,6 +741,7 @@ export const perfumes: Perfume[] = [
         base: ["Almíscar Branco", "Sândalo", "Baunilha"],
     },
     story: "A sensação suave e reconfortante de lençóis limpos. Nuvem de Algodão é um perfume almiscarado e atalcado, uma fragrância de pureza e conforto.",
+    categories: ["Fresco", "Floral"],
   },
   {
     id: 56,
@@ -702,6 +755,7 @@ export const perfumes: Perfume[] = [
         base: ["Mirra", "Couro", "Vetiver"],
     },
     story: "O momento raro e místico em que o sol e a lua se alinham. Eclipse Total é uma fragrância escura, resinosa e meditativa, de uma beleza sombria e profunda.",
+    categories: ["Oriental", "Amadeirado"],
   },
   {
     id: 57,
@@ -715,6 +769,7 @@ export const perfumes: Perfume[] = [
         base: ["Patchouli", "Couro", "Fava Tonka"],
     },
     story: "Um perfume elegante e misterioso, como um segredo guardado a sete chaves. Uma fragrância Chipre floral clássica, com um toque de modernidade e audácia.",
+    categories: ["Chipre", "Couro"],
   },
   {
     id: 58,
@@ -728,6 +783,7 @@ export const perfumes: Perfume[] = [
         base: ["Tabaco", "Baunilha", "Patchouli"],
     },
     story: "Irresistivelmente tentador e deliciosamente perigoso. Fruto Proibido é um gourmand picante e boêmio, uma ode à indulgência e à quebra de regras.",
+    categories: ["Gourmand", "Oriental"],
   },
   {
     id: 59,
@@ -741,6 +797,7 @@ export const perfumes: Perfume[] = [
         base: ["Sândalo", "Almíscar Branco", "Âmbar"],
     },
     story: "A flor que simboliza a pureza e a iluminação espiritual. Lótus Sagrado é um floral aquático sereno e transcendental, que acalma a alma e eleva o espírito.",
+    categories: ["Floral", "Fresco"],
   },
   {
     id: 60,
@@ -754,6 +811,7 @@ export const perfumes: Perfume[] = [
         base: ["Baunilha", "Patchouli", "Sândalo"],
     },
     story: "Como uma resina de âmbar antiga, guardando a luz de milênios. Esfera de Âmbar é uma fragrância oriental quente, doce e resinosa, profundamente reconfortante.",
+    categories: ["Oriental", "Gourmand"],
   },
   {
     id: 61,
@@ -767,6 +825,7 @@ export const perfumes: Perfume[] = [
         base: ["Cedro Branco", "Almíscar Cristalino"],
     },
     story: "O guia luminoso nas noites mais frias e escuras. Estrela do Norte é um perfume amadeirado e aromático, nítido e brilhante como a aurora boreal.",
+    categories: ["Amadeirado", "Fresco"],
   },
   {
     id: 62,
@@ -780,6 +839,7 @@ export const perfumes: Perfume[] = [
         base: ["Oud", "Sândalo", "Baunilha"],
     },
     story: "A opulência e a grandeza de um reino dourado. Uma fragrância rica e majestosa, onde o mel e as flores se encontram com madeiras preciosas.",
+    categories: ["Oriental", "Gourmand"],
   },
   {
     id: 63,
@@ -793,6 +853,7 @@ export const perfumes: Perfume[] = [
         base: ["Cipreste", "Cedro", "Almíscar"],
     },
     story: "A sensação despreocupada de um dia perfeito de verão na costa. Brisa de Verão é um cítrico aromático, refrescante, alegre e cheio de vida.",
+    categories: ["Fresco", "Aromático"],
   },
   {
     id: 64,
@@ -806,6 +867,7 @@ export const perfumes: Perfume[] = [
         base: ["Couro", "Cedro", "Ambreta"],
     },
     story: "O cheiro de uma página em branco e a promessa de uma nova história. Tinta e Papel é uma fragrância amadeirada e almiscarada, minimalista, intelectual e abstrata.",
+    categories: ["Amadeirado", "Couro"],
   },
   {
     id: 65,
@@ -819,6 +881,7 @@ export const perfumes: Perfume[] = [
         base: ["Madeira de Bétula", "Baunilha", "Âmbar"],
     },
     story: "A celebração do calor e da luz na noite mais longa do ano. Solstício de Inverno é um perfume especiado e amadeirado, festivo e acolhedor.",
+    categories: ["Oriental", "Amadeirado"],
   },
   {
     id: 66,
@@ -832,6 +895,7 @@ export const perfumes: Perfume[] = [
         base: ["Almíscar Branco", "Mate"],
     },
     story: "O ritual calmante e a fragrância delicada de uma xícara de chá de jasmim. Um perfume floral e verde, sereno, elegante e reconfortante.",
+    categories: ["Floral", "Fresco"],
   },
   {
     id: 67,
@@ -845,6 +909,7 @@ export const perfumes: Perfume[] = [
         base: ["Ambregris", "Sândalo", "Almíscar"],
     },
     story: "O encanto e o mistério das profundezas do oceano. Escama de Sereia é um floral aquático e salgado, com um brilho iridescente e um toque de magia.",
+    categories: ["Fresco", "Floral"],
   },
   {
     id: 68,
@@ -858,6 +923,7 @@ export const perfumes: Perfume[] = [
         base: ["Sândalo", "Vetiver", "Mirra"],
     },
     story: "Um refúgio de vida e frescor no meio do deserto. Oásis Verde é uma fragrância verde e frutada, que evoca a sombra, a água e a exuberância inesperada.",
+    categories: ["Aromático", "Amadeirado"],
   },
   {
     id: 69,
@@ -871,6 +937,7 @@ export const perfumes: Perfume[] = [
         base: ["Sândalo Cremoso", "Madeira de Caxemira", "Almíscar"],
     },
     story: "A ternura e o conforto de um abraço. Ninho de Amor é um floral almiscarado suave e aconchegante, uma fragrância de intimidade e carinho.",
+    categories: ["Floral", "Amadeirado"],
   },
   {
     id: 70,
@@ -884,6 +951,7 @@ export const perfumes: Perfume[] = [
         base: ["Vetiver", "Madeira de Cedro", "Patchouli"],
     },
     story: "Para o espírito livre que está sempre em movimento. O Andarilho é um perfume de couro amadeirado e aromático, que captura a essência da aventura e da estrada aberta.",
+    categories: ["Couro", "Amadeirado"],
   },
   {
     id: 71,
@@ -897,6 +965,7 @@ export const perfumes: Perfume[] = [
         base: ["Camurça", "Patchouli", "Âmbar"],
     },
     story: "A textura rica e a fragrância profunda de uma pétala de rosa aveludada. Um perfume floral de couro, luxuoso, sensual e com uma profundidade tátil.",
+    categories: ["Floral", "Couro"],
   },
   {
     id: 72,
@@ -910,6 +979,7 @@ export const perfumes: Perfume[] = [
         base: ["Ládano", "Patchouli", "Vetiver"],
     },
     story: "A busca pela transformação e pela pedra filosofal. O Alquimista é uma fragrância resinosa e mineral, complexa, mística e cheia de contrastes.",
+    categories: ["Oriental", "Amadeirado"],
   },
   {
     id: 73,
@@ -923,6 +993,7 @@ export const perfumes: Perfume[] = [
         base: ["Sândalo", "Baunilha", "Fava Tonka"],
     },
     story: "A luz suave e o calor reconfortante de uma vela acesa. Luz de Vela é um perfume gourmand especiado, que cria uma atmosfera de intimidade e paz.",
+    categories: ["Gourmand", "Oriental"],
   },
   {
     id: 74,
@@ -936,6 +1007,7 @@ export const perfumes: Perfume[] = [
         base: ["Fava Tonka", "Âmbar", "Vetiver"],
     },
     story: "Uma composição olfativa melancólica e elegante. Rapsódia em Azul é um fougère atalcado, com uma profundidade emocional e uma beleza contemplativa.",
+    categories: ["Aromático", "Couro"],
   },
   {
     id: 75,
@@ -949,6 +1021,7 @@ export const perfumes: Perfume[] = [
         base: ["Fava Tonka", "Bálsamo do Peru", "Patchouli"],
     },
     story: "Uma cereja escura, rica e decadente, digna da realeza. Cereja Imperial é um gourmand ambarado, intenso, sedutor e absolutamente viciante.",
+    categories: ["Gourmand", "Oriental"],
   },
   {
     id: 76,
@@ -962,6 +1035,7 @@ export const perfumes: Perfume[] = [
         base: ["Âmbar", "Sândalo", "Baunilha"],
     },
     story: "Puro brilho solar engarrafado. Ouro Líquido é um floral ambarado radiante, que irradia calor, felicidade e uma energia dourada contagiante.",
+    categories: ["Oriental", "Floral"],
   },
   {
     id: 77,
@@ -975,6 +1049,7 @@ export const perfumes: Perfume[] = [
         base: ["Musgo de Carvalho", "Vetiver", "Âmbar"],
     },
     story: "O cheiro de uma cabana de madeira isolada no coração da floresta. Uma fragrância amadeirada e esfumaçada, que evoca solidão, natureza e conforto rústico.",
+    categories: ["Amadeirado", "Aromático"],
   },
   {
     id: 78,
@@ -988,6 +1063,7 @@ export const perfumes: Perfume[] = [
         base: ["Almíscar Doce", "Sândalo"],
     },
     story: "Doce, divertido e descaradamente feminino. Beijo de Açúcar é um perfume gourmand frutado, que celebra a alegria, a juventude e os prazeres simples da vida.",
+    categories: ["Gourmand"],
   },
   {
     id: 79,
@@ -1001,6 +1077,7 @@ export const perfumes: Perfume[] = [
         base: ["Oud", "Âmbar Negro", "Almíscar"],
     },
     story: "O enigma e a majestade de um monumento atemporal. Esfinge de Ônix é um perfume oriental resinoso, escuro, poderoso e cheio de mistérios ancestrais.",
+    categories: ["Oriental", "Amadeirado"],
   },
   {
     id: 80,
@@ -1014,6 +1091,7 @@ export const perfumes: Perfume[] = [
         base: ["Almíscar Branco", "Sândalo", "Baunilha"],
     },
     story: "A quietude e a pureza mágica da primeira neve caindo. Uma fragrância almiscarada e atalcada, limpa, fria e que transmite uma paz profunda.",
+    categories: ["Fresco", "Floral"],
   },
   {
     id: 81,
@@ -1027,6 +1105,7 @@ export const perfumes: Perfume[] = [
         base: ["Couro", "Âmbar Cinza", "Patchouli"],
     },
     story: "A vida de aventura e perigo em alto mar. O Corsário é um perfume de couro picante e boêmio, com notas salgadas e amadeiradas, para o aventureiro audacioso.",
+    categories: ["Couro", "Aromático"],
   },
   {
     id: 82,
@@ -1040,6 +1119,7 @@ export const perfumes: Perfume[] = [
         base: ["Baunilha Negra", "Sândalo", "Almíscar"],
     },
     story: "Uma flor rara e etérea que floresce apenas ao luar. Orquídea Fantasma é um floral noturno, cremoso e misterioso, com uma beleza hipnótica e sobrenatural.",
+    categories: ["Floral", "Oriental"],
   },
   {
     id: 83,
@@ -1053,6 +1133,7 @@ export const perfumes: Perfume[] = [
         base: ["Oud", "Sândalo", "Benjoim"],
     },
     story: "Inspirado em antigos santuários e domos dourados, este frasco é um monumento à opulência. A fragrância é uma prece resinosa e sagrada, um aroma rico que preenche o ar com reverência e poder.",
+    categories: ["Oriental", "Amadeirado"],
   },
   {
     id: 84,
@@ -1066,6 +1147,7 @@ export const perfumes: Perfume[] = [
         base: ["Vetiver de Java", "Ládano", "Fava Tonka"],
     },
     story: "Captura a força bruta de um vulcão adormecido. A textura rochosa e o contraste com o ouro derretido evocam uma energia primária. Uma fragrância de couro e especiarias, para quem possui um fogo interior.",
+    categories: ["Couro", "Oriental"],
   },
   {
     id: 85,
@@ -1079,6 +1161,7 @@ export const perfumes: Perfume[] = [
         base: ["Âmbar", "Benjoim", "Oud"],
     },
     story: "Dizem que este frasco guarda o coração de uma estrela caída, lapidado por artesãos reais e cravejado com as joias do reino. Coração Solar não é apenas um perfume, mas um talismã de poder e carisma. Sua fragrância é um elixir dourado e especiado, uma aura de âmbar quente e mel que envolve quem o usa em um brilho majestoso e inesquecível.",
+    categories: ["Oriental", "Gourmand"],
   },
   {
     id: 86,
@@ -1092,6 +1175,7 @@ export const perfumes: Perfume[] = [
         base: ["Âmbar", "Oud", "Baunilha"],
     },
     story: "Uma fragrância nascida da opulência dos salões de Versalhes. Tesouro Rococó é uma joia olfativa, onde a riqueza do açafrão e das flores mais nobres repousa sobre uma base quente de âmbar e oud. É um perfume que evoca a arte, o luxo e a elegância atemporal da realeza francesa.",
+    categories: ["Oriental", "Floral"],
   },
   {
     id: 87,
@@ -1105,6 +1189,7 @@ export const perfumes: Perfume[] = [
         base: ["Vetiver", "Fava Tonka", "Patchouli"],
     },
     story: "A personificação da noite urbana. Couro Noturno é uma fragrância de confiança e sofisticação, com o cheiro marcante do couro negro envolvido pela frescura da toranja e a profundidade do vetiver. É o aroma da cidade que nunca dorme, para quem domina as sombras com estilo.",
+    categories: ["Couro", "Aromático"],
   },
   {
     id: 88,
@@ -1118,6 +1203,7 @@ export const perfumes: Perfume[] = [
         base: ["Almíscar Branco", "Cedro", "Âmbar"],
     },
     story: "Captura o momento mágico do desabrochar de uma flor ao amanhecer. Esta fragrância é um floral delicado e luminoso, uma aquarela de peônia e lichia sobre uma base suave de almíscar. É um perfume que celebra novos começos, a feminilidade e a beleza efémera da natureza.",
+    categories: ["Floral", "Fresco"],
   },
   {
     id: 89,
@@ -1131,6 +1217,7 @@ export const perfumes: Perfume[] = [
       base: ["Âmbar", "Benjoim", "Patchouli"],
     },
     story: "Diz a lenda que este frasco guarda a essência de um amor tão poderoso que transformou uma lágrima de paixão em um rubi incandescente. Coração de Rubi é uma fragrância opulenta e cativante, uma joia olfativa que pulsa com a riqueza da rosa turca, o mistério do oud e a doçura viciante do pralinê. Um perfume para quem reina com o coração.",
+    categories: ["Oriental", "Gourmand"],
   },
   {
     id: 90,
@@ -1144,6 +1231,7 @@ export const perfumes: Perfume[] = [
       base: ["Patchouli Negro", "Ambroxan", "Fava Tonka"],
     },
     story: "Uma fragrância de contrastes, onde a pureza do minimalismo encontra a força bruta da natureza. O frasco, um monólito de ébano, é coroado com ouro texturizado, simbolizando a fusão do design moderno com a beleza imperfeita da terra. Monólito Dourado é um perfume amadeirado e especiado, uma declaração de confiança para o indivíduo contemporâneo.",
+    categories: ["Amadeirado", "Oriental"],
   },
   {
     id: 91,
@@ -1157,6 +1245,7 @@ export const perfumes: Perfume[] = [
       base: ["Sândalo Australiano", "Benjoim do Sião", "Âmbar"],
     },
     story: "Dentro de cada frasco, uma escultura dourada floresce, capturando a essência de uma árvore mítica cuja seiva é luz solar líquida. Seiva de Ouro é uma fragrância resinosa e luminosa, um perfume que se sente vivo na pele. É uma obra de arte olfativa que evoca a conexão entre a terra e o sagrado, o antigo e o eternamente belo.",
+    categories: ["Oriental", "Amadeirado"],
   },
   {
     id: 92,
@@ -1170,6 +1259,7 @@ export const perfumes: Perfume[] = [
       base: ["Âmbar", "Bálsamo de Tolu", "Baunilha de Madagascar"],
     },
     story: "Uma fragrância criada para selar o destino de uma dinastia. Legado Imperial é um elixir de poder e paixão, guardado em um frasco que é em si uma joia da coroa. Uma mistura opulenta de açafrão, rosa absoluta e oud precioso, para quem nasceu para governar.",
+    categories: ["Oriental", "Floral"],
   },
   {
     id: 93,
@@ -1183,6 +1273,7 @@ export const perfumes: Perfume[] = [
       base: ["Vetiver de Java", "Madeira de Ébano", "Ládano"],
     },
     story: "A essência da terra em sua forma mais pura e poderosa. Magma Dourado captura o momento em que a rocha derretida encontra a obsidiana fria. Uma fragrância de contrastes, onde o calor do incenso e do couro se choca com a profundidade terrosa do vetiver. Para o indivíduo de força inabalável e presença magnética.",
+    categories: ["Amadeirado", "Couro"],
   },
   {
     id: 94,
@@ -1196,6 +1287,7 @@ export const perfumes: Perfume[] = [
       base: ["Vetiver", "Madeira de Cedro"],
     },
     story: "Inspirado na arquitetura modernista e no horizonte noturno da cidade. Arquiteto é uma fragrância para o visionário, um perfume de linhas limpas e confiança estruturada que constrói uma aura de sofisticação inabalável.",
+    categories: ["Amadeirado", "Couro"],
   },
   {
     id: 95,
@@ -1209,6 +1301,7 @@ export const perfumes: Perfume[] = [
       base: ["Oud", "Âmbar", "Baunilha"],
     },
     story: "O aroma do poder no veludo da noite. Crepúsculo Imperial é um elixir majestoso, guardado em um frasco digno de uma imperatriz. Uma fragrância de opulência sombria, onde a doçura da ameixa encontra a profundidade mística do oud.",
+    categories: ["Oriental", "Amadeirado"],
   },
   {
     id: 96,
@@ -1222,6 +1315,7 @@ export const perfumes: Perfume[] = [
       base: ["Sândalo", "Baunilha", "Fava Tonka"],
     },
     story: "Esculpido a partir da lágrima solidificada de uma estrela. Lágrima de Âmbar é uma fragrância que brilha com um calor interior. Uma resina doce e envolvente, que se sente como ouro líquido sobre a pele, reconfortante e profundamente sensual.",
+    categories: ["Oriental", "Gourmand"],
   },
   {
     id: 97,
@@ -1235,6 +1329,7 @@ export const perfumes: Perfume[] = [
       base: ["Âmbar", "Fava Tonka", "Patchouli"],
     },
     story: "Forjado no coração de um vulcão e polido pelos ventos da paixão, este frasco guarda um elixir de pura devoção. Coração Ardente é uma declaração de amor ardente, um perfume que queima com a intensidade de mil sóis. Para a alma que ama sem limites.",
+    categories: ["Oriental", "Gourmand"],
   },
   {
     id: 98,
@@ -1248,6 +1343,7 @@ export const perfumes: Perfume[] = [
       base: ["Mirra", "Âmbar Negro", "Couro"],
     },
     story: "Um perfume que se dizia ser usado pelos sultões da antiguidade em noites sem lua. Soberania Noturna é o cheiro do poder absoluto e dos segredos sussurrados, contido em um recipiente adornado com os tesouros de um reino esquecido. Uma mistura escura e opulenta para quem governa a noite.",
+    categories: ["Oriental", "Couro"],
   },
   {
     id: 99,
@@ -1261,6 +1357,7 @@ export const perfumes: Perfume[] = [
       base: ["Vetiver", "Iso E Super", "Almíscar Branco"],
     },
     story: "Um perfume que captura a essência do luxo moderno em sua forma mais pura. Linha Dourada é uma fragrância limpa e estruturada com um caráter ousado, assim como as linhas arquitetônicas de um arranha-céu. Representa precisão, ambição e a confiança silenciosa do design contemporâneo.",
+    categories: ["Fresco", "Amadeirado"],
   },
   {
     id: 100,
@@ -1274,6 +1371,7 @@ export const perfumes: Perfume[] = [
       base: ["Vetiver", "Musgo de Carvalho", "Ládano"],
     },
     story: "Forjado no coração de um vulcão, o frasco de Rocha Vulcânica é uma ode à força bruta da natureza. A fragrância é uma fusão de couro e especiarias, com um coração esfumaçado de incenso e uma base terrosa de vetiver, capturando a energia primária e o poder magnético da terra.",
+    categories: ["Couro", "Oriental"],
   },
   {
     id: 101,
@@ -1287,6 +1385,7 @@ export const perfumes: Perfume[] = [
       base: ["Âmbar", "Sândalo", "Baunilha"],
     },
     story: "Uma joia olfativa guardada em um frasco digno de um marajá. Joia de Safira é uma fragrância opulenta e hipnótica, onde o luxo do açafrão e da rosa turca se entrelaçam com a profundidade mística do oud. Um perfume para noites de esplendor e contos das Mil e Uma Noites.",
+    categories: ["Oriental", "Floral"],
   },
   {
     id: 102,
@@ -1300,6 +1399,7 @@ export const perfumes: Perfume[] = [
       base: ["Almíscar Branco", "Cashmeran", "Ambroxan"],
     },
     story: "A fragrância da quietude e das possibilidades infinitas. Espaço em Branco é um perfume abstrato e minimalista, uma tela olfativa limpa de almíscar e madeiras transparentes. É um aroma pessoal, que se funde com a pele para criar uma assinatura única e introspectiva.",
+    categories: ["Fresco", "Amadeirado"],
   },
   {
     id: 103,
@@ -1313,6 +1413,7 @@ export const perfumes: Perfume[] = [
       base: ["Oud", "Mirra", "Benjoim"],
     },
     story: "A essência da escuridão mais profunda, capturada em um monólito de azeviche. Noite Absoluta é uma fragrância resinosa e de couro, um mergulho no mistério e na sofisticação. É o perfume da confiança silenciosa e do poder inegável, para quem encontra beleza nas sombras.",
+    categories: ["Couro", "Oriental"],
   },
   {
     id: 104,
@@ -1326,6 +1427,7 @@ export const perfumes: Perfume[] = [
       base: ["Sândalo", "Baunilha", "Almíscar Branco"],
     },
     story: "Inspirado na elegância atemporal da era do jazz e do brilho de Hollywood. Dama Dourada é um floral branco opulento e radiante, uma celebração da feminilidade e do glamour. É o perfume de uma estrela, confiante e inesquecível, envolto em um frasco que é uma obra de arte Art Déco.",
+    categories: ["Floral"],
   },
   {
     id: 105,
@@ -1339,5 +1441,6 @@ export const perfumes: Perfume[] = [
       base: ["Âmbar Cinza", "Vetiver", "Almíscar Nebuloso"],
     },
     story: "Um fragmento do cosmos contido em suas mãos. Orbe Celestial é uma fragrância etérea e mineral, que evoca o silêncio do espaço e o brilho de estrelas distantes. É um perfume frio e meditativo, uma viagem olfativa para além da atmosfera, para quem sonha com outros mundos.",
+    categories: ["Fresco", "Aromático"],
   }
 ];

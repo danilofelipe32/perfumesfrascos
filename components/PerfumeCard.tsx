@@ -16,6 +16,10 @@ const PerfumeCard: React.FC<PerfumeCardProps> = ({ perfume, onSelect, index }) =
   
   const PARALLAX_INTENSITY = 0.08;
 
+  const tag = perfume.categories && perfume.categories.length > 0
+    ? `${perfume.categories[0].charAt(0).toUpperCase()}${String(perfume.id).padStart(2, '0')}`
+    : `P${String(perfume.id).padStart(2, '0')}`;
+
   useEffect(() => {
     let animationFrameId: number;
 
@@ -58,6 +62,9 @@ const PerfumeCard: React.FC<PerfumeCardProps> = ({ perfume, onSelect, index }) =
           ref={containerRef}
           className="relative overflow-hidden rounded-lg bg-white shadow-md transition-all duration-300 group-hover:shadow-soft-glow-lg h-72 sm:h-80"
         >
+           <div className="absolute top-2 left-2 z-10 bg-brand-dark/70 text-white text-xs font-bold font-sans px-2 py-1 rounded-full backdrop-blur-sm transition-opacity duration-300 group-hover:opacity-0">
+            {tag}
+          </div>
           <div className={`transition-opacity duration-700 ease-in ${isImageLoaded ? 'opacity-0' : 'opacity-100'}`}>
             <ArtisticPlaceholder seed={perfume.id} />
           </div>
