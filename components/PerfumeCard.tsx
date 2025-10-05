@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import type { Perfume } from '../types';
 import ArtisticPlaceholder from './ArtisticPlaceholder';
+import ResponsiveImage from './ResponsiveImage';
 
 interface PerfumeCardProps {
   perfume: Perfume;
@@ -71,12 +72,12 @@ const PerfumeCard: React.FC<PerfumeCardProps> = ({ perfume, onSelect, index }) =
               left: 0,
             }}
           >
-            <img 
+            <ResponsiveImage 
               src={perfume.imageUrl} 
               alt={`Garrafa de ${perfume.name}`}
               className={`w-full h-full object-cover transition-all duration-500 ease-in-out group-hover:scale-105 ${isImageLoaded ? 'opacity-100' : 'opacity-0'}`}
               onLoad={() => setIsImageLoaded(true)}
-              loading="lazy"
+              sizes="(min-width: 1280px) 25vw, (min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
             />
           </div>
         </div>

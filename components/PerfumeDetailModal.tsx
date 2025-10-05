@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import type { Perfume } from '../types';
 import { useLockBodyScroll } from '../hooks/useLockBodyScroll';
+import ResponsiveImage from './ResponsiveImage';
 
 interface PerfumeDetailModalProps {
   perfume: Perfume | null;
@@ -46,10 +47,12 @@ const PerfumeDetailModal: React.FC<PerfumeDetailModalProps> = ({ perfume, onClos
         onClick={(e) => e.stopPropagation()}
       >
         <div className="w-full h-1/3 sm:h-64 md:h-auto md:w-1/2 flex-shrink-0">
-           <img 
+           <ResponsiveImage 
               src={perfume.imageUrl} 
               alt={`Frasco artístico de ${perfume.name}`} 
               className="w-full h-full object-cover"
+              sizes="(min-width: 1024px) 512px, (min-width: 768px) 50vw, 100vw"
+              fetchPriority="high"
            />
         </div>
 
