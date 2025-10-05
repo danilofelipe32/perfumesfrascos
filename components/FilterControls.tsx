@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const CATEGORIES = ['Todos', 'Floral', 'Amadeirado', 'Oriental', 'Fresco', 'Gourmand', 'Chipre', 'Couro', 'Aromático'];
+export const CATEGORIES = ['Todos', 'Favoritos', 'Floral', 'Amadeirado', 'Oriental', 'Fresco', 'Gourmand', 'Chipre', 'Couro', 'Aromático'];
 
 interface FilterControlsProps {
   searchTerm: string;

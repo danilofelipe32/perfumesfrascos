@@ -7,9 +7,11 @@ interface PerfumeCardProps {
   perfume: Perfume;
   onSelect: () => void;
   index: number;
+  isFavorite: boolean;
+  onToggleFavorite: (id: number) => void;
 }
 
-const PerfumeCard: React.FC<PerfumeCardProps> = ({ perfume, onSelect, index }) => {
+const PerfumeCard: React.FC<PerfumeCardProps> = ({ perfume, onSelect, index, isFavorite, onToggleFavorite }) => {
   const [translateY, setTranslateY] = useState(0);
   const [isImageLoaded, setIsImageLoaded] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -65,6 +67,18 @@ const PerfumeCard: React.FC<PerfumeCardProps> = ({ perfume, onSelect, index }) =
            <div className="absolute top-2 left-2 z-10 bg-brand-dark/70 text-white text-xs font-bold font-sans px-2 py-1 rounded-full backdrop-blur-sm transition-opacity duration-300 group-hover:opacity-0">
             {tag}
           </div>
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              onToggleFavorite(perfume.id);
+            }}
+            className="absolute top-2 right-2 z-20 h-9 w-9 grid place-items-center rounded-full bg-black/20 text-white backdrop-blur-sm transition-all duration-300 hover:bg-black/40 hover:scale-110 active:scale-100"
+            aria-label={isFavorite ? `Remover ${perfume.name} dos favoritos` : `Adicionar ${perfume.name} aos favoritos`}
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className={`h-5 w-5 transition-all ${isFavorite ? 'text-red-500 fill-current' : 'text-white'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+            </svg>
+          </button>
           <div className={`transition-opacity duration-700 ease-in ${isImageLoaded ? 'opacity-0' : 'opacity-100'}`}>
             <ArtisticPlaceholder seed={perfume.id} />
           </div>

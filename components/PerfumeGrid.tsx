@@ -5,10 +5,21 @@ import type { Perfume } from '../types';
 interface PerfumeGridProps {
   perfumes: Perfume[];
   onSelectPerfume: (perfume: Perfume) => void;
+  favorites: number[];
+  onToggleFavorite: (id: number) => void;
+  selectedCategory: string;
 }
 
-const PerfumeGrid: React.FC<PerfumeGridProps> = ({ perfumes, onSelectPerfume }) => {
+const PerfumeGrid: React.FC<PerfumeGridProps> = ({ perfumes, onSelectPerfume, favorites, onToggleFavorite, selectedCategory }) => {
   if (perfumes.length === 0) {
+    if (selectedCategory === 'Favoritos') {
+      return (
+        <div className="text-center py-16">
+          <h3 className="text-xl font-serif text-brand-dark">Sua coleção de favoritos está vazia</h3>
+          <p className="text-gray-500 mt-2">Clique no ícone de coração em um perfume para adicioná-lo aqui.</p>
+        </div>
+      );
+    }
     return (
       <div className="text-center py-16">
         <h3 className="text-xl font-serif text-brand-dark">Nenhum perfume encontrado</h3>
@@ -25,6 +36,8 @@ const PerfumeGrid: React.FC<PerfumeGridProps> = ({ perfumes, onSelectPerfume }) 
           perfume={perfume} 
           onSelect={() => onSelectPerfume(perfume)}
           index={index}
+          isFavorite={favorites.includes(perfume.id)}
+          onToggleFavorite={onToggleFavorite}
         />
       ))}
     </div>

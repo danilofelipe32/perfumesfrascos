@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import PerfumeGrid from './components/PerfumeGrid';
@@ -11,6 +11,33 @@ const App: React.FC = () => {
   const [selectedPerfume, setSelectedPerfume] = useState<Perfume | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('Todos');
+  const [favorites, setFavorites] = useState<number[]>(() => {
+    try {
+      const savedFavorites = window.localStorage.getItem('favoritePerfumes');
+      return savedFavorites ? JSON.parse(savedFavorites) : [];
+    } catch (error) {
+      console.error("Failed to parse favorites from localStorage", error);
+      return [];
+    }
+  });
+
+  useEffect(() => {
+    try {
+      window.localStorage.setItem('favoritePerfumes', JSON.stringify(favorites));
+    } catch (error) {
+      console.error("Failed to save favorites to localStorage", error);
+    }
+  }, [favorites]);
+
+  const handleToggleFavorite = (perfumeId: number) => {
+    setFavorites(prevFavorites => {
+      if (prevFavorites.includes(perfumeId)) {
+        return prevFavorites.filter(id => id !== perfumeId);
+      } else {
+        return [...prevFavorites, perfumeId];
+      }
+    });
+  };
 
   const handleSelectPerfume = (perfume: Perfume) => {
     setSelectedPerfume(perfume);
@@ -21,21 +48,27 @@ const App: React.FC = () => {
   };
 
   const filteredPerfumes = useMemo(() => {
-    return perfumes.filter(perfume => {
-      const categoryMatch = selectedCategory === 'Todos' || (perfume.categories && perfume.categories.includes(selectedCategory));
+    let basePerfumes = perfumes;
 
+    if (selectedCategory === 'Favoritos') {
+      basePerfumes = perfumes.filter(p => favorites.includes(p.id));
+    } else if (selectedCategory !== 'Todos') {
+      basePerfumes = perfumes.filter(p => p.categories && p.categories.includes(selectedCategory));
+    }
+    
+    return basePerfumes.filter(perfume => {
       const term = searchTerm.toLowerCase();
-      const searchMatch = !term || (
+      if (!term) return true;
+
+      return (
         perfume.name.toLowerCase().includes(term) ||
         perfume.designer.toLowerCase().includes(term) ||
         perfume.notes.top.some(note => note.toLowerCase().includes(term)) ||
         perfume.notes.heart.some(note => note.toLowerCase().includes(term)) ||
         perfume.notes.base.some(note => note.toLowerCase().includes(term))
       );
-
-      return categoryMatch && searchMatch;
     });
-  }, [searchTerm, selectedCategory]);
+  }, [searchTerm, selectedCategory, favorites]);
 
 
   return (
@@ -54,7 +87,13 @@ const App: React.FC = () => {
           onCategoryChange={setSelectedCategory}
         />
 
-        <PerfumeGrid perfumes={filteredPerfumes} onSelectPerfume={handleSelectPerfume} />
+        <PerfumeGrid 
+          perfumes={filteredPerfumes} 
+          onSelectPerfume={handleSelectPerfume}
+          favorites={favorites}
+          onToggleFavorite={handleToggleFavorite}
+          selectedCategory={selectedCategory}
+        />
       </main>
       <Footer />
       <PerfumeDetailModal perfume={selectedPerfume} onClose={handleCloseModal} />
