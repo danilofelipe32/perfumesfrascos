@@ -87,11 +87,11 @@ const PerfumeDetailModal: React.FC<PerfumeDetailModalProps> = ({ perfume, onClos
           to { opacity: 1; }
         }
         @keyframes slide-up {
-          from { transform: translateY(20px); opacity: 0; }
-          to { transform: translateY(0); opacity: 1; }
+          from { transform: translateY(5vh) scale(0.98); opacity: 0; }
+          to { transform: translateY(0) scale(1); opacity: 1; }
         }
         .animate-fade-in { animation: fade-in 0.3s ease-out forwards; }
-        .animate-slide-up { animation: slide-up 0.4s ease-out forwards; }
+        .animate-slide-up { animation: slide-up 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
       `}</style>
     </div>
   );
