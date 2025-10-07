@@ -1568,5 +1568,47 @@ export const perfumes: Perfume[] = [
     },
     story: "Uma flor que desabrocha com a intensidade de uma paixão avassaladora. Flor Escarlate é uma declaração ousada, um floral vibrante e especiado que captura a coragem e a beleza ardente do vermelho. Um perfume para quem não tem medo de ser o centro das atenções.",
     categories: ["Floral", "Oriental"],
+  },
+  {
+    id: 115,
+    name: "Néctar Imperial",
+    designer: "Apiário Real",
+    imageUrl: "https://i.imgur.com/t0EqeGj.jpg",
+    year: 2024,
+    notes: {
+      top: ["Pimenta Preta", "Bergamota", "Rum"],
+      heart: ["Mel Negro", "Tabaco", "Íris"],
+      base: ["Fava Tonka", "Sândalo", "Couro"],
+    },
+    story: "Um néctar escuro e inebriante, reservado ao soberano da colmeia. É uma fragrância de poder, mistério e doçura proibida. A abelha dourada guarda um elixir secreto de mel escuro e madeiras preciosas.",
+    categories: ["Oriental", "Gourmand", "Couro"],
+  },
+  {
+    id: 116,
+    name: "Tesouro de Versailles",
+    designer: "Maison Impériale",
+    imageUrl: "https://i.imgur.com/azTZrEC.jpg",
+    year: 2023,
+    notes: {
+      top: ["Açafrão", "Pera", "Pimenta Rosa"],
+      heart: ["Tuberosa", "Rosa de Maio", "Jasmim Grandiflorum"],
+      base: ["Âmbar Dourado", "Baunilha Bourbon", "Patchouli Branco"],
+    },
+    story: "Inspirada nas joias perdidas de uma rainha, esta fragrância captura a opulência e a grandeza do Palácio de Versalhes. É um aroma de bailes luxuosos, jardins secretos e elegância atemporal, um verdadeiro tesouro da perfumaria francesa.",
+    categories: ["Floral", "Oriental"],
+  },
+  {
+    id: 117,
+    name: "Fundamento",
+    designer: "Arquitetura Olfativa",
+    imageUrl: "https://i.imgur.com/icP39pU.jpg",
+    year: 2025,
+    notes: {
+      top: ["Aldeídos", "Bergamota"],
+      heart: ["Vetiver", "Íris", "Notas Minerais"],
+      base: ["Iso E Super", "Cedro", "Almíscar Branco"],
+    },
+    story: "Uma fragrância construída sobre os princípios da arquitetura modernista: a forma segue a função. Fundamento é um perfume de linhas limpas, materiais essenciais e confiança tranquila. É uma declaração de luxo minimalista, uma base sólida sobre a qual se constrói um estilo pessoal.",
+    categories: ["Amadeirado", "Fresco"],
   }
 ];
