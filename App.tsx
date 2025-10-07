@@ -6,9 +6,11 @@ import PerfumeDetailModal from './components/PerfumeDetailModal';
 import FilterControls from './components/FilterControls';
 import { perfumes } from './data/perfumes';
 import type { Perfume } from './types';
+import ShareModal from './components/ShareModal';
 
 const App: React.FC = () => {
   const [selectedPerfume, setSelectedPerfume] = useState<Perfume | null>(null);
+  const [perfumeToShare, setPerfumeToShare] = useState<Perfume | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('Todos');
   const [favorites, setFavorites] = useState<number[]>(() => {
@@ -28,6 +30,30 @@ const App: React.FC = () => {
       console.error("Failed to save favorites to localStorage", error);
     }
   }, [favorites]);
+  
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash;
+      if (hash.startsWith('#perfume=')) {
+        const perfumeId = parseInt(hash.substring(9), 10);
+        if (!isNaN(perfumeId)) {
+          const perfumeToOpen = perfumes.find(p => p.id === perfumeId);
+          if (perfumeToOpen) {
+            setTimeout(() => {
+                setSelectedPerfume(perfumeToOpen);
+            }, 100);
+          }
+        }
+      }
+    };
+
+    handleHashChange(); // Check hash on initial load
+    window.addEventListener('hashchange', handleHashChange);
+
+    return () => {
+      window.removeEventListener('hashchange', handleHashChange);
+    };
+  }, []);
 
   const handleToggleFavorite = (perfumeId: number) => {
     setFavorites(prevFavorites => {
@@ -42,9 +68,20 @@ const App: React.FC = () => {
   const handleSelectPerfume = (perfume: Perfume) => {
     setSelectedPerfume(perfume);
   };
+  
+  const handleSharePerfume = (perfume: Perfume) => {
+    setPerfumeToShare(perfume);
+  };
 
   const handleCloseModal = () => {
     setSelectedPerfume(null);
+    if (window.location.hash) {
+      history.pushState("", document.title, window.location.pathname + window.location.search);
+    }
+  };
+  
+  const handleCloseShareModal = () => {
+    setPerfumeToShare(null);
   };
 
   const filteredPerfumes = useMemo(() => {
@@ -92,11 +129,20 @@ const App: React.FC = () => {
           onSelectPerfume={handleSelectPerfume}
           favorites={favorites}
           onToggleFavorite={handleToggleFavorite}
+          onShare={handleSharePerfume}
           selectedCategory={selectedCategory}
         />
       </main>
       <Footer />
-      <PerfumeDetailModal perfume={selectedPerfume} onClose={handleCloseModal} />
+      <PerfumeDetailModal 
+        perfume={selectedPerfume} 
+        onClose={handleCloseModal} 
+        onShare={handleSharePerfume} 
+      />
+      <ShareModal 
+        perfume={perfumeToShare} 
+        onClose={handleCloseShareModal} 
+      />
     </div>
   );
 };

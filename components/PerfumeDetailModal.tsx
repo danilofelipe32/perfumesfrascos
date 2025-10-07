@@ -7,6 +7,7 @@ import ResponsiveImage from './ResponsiveImage';
 interface PerfumeDetailModalProps {
   perfume: Perfume | null;
   onClose: () => void;
+  onShare: (perfume: Perfume) => void;
 }
 
 const ScentNotes: React.FC<{ title: string; notes: string[] }> = ({ title, notes }) => (
@@ -16,7 +17,7 @@ const ScentNotes: React.FC<{ title: string; notes: string[] }> = ({ title, notes
   </div>
 );
 
-const PerfumeDetailModal: React.FC<PerfumeDetailModalProps> = ({ perfume, onClose }) => {
+const PerfumeDetailModal: React.FC<PerfumeDetailModalProps> = ({ perfume, onClose, onShare }) => {
   useLockBodyScroll(!!perfume);
 
   useEffect(() => {
@@ -58,8 +59,21 @@ const PerfumeDetailModal: React.FC<PerfumeDetailModalProps> = ({ perfume, onClos
 
         <div className="w-full md:w-1/2 p-6 sm:p-8 lg:p-10 flex flex-col overflow-y-auto">
           <div className="flex-grow">
-            <p className="font-sans text-sm text-gray-500">{perfume.designer} &middot; {perfume.year}</p>
-            <h2 id="perfume-name" className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-brand-dark mt-2">{perfume.name}</h2>
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <p className="font-sans text-sm text-gray-500">{perfume.designer} &middot; {perfume.year}</p>
+                <h2 id="perfume-name" className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-brand-dark mt-2">{perfume.name}</h2>
+              </div>
+              <button
+                onClick={() => onShare(perfume)}
+                className="flex-shrink-0 mt-3 h-10 w-10 grid place-items-center rounded-full text-gray-500 hover:bg-gray-200 hover:text-brand-dark transition-colors"
+                aria-label={`Compartilhar ${perfume.name}`}
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12s-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6.001l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.367a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z" />
+                </svg>
+              </button>
+            </div>
             
             <p className="mt-6 font-sans text-base text-gray-700 leading-relaxed">{perfume.story}</p>
 

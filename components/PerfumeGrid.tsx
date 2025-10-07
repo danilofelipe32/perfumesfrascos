@@ -7,10 +7,11 @@ interface PerfumeGridProps {
   onSelectPerfume: (perfume: Perfume) => void;
   favorites: number[];
   onToggleFavorite: (id: number) => void;
+  onShare: (perfume: Perfume) => void;
   selectedCategory: string;
 }
 
-const PerfumeGrid: React.FC<PerfumeGridProps> = ({ perfumes, onSelectPerfume, favorites, onToggleFavorite, selectedCategory }) => {
+const PerfumeGrid: React.FC<PerfumeGridProps> = ({ perfumes, onSelectPerfume, favorites, onToggleFavorite, onShare, selectedCategory }) => {
   if (perfumes.length === 0) {
     if (selectedCategory === 'Favoritos') {
       return (
@@ -38,6 +39,7 @@ const PerfumeGrid: React.FC<PerfumeGridProps> = ({ perfumes, onSelectPerfume, fa
           index={index}
           isFavorite={favorites.includes(perfume.id)}
           onToggleFavorite={onToggleFavorite}
+          onShare={onShare}
         />
       ))}
     </div>
