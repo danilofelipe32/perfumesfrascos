@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import PerfumeGrid from './components/PerfumeGrid';
@@ -22,6 +22,7 @@ const App: React.FC = () => {
       return [];
     }
   });
+  const gridRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     try {
@@ -63,6 +64,16 @@ const App: React.FC = () => {
         return [...prevFavorites, perfumeId];
       }
     });
+  };
+  
+  const handleCategoryChange = (category: string) => {
+    setSelectedCategory(category);
+    if (gridRef.current) {
+      // Header height is 80px (h-20). We scroll if the grid top is above the viewport + header.
+      if (gridRef.current.getBoundingClientRect().top < 80) {
+        gridRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
   };
 
   const handleSelectPerfume = (perfume: Perfume) => {
@@ -121,17 +132,19 @@ const App: React.FC = () => {
           searchTerm={searchTerm}
           onSearchChange={setSearchTerm}
           selectedCategory={selectedCategory}
-          onCategoryChange={setSelectedCategory}
+          onCategoryChange={handleCategoryChange}
         />
 
-        <PerfumeGrid 
-          perfumes={filteredPerfumes} 
-          onSelectPerfume={handleSelectPerfume}
-          favorites={favorites}
-          onToggleFavorite={handleToggleFavorite}
-          onShare={handleSharePerfume}
-          selectedCategory={selectedCategory}
-        />
+        <div ref={gridRef} style={{ scrollMarginTop: '100px' }}>
+          <PerfumeGrid 
+            perfumes={filteredPerfumes} 
+            onSelectPerfume={handleSelectPerfume}
+            favorites={favorites}
+            onToggleFavorite={handleToggleFavorite}
+            onShare={handleSharePerfume}
+            selectedCategory={selectedCategory}
+          />
+        </div>
       </main>
       <Footer />
       <PerfumeDetailModal 
