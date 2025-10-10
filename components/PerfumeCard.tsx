@@ -15,7 +15,9 @@ interface PerfumeCardProps {
 const PerfumeCard: React.FC<PerfumeCardProps> = ({ perfume, onSelect, index, isFavorite, onToggleFavorite, onShare }) => {
   const [translateY, setTranslateY] = useState(0);
   const [isImageLoaded, setIsImageLoaded] = useState(false);
+  const [isAnimating, setIsAnimating] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
+  const isInitialMount = useRef(true);
   
   const PARALLAX_INTENSITY = 0.08;
 
@@ -49,6 +51,22 @@ const PerfumeCard: React.FC<PerfumeCardProps> = ({ perfume, onSelect, index, isF
       cancelAnimationFrame(animationFrameId);
     };
   }, []);
+  
+  useEffect(() => {
+    // Skip animation on initial component mount for already favorited items
+    if (isInitialMount.current) {
+      isInitialMount.current = false;
+      return;
+    }
+    
+    setIsAnimating(true);
+    const animationTimeout = setTimeout(() => {
+      setIsAnimating(false);
+    }, 300); // Duration must match the animation
+
+    return () => clearTimeout(animationTimeout);
+  }, [isFavorite]);
+
 
   return (
     <>
@@ -89,7 +107,7 @@ const PerfumeCard: React.FC<PerfumeCardProps> = ({ perfume, onSelect, index, isF
               className="h-9 w-9 grid place-items-center rounded-full bg-black/20 text-white backdrop-blur-sm transition-all duration-300 hover:bg-black/40 hover:scale-110 active:scale-100"
               aria-label={isFavorite ? `Remover ${perfume.name} dos favoritos` : `Adicionar ${perfume.name} aos favoritos`}
             >
-              <svg xmlns="http://www.w3.org/2000/svg" className={`h-5 w-5 transition-all ${isFavorite ? 'text-red-500 fill-current' : 'text-white'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" className={`h-5 w-5 transition-all ${isFavorite ? 'text-red-500 fill-current' : 'text-white'} ${isAnimating ? 'animate-heart-pop' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
               </svg>
             </button>
@@ -136,6 +154,14 @@ const PerfumeCard: React.FC<PerfumeCardProps> = ({ perfume, onSelect, index, isF
         .animate-fade-in-up {
           opacity: 0; /* Start hidden */
           animation: fade-in-up 0.6s ease-out forwards;
+        }
+        @keyframes heart-pop {
+          0% { transform: scale(1); }
+          50% { transform: scale(1.4); }
+          100% { transform: scale(1); }
+        }
+        .animate-heart-pop {
+          animation: heart-pop 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
       `}</style>
     </>
