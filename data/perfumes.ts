@@ -1,3 +1,4 @@
+
 import type { Perfume } from '../types';
 
 export const perfumes: Perfume[] = [
@@ -1399,7 +1400,7 @@ export const perfumes: Perfume[] = [
       base: ["Almíscar Branco", "Cashmeran", "Ambroxan"],
     },
     story: "A fragrância da quietude e das possibilidades infinitas. Espaço em Branco é um perfume abstrato e minimalista, uma tela olfativa limpa de almíscar e madeiras transparentes. É um aroma pessoal, que se funde com a pele para criar uma assinatura única e introspectiva.",
-    categories: ["Fresco", "Amadeirado"],
+    categories: ["Amadeirado", "Fresco"],
   },
   {
     id: 103,
@@ -2534,5 +2535,117 @@ export const perfumes: Perfume[] = [
     },
     story: "Um coração pulsante de ouro puro. Este frasco escultural celebra o amor e a riqueza interior. A fragrância é efervescente e radiante, iluminando todos que se aproximam com sua aura dourada.",
     categories: ["Floral", "Gourmand"],
+  },
+  {
+    id: 185,
+    name: "Cúpula de Cristal",
+    designer: "Vapori Artistici",
+    imageUrl: "https://i.imgur.com/axjxPvS.jpg",
+    year: 2025,
+    notes: {
+      top: ["Aldeídos", "Bergamota"],
+      heart: ["Lírio do Vale", "Rosa Branca", "Jasmim"],
+      base: ["Almíscar Branco", "Sândalo", "Âmbar Claro"],
+    },
+    story: "Inspirado nas grandes estufas vitorianas, este frasco protege um jardim delicado e etéreo. Cúpula de Cristal é uma fragrância luminosa e transparente, evocando a pureza da luz através do vidro.",
+    categories: ["Floral", "Fresco"],
+  },
+  {
+    id: 186,
+    name: "Essência Violeta",
+    designer: "Maison Violette",
+    imageUrl: "https://i.imgur.com/suH3sVR.jpg",
+    year: 2024,
+    notes: {
+      top: ["Amora", "Folha de Violeta"],
+      heart: ["Violeta", "Íris", "Heliotrópio"],
+      base: ["Baunilha", "Sândalo", "Almíscar"],
+    },
+    story: "Um tributo à cor da intuição e da espiritualidade. Essência Violeta é uma fragrância atalcada e envolvente, guardada em um frasco que parece esculpido em ametista pura.",
+    categories: ["Floral", "Gourmand"],
+  },
+  {
+    id: 187,
+    name: "Gota de Ouro",
+    designer: "Imperiale Scents",
+    imageUrl: "https://i.imgur.com/YXHN0mZ.jpg",
+    year: 2023,
+    notes: {
+      top: ["Mel", "Açafrão"],
+      heart: ["Ylang-Ylang", "Flor de Laranjeira", "Jasmim"],
+      base: ["Âmbar", "Benjoim", "Baunilha"],
+    },
+    story: "A forma perfeita de uma gota caindo, congelada no tempo e banhada a ouro. Gota de Ouro é um néctar divino, rico e solar, que escorre pela pele como um óleo precioso.",
+    categories: ["Oriental", "Gourmand"],
+  },
+  {
+    id: 188,
+    name: "Prisma Azul",
+    designer: "Cosmos Scents",
+    imageUrl: "https://i.imgur.com/3oUA1fR.jpg",
+    year: 2025,
+    notes: {
+      top: ["Menta", "Gengibre", "Limão"],
+      heart: ["Gerânio", "Notas Aquáticas", "Lavanda"],
+      base: ["Cedro", "Almíscar", "Ambroxan"],
+    },
+    story: "Uma estrutura geométrica que captura o azul profundo do céu crepuscular. Prisma Azul é uma fragrância fresca e energizante, com uma complexidade moderna e vibrante.",
+    categories: ["Fresco", "Aromático"],
+  },
+  {
+    id: 189,
+    name: "Madeira Esculpida",
+    designer: "Artisan Woodworks",
+    imageUrl: "https://i.imgur.com/pOppF2Y.jpg",
+    year: 2024,
+    notes: {
+      top: ["Cardamomo", "Pimenta Preta"],
+      heart: ["Madeira de Guaiaco", "Cedro", "Sândalo"],
+      base: ["Vetiver", "Âmbar", "Musgo"],
+    },
+    story: "Homenagem à arte da marcenaria fina. O frasco exibe as texturas naturais da madeira, guardando um perfume quente, seco e profundamente sofisticado.",
+    categories: ["Amadeirado", "Aromático"],
+  },
+  {
+    id: 190,
+    name: "Rosa Noturna",
+    designer: "Atelier Rouge",
+    imageUrl: "https://i.imgur.com/4oNGL5v.jpg",
+    year: 2023,
+    notes: {
+      top: ["Pimenta Rosa", "Cassis"],
+      heart: ["Rosa Damascena", "Patchouli", "Cacau"],
+      base: ["Baunilha", "Madeira de Oud", "Ládano"],
+    },
+    story: "Uma rosa colhida à meia-noite, escura e misteriosa. O frasco reflete a paixão e o mistério, contendo um Chipre floral moderno e sedutor.",
+    categories: ["Chipre", "Floral"],
+  },
+  {
+    id: 191,
+    name: "Oceano Atlântico",
+    designer: "Aura Maris",
+    imageUrl: "https://i.imgur.com/ZGjzPTY.jpg",
+    year: 2025,
+    notes: {
+      top: ["Sal Marinho", "Bergamota", "Algas"],
+      heart: ["Sálvia", "Madeira Flutuante", "Alecrim"],
+      base: ["Ambregris", "Vetiver", "Almíscar"],
+    },
+    story: "A imensidão e o poder do oceano aberto. Um frasco que captura o movimento das ondas, guardando uma fragrância salgada, revigorante e selvagem.",
+    categories: ["Fresco", "Aromático"],
+  },
+  {
+    id: 192,
+    name: "Âmbar Real",
+    designer: "Joaillerie Royale",
+    imageUrl: "https://i.imgur.com/iHcO5rr.jpg",
+    year: 2024,
+    notes: {
+      top: ["Canela", "Coentro"],
+      heart: ["Âmbar", "Oud", "Incenso"],
+      base: ["Couro", "Fava Tonka", "Sândalo"],
+    },
+    story: "Uma joia olfativa que irradia calor e nobreza. Âmbar Real é uma fragrância oriental rica e resinosa, para quem aprecia o luxo clássico e duradouro.",
+    categories: ["Oriental", "Couro"],
   }
 ];
