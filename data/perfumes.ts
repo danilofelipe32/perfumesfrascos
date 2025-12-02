@@ -1400,7 +1400,7 @@ export const perfumes: Perfume[] = [
       heart: ["Semente de Ambreta", "Íris"],
       base: ["Almíscar Branco", "Cedro"],
     },
-    story: "A fragrância da quietude e das possibilidades infinitas. Espaço em Branco é um perfume abstrato e minimalista, uma tela olfativa limpa de almíscar e madeiras transparentes. É um aroma pessoal, que se funde com a pele para criar uma assinatura única e introspectiva.",
+    story: "A fragrância da quietude e das possibilidades infinitas. Espaço em Branco é um perfume abstrato e minimalista, uma tela olfativa limpa de almíscar e madeiras transparentes. É um aroma pessoal, que se funde com a pele para criar uma assinatura única e pessoal. Uma experiência abstrata e inesquecível, contida em um frasco de pureza laboratorial.",
     categories: ["Amadeirado", "Fresco"],
   },
   {
@@ -3026,5 +3026,243 @@ export const perfumes: Perfume[] = [
     },
     story: "Uma fragrância que transcende as eras. Essência do Tempo combina o clássico e o moderno em uma composição atemporal, marcada pela elegância e sofisticação.",
     categories: ["Amadeirado", "Couro"],
+  },
+  {
+    id: 220,
+    name: "Luz Estelar",
+    designer: "Cosmos Scents",
+    imageUrl: "https://imgur.com/Ph10ra8.jpg",
+    year: 2024,
+    notes: {
+      top: ["Aldeídos", "Pera"],
+      heart: ["Jasmim", "Íris"],
+      base: ["Musk", "Sândalo"]
+    },
+    story: "O brilho das estrelas capturado em vidro. Luz Estelar é uma fragrância etérea que ilumina a noite.",
+    categories: ["Floral", "Fresco"]
+  },
+  {
+    id: 221,
+    name: "Jardim Imperial",
+    designer: "Maison Royale",
+    imageUrl: "https://imgur.com/kdH7Ped.jpg",
+    year: 2023,
+    notes: {
+      top: ["Peônia", "Lichia"],
+      heart: ["Rosa", "Magnólia"],
+      base: ["Cedro", "Âmbar"]
+    },
+    story: "Um jardim secreto da realeza, onde flores raras desabrocham. Jardim Imperial é pura elegância.",
+    categories: ["Floral"]
+  },
+  {
+    id: 222,
+    name: "Orvalho da Manhã",
+    designer: "Floraïs",
+    imageUrl: "https://imgur.com/4uiqK1w.jpg",
+    year: 2025,
+    notes: {
+      top: ["Grama Cortada", "Menta"],
+      heart: ["Lírio do Vale", "Jacinto"],
+      base: ["Vetiver", "Musgo"]
+    },
+    story: "O frescor revigorante do amanhecer. Orvalho da Manhã desperta os sentidos com sua pureza verde.",
+    categories: ["Fresco", "Aromático"]
+  },
+  {
+    id: 223,
+    name: "Noite de Gala",
+    designer: "Sartoria Olfattiva",
+    imageUrl: "https://imgur.com/UFPVqI2.jpg",
+    year: 2024,
+    notes: {
+      top: ["Champanhe", "Morango"],
+      heart: ["Rosa Vermelha", "Violeta"],
+      base: ["Baunilha", "Patchouli"]
+    },
+    story: "Elegância e mistério em um baile noturno. Noite de Gala é o perfume da celebração e do glamour.",
+    categories: ["Oriental", "Gourmand"]
+  },
+  {
+    id: 224,
+    name: "Águas Profundas",
+    designer: "Aura Maris",
+    imageUrl: "https://imgur.com/Ox2cvQJ.jpg",
+    year: 2023,
+    notes: {
+      top: ["Sal Marinho", "Limão"],
+      heart: ["Algas", "Sálvia"],
+      base: ["Madeira Flutuante", "Âmbar Cinza"]
+    },
+    story: "O mistério do oceano profundo. Águas Profundas é intenso, salgado e infinitamente fascinante.",
+    categories: ["Fresco", "Aromático"]
+  },
+  {
+    id: 225,
+    name: "Ouro Antigo",
+    designer: "Imperiale Scents",
+    imageUrl: "https://imgur.com/QFIkwqb.jpg",
+    year: 2022,
+    notes: {
+      top: ["Açafrão", "Canela"],
+      heart: ["Oud", "Couro"],
+      base: ["Mirra", "Incenso"]
+    },
+    story: "Um tesouro esquecido pelo tempo. Ouro Antigo traz a riqueza das especiarias e madeiras nobres.",
+    categories: ["Oriental", "Couro"]
+  },
+  {
+    id: 226,
+    name: "Brisa Suave",
+    designer: "Kanso Scents",
+    imageUrl: "https://imgur.com/EVd7RDB.jpg",
+    year: 2024,
+    notes: {
+      top: ["Chá Branco", "Bambu"],
+      heart: ["Flor de Laranjeira", "Neroli"],
+      base: ["Musk Branco", "Madeira Clara"]
+    },
+    story: "A suavidade do vento na primavera. Brisa Suave é calma, limpa e reconfortante.",
+    categories: ["Fresco", "Floral"]
+  },
+  {
+    id: 227,
+    name: "Rubi Sangrento",
+    designer: "Atelier Rouge",
+    imageUrl: "https://imgur.com/4h99xPS.jpg",
+    year: 2025,
+    notes: {
+      top: ["Cereja", "Pimenta Rosa"],
+      heart: ["Rosa Búlgara", "Tabaco"],
+      base: ["Fava Tonka", "Sândalo"]
+    },
+    story: "Paixão intensa e perigosa. Rubi Sangrento é um perfume marcante que deixa um rastro inesquecível.",
+    categories: ["Gourmand", "Oriental"]
+  },
+  {
+    id: 228,
+    name: "Floresta Encantada",
+    designer: "Sylva Studios",
+    imageUrl: "https://imgur.com/PgahrL7.jpg",
+    year: 2023,
+    notes: {
+      top: ["Pinheiro", "Groselha"],
+      heart: ["Violeta", "Musgo"],
+      base: ["Cedro", "Vetiver"]
+    },
+    story: "Magia escondida entre as árvores. Floresta Encantada captura o mistério e o aroma da mata.",
+    categories: ["Amadeirado", "Aromático"]
+  },
+  {
+    id: 229,
+    name: "Céu de Verão",
+    designer: "Symphonia Olfattiva",
+    imageUrl: "https://imgur.com/CCgqR3J.jpg",
+    year: 2024,
+    notes: {
+      top: ["Bergamota", "Grapefruit"],
+      heart: ["Lavanda", "Gerânio"],
+      base: ["Ambroxan", "Madeira de Teca"]
+    },
+    story: "A liberdade de um céu azul infinito. Céu de Verão é vibrante, energizante e alegre.",
+    categories: ["Aromático", "Fresco"]
+  },
+  {
+    id: 230,
+    name: "Doce Melodia",
+    designer: "Dolce Vita",
+    imageUrl: "https://imgur.com/tnWV5IV.jpg",
+    year: 2025,
+    notes: {
+      top: ["Pêssego", "Damasco"],
+      heart: ["Jasmim", "Flor de Laranjeira"],
+      base: ["Mel", "Baunilha"]
+    },
+    story: "Uma canção doce para os sentidos. Doce Melodia é envolvente, suave e delicioso.",
+    categories: ["Gourmand", "Floral"]
+  },
+  {
+    id: 231,
+    name: "Pedra Filosofal",
+    designer: "Grimório Aromas",
+    imageUrl: "https://imgur.com/FDC7AIG.jpg",
+    year: 2023,
+    notes: {
+      top: ["Incenso", "Mirra"],
+      heart: ["Rosa Negra", "Papiro"],
+      base: ["Oud", "Ládano"]
+    },
+    story: "O segredo da transmutação. Pedra Filosofal é místico, profundo e transformador.",
+    categories: ["Oriental", "Amadeirado"]
+  },
+  {
+    id: 232,
+    name: "Vento do Deserto",
+    designer: "Nomad Fragrances",
+    imageUrl: "https://imgur.com/qE7iGjh.jpg",
+    year: 2024,
+    notes: {
+      top: ["Cominho", "Cardamomo"],
+      heart: ["Tâmaras", "Rosa"],
+      base: ["Couro", "Incenso"]
+    },
+    story: "O calor seco das dunas infinitas. Vento do Deserto traz a aventura e o exotismo de terras distantes.",
+    categories: ["Oriental", "Couro"]
+  },
+  {
+    id: 233,
+    name: "Flor de Gelo",
+    designer: "Glacialis Parfums",
+    imageUrl: "https://imgur.com/FWbvt7X.jpg",
+    year: 2025,
+    notes: {
+      top: ["Menta", "Eucalipto"],
+      heart: ["Lírio", "Lótus"],
+      base: ["Musk Cristalino", "Madeira Branca"]
+    },
+    story: "Beleza fria e intocada. Flor de Gelo é refrescante, puro e cristalino como a neve.",
+    categories: ["Fresco", "Floral"]
+  },
+  {
+    id: 234,
+    name: "Coração de Madeira",
+    designer: "Artisan Woodworks",
+    imageUrl: "https://imgur.com/3LAU0N9.jpg",
+    year: 2023,
+    notes: {
+      top: ["Cedro", "Pimenta Preta"],
+      heart: ["Sândalo", "Vetiver"],
+      base: ["Âmbar", "Musgo de Carvalho"]
+    },
+    story: "A força e a estabilidade da árvore antiga. Coração de Madeira é robusto, quente e confiável.",
+    categories: ["Amadeirado", "Aromático"]
+  },
+  {
+    id: 235,
+    name: "Essência Pura",
+    designer: "Aether Fragrances",
+    imageUrl: "https://imgur.com/eQJA63W.jpg",
+    year: 2024,
+    notes: {
+      top: ["Iso E Super", "Ambreta"],
+      heart: ["Íris", "Violeta"],
+      base: ["Musk", "Cashmeran"]
+    },
+    story: "Minimalismo e pureza olfativa. Essência Pura se funde com a pele, criando uma aura única.",
+    categories: ["Fresco", "Floral"]
+  },
+  {
+    id: 236,
+    name: "Jóia Rara",
+    designer: "Bijoux Parfumés",
+    imageUrl: "https://imgur.com/yDOoxAG.jpg",
+    year: 2025,
+    notes: {
+      top: ["Pera", "Frésia"],
+      heart: ["Orquídea", "Magnólia"],
+      base: ["Musk", "Madeira de Sândalo"]
+    },
+    story: "Preciosa e única. Jóia Rara é um perfume floral radiante que celebra a exclusividade.",
+    categories: ["Floral", "Fresco"]
   }
 ];
