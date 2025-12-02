@@ -2,10 +2,10 @@ import React from 'react';
 
 const Header: React.FC = () => {
   return (
-    <header className="z-40 border-b border-brand-gold/20 relative overflow-hidden">
+    <header className="z-40 relative overflow-hidden">
       <div className="absolute inset-0 z-0">
         <video 
-          className="w-full h-full object-fill" 
+          className="w-full h-full object-fill outline-none" 
           autoPlay 
           loop 
           muted 
@@ -16,8 +16,8 @@ const Header: React.FC = () => {
         <div className="absolute inset-0 bg-black/50" />
       </div>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="flex items-center justify-center h-[300px]">
-          <span className="text-2xl font-serif font-bold text-white tracking-wider drop-shadow-md">
+        <div className="flex items-center justify-center h-[480px]">
+          <span className="text-5xl md:text-[9rem] leading-tight font-serif font-bold text-white tracking-wider drop-shadow-md text-center select-none">
             Arte Engarrafada
           </span>
         </div>
