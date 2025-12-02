@@ -17,7 +17,7 @@ const Header: React.FC = () => {
       </div>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="flex items-center justify-center h-[480px]">
-          <span className="text-5xl md:text-[9rem] leading-tight font-serif font-bold text-white tracking-wider drop-shadow-md text-center select-none">
+          <span className="text-3xl md:text-7xl leading-tight font-serif font-bold text-white tracking-wider drop-shadow-md text-center select-none">
             Arte Engarrafada
           </span>
         </div>
