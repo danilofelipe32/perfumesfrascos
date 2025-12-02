@@ -1,9 +1,8 @@
-
 import React from 'react';
 
 const Header: React.FC = () => {
   return (
-    <header className="sticky top-0 z-40 border-b border-brand-gold/20 relative overflow-hidden">
+    <header className="z-40 border-b border-brand-gold/20 relative overflow-hidden">
       <div className="absolute inset-0 z-0">
         <video 
           className="w-full h-full object-fill" 
@@ -12,7 +11,7 @@ const Header: React.FC = () => {
           muted 
           playsInline
         >
-          <source src="https://i.imgur.com/0KvMWpG.mp4" type="video/mp4" />
+          <source src="https://i.imgur.com/kwHFIkU.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/50" />
       </div>
