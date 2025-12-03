@@ -1400,7 +1400,7 @@ export const perfumes: Perfume[] = [
       heart: ["Semente de Ambreta", "Íris"],
       base: ["Almíscar Branco", "Cedro"],
     },
-    story: "A fragrância da quietude e das possibilidades infinitas. Espaço em Branco é um perfume abstrato e minimalista, uma tela olfativa limpa de almíscar e madeiras transparentes. É um aroma pessoal, que se funde com a pele para criar uma assinatura única e pessoal. Uma experiência abstrata e inesquecível, contida em um frasco de pureza laboratorial.",
+    story: "Uma fragrância que desafia a perfumaria tradicional. Molécula 01 é mais uma aura do que um perfume, uma composição minimalista que se funde com a pele para criar uma assinatura olfativa única e pessoal. Uma experiência abstrata e inesquecível, contida em um frasco de pureza laboratorial.",
     categories: ["Amadeirado", "Fresco"],
   },
   {
@@ -3264,5 +3264,145 @@ export const perfumes: Perfume[] = [
     },
     story: "Preciosa e única. Jóia Rara é um perfume floral radiante que celebra a exclusividade.",
     categories: ["Floral", "Fresco"]
+  },
+  {
+    id: 237,
+    name: "Nebulosa Violeta",
+    designer: "Cosmos Scents",
+    imageUrl: "https://imgur.com/9Dd8Ez8.jpg",
+    year: 2025,
+    notes: {
+      top: ["Amora", "Pimenta Rosa"],
+      heart: ["Violeta", "Íris"],
+      base: ["Almíscar", "Sândalo"]
+    },
+    story: "Um mistério cósmico em tons de roxo.",
+    categories: ["Floral", "Oriental"]
+  },
+  {
+    id: 238,
+    name: "Cálice de Fogo",
+    designer: "Ignis Scents",
+    imageUrl: "https://imgur.com/tMKCZzb.jpg",
+    year: 2024,
+    notes: {
+      top: ["Canela", "Laranja"],
+      heart: ["Cravo", "Âmbar"],
+      base: ["Baunilha", "Fava Tonka"]
+    },
+    story: "Aquece a alma como uma chama viva.",
+    categories: ["Oriental", "Gourmand"]
+  },
+  {
+    id: 239,
+    name: "Água da Nascente",
+    designer: "Aura Maris",
+    imageUrl: "https://imgur.com/44IfEul.jpg",
+    year: 2023,
+    notes: {
+      top: ["Limão", "Hortelã"],
+      heart: ["Lótus", "Pepino"],
+      base: ["Musk", "Cedro"]
+    },
+    story: "Pureza cristalina de uma fonte sagrada.",
+    categories: ["Fresco"]
+  },
+  {
+    id: 240,
+    name: "Rosa Real",
+    designer: "Maison Royale",
+    imageUrl: "https://imgur.com/kS4aDkM.jpg",
+    year: 2024,
+    notes: {
+      top: ["Champanhe", "Framboesa"],
+      heart: ["Rosa", "Peônia"],
+      base: ["Madeira de Cashmere", "Almíscar"]
+    },
+    story: "A rainha das flores em sua forma mais majestosa.",
+    categories: ["Floral"]
+  },
+  {
+    id: 241,
+    name: "Sombra da Noite",
+    designer: "Nocturne Parfums",
+    imageUrl: "https://imgur.com/i0SdLti.jpg",
+    year: 2025,
+    notes: {
+      top: ["Groselha Preta", "Pimenta"],
+      heart: ["Tuberosa", "Jasmim"],
+      base: ["Cacau", "Patchouli"]
+    },
+    story: "Elegância sombria para noites inesquecíveis.",
+    categories: ["Oriental", "Floral"]
+  },
+   {
+    id: 242,
+    name: "Enigma Noturno",
+    designer: "Nocturne Parfums",
+    imageUrl: "https://imgur.com/i0SdLti.jpg",
+    year: 2025,
+    notes: {
+       top: ["Ameixa", "Bergamota"],
+       heart: ["Orquídea", "Especiarias"],
+       base: ["Âmbar", "Baunilha"]
+    },
+    story: "Uma variação mais intensa e misteriosa da noite.",
+    categories: ["Oriental"]
+  },
+  {
+    id: 243,
+    name: "Verde Imperial",
+    designer: "Viridis",
+    imageUrl: "https://imgur.com/G7Vj6uD.jpg",
+    year: 2023,
+    notes: {
+      top: ["Gálbano", "Lima"],
+      heart: ["Chá Verde", "Jasmim"],
+      base: ["Vetiver", "Musgo"]
+    },
+    story: "A frescura vibrante de um jardim real.",
+    categories: ["Aromático", "Fresco"]
+  },
+  {
+    id: 244,
+    name: "Obsidiana Bruta",
+    designer: "Tectonic Scents",
+    imageUrl: "https://imgur.com/YUuQs7E.jpg",
+    year: 2024,
+    notes: {
+      top: ["Pimenta Preta", "Cardamomo"],
+      heart: ["Couro", "Incenso"],
+      base: ["Oud", "Ládano"]
+    },
+    story: "Força e mistério esculpidos em pedra negra.",
+    categories: ["Couro", "Amadeirado"]
+  },
+  {
+    id: 245,
+    name: "Luz do Dia",
+    designer: "Helios Fragrances",
+    imageUrl: "https://imgur.com/Eg3gFcf.jpg",
+    year: 2023,
+    notes: {
+      top: ["Yuzu", "Tangerina"],
+      heart: ["Néroli", "Flor de Laranjeira"],
+      base: ["Musk", "Madeira Branca"]
+    },
+    story: "A alegria radiante de uma manhã de sol.",
+    categories: ["Floral", "Fresco"]
+  },
+  {
+    id: 246,
+    name: "Gota Pura",
+    designer: "Kanso Scents",
+    imageUrl: "https://imgur.com/9kquCSQ.jpg",
+    year: 2025,
+    notes: {
+      top: ["Aldeídos", "Pera"],
+      heart: ["Lírio", "Muguet"],
+      base: ["Almíscar", "Ambreta"]
+    },
+    story: "Minimalismo e pureza em cada gota.",
+    categories: ["Fresco", "Floral"]
   }
 ];
