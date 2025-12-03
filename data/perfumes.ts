@@ -3390,5 +3390,47 @@ export const perfumes: Perfume[] = [
     },
     story: "Minimalismo e pureza em cada gota.",
     categories: ["Fresco", "Floral"]
+  },
+  {
+    id: 247,
+    name: "Esplendor Noturno",
+    designer: "Nocturne Parfums",
+    imageUrl: "https://imgur.com/5yOgctG.jpg",
+    year: 2024,
+    notes: {
+      top: ["Amora", "Pimenta Rosa"],
+      heart: ["Jasmim Noturno", "Orquídea", "Incenso"],
+      base: ["Patchouli", "Baunilha Negra", "Almíscar"]
+    },
+    story: "Uma fragrância sedutora que captura a magia e o mistério de uma noite estrelada. Esplendor Noturno é profundo, envolvente e inesquecível.",
+    categories: ["Oriental", "Floral"]
+  },
+  {
+    id: 248,
+    name: "Vento Solar",
+    designer: "Helios Fragrances",
+    imageUrl: "https://imgur.com/vQLv4LL.jpg",
+    year: 2025,
+    notes: {
+      top: ["Bergamota", "Grapefruit"],
+      heart: ["Néroli", "Flor de Laranjeira", "Ylang-Ylang"],
+      base: ["Âmbar", "Musk Solar", "Madeira de Cedro"]
+    },
+    story: "Radiante e energizante como uma brisa quente em um dia de verão. Vento Solar ilumina o espírito com sua aura cítrica e dourada.",
+    categories: ["Fresco", "Floral"]
+  },
+  {
+    id: 249,
+    name: "Floresta de Cristal",
+    designer: "Sylva Studios",
+    imageUrl: "https://imgur.com/53Yu230.jpg",
+    year: 2023,
+    notes: {
+      top: ["Agulhas de Pinheiro", "Limão Siciliano"],
+      heart: ["Lírio do Vale", "Gálbano", "Jacinto"],
+      base: ["Musgo de Carvalho", "Vetiver", "Cedro Branco"]
+    },
+    story: "A pureza de uma floresta congelada no tempo. Floresta de Cristal é uma fragrância verde e nítida, que evoca a serenidade da natureza intocada.",
+    categories: ["Aromático", "Amadeirado"]
   }
 ];
