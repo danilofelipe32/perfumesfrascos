@@ -13,6 +13,7 @@ const App: React.FC = () => {
   const [perfumeToShare, setPerfumeToShare] = useState<Perfume | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('Todos');
+  const [selectedColor, setSelectedColor] = useState('Todas');
   const [favorites, setFavorites] = useState<number[]>(() => {
     try {
       const savedFavorites = window.localStorage.getItem('favoritePerfumes');
@@ -68,8 +69,16 @@ const App: React.FC = () => {
   
   const handleCategoryChange = (category: string) => {
     setSelectedCategory(category);
+    scrollToGrid();
+  };
+
+  const handleColorChange = (color: string) => {
+    setSelectedColor(color);
+    scrollToGrid();
+  };
+
+  const scrollToGrid = () => {
     if (gridRef.current) {
-      // Header height is 80px (h-20). We scroll if the grid top is above the viewport + header.
       if (gridRef.current.getBoundingClientRect().top < 80) {
         gridRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
@@ -98,12 +107,34 @@ const App: React.FC = () => {
   const filteredPerfumes = useMemo(() => {
     let basePerfumes = perfumes;
 
+    // 1. Filtrar por Categoria
     if (selectedCategory === 'Favoritos') {
       basePerfumes = perfumes.filter(p => favorites.includes(p.id));
     } else if (selectedCategory !== 'Todos') {
       basePerfumes = perfumes.filter(p => p.categories && p.categories.includes(selectedCategory));
     }
     
+    // 2. Filtrar por Cor (Heurística baseada em texto)
+    if (selectedColor !== 'Todas') {
+      const colorTerm = selectedColor.toLowerCase();
+      basePerfumes = basePerfumes.filter(p => {
+        const content = `${p.name} ${p.story} ${JSON.stringify(p.notes)} ${p.imageUrl}`.toLowerCase();
+        
+        if (colorTerm === 'dourado') return content.includes('dourado') || content.includes('ouro') || content.includes('gold') || content.includes('solar') || content.includes('amarelo') || content.includes('mel');
+        if (colorTerm === 'prateado') return content.includes('prateado') || content.includes('prata') || content.includes('silver') || content.includes('metálico') || content.includes('cromo') || content.includes('cinza');
+        if (colorTerm === 'vermelho') return content.includes('vermelho') || content.includes('rubi') || content.includes('carmesim') || content.includes('escarlate') || content.includes('sangue') || content.includes('cereja') || content.includes('rosa vermelha');
+        if (colorTerm === 'azul') return content.includes('azul') || content.includes('safira') || content.includes('lazúli') || content.includes('oceano') || content.includes('mar') || content.includes('blue');
+        if (colorTerm === 'verde') return content.includes('verde') || content.includes('esmeralda') || content.includes('floresta') || content.includes('musgo') || content.includes('jade') || content.includes('green');
+        if (colorTerm === 'preto') return content.includes('preto') || content.includes('negro') || content.includes('dark') || content.includes('noite') || content.includes('ônix') || content.includes('ébano') || content.includes('black');
+        if (colorTerm === 'branco') return content.includes('branco') || content.includes('claro') || content.includes('white') || content.includes('neve') || content.includes('paz') || content.includes('mármore');
+        if (colorTerm === 'roxo') return content.includes('roxo') || content.includes('violeta') || content.includes('ametista') || content.includes('púrpura');
+        if (colorTerm === 'rosa') return content.includes('rosa') || content.includes('pink') || content.includes('algodão') || content.includes('amor');
+        
+        return content.includes(colorTerm);
+      });
+    }
+
+    // 3. Filtrar por Termo de Busca
     return basePerfumes.filter(perfume => {
       const term = searchTerm.toLowerCase();
       if (!term) return true;
@@ -116,7 +147,7 @@ const App: React.FC = () => {
         perfume.notes.base.some(note => note.toLowerCase().includes(term))
       );
     });
-  }, [searchTerm, selectedCategory, favorites]);
+  }, [searchTerm, selectedCategory, favorites, selectedColor]);
 
 
   return (
@@ -133,6 +164,8 @@ const App: React.FC = () => {
           onSearchChange={setSearchTerm}
           selectedCategory={selectedCategory}
           onCategoryChange={handleCategoryChange}
+          selectedColor={selectedColor}
+          onColorChange={handleColorChange}
         />
 
         <div ref={gridRef} style={{ scrollMarginTop: '100px' }}>
@@ -142,7 +175,7 @@ const App: React.FC = () => {
             favorites={favorites}
             onToggleFavorite={handleToggleFavorite}
             onShare={handleSharePerfume}
-            selectedCategory={selectedCategory}
+            selectedCategory={selectedCategory} // Usado para forçar animação na troca
           />
         </div>
       </main>
