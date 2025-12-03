@@ -3321,20 +3321,6 @@ export const perfumes: Perfume[] = [
     story: "A rainha das flores em sua forma mais majestosa.",
     categories: ["Floral"]
   },
-  {
-    id: 241,
-    name: "Sombra da Noite",
-    designer: "Nocturne Parfums",
-    imageUrl: "https://imgur.com/i0SdLti.jpg",
-    year: 2025,
-    notes: {
-      top: ["Groselha Preta", "Pimenta"],
-      heart: ["Tuberosa", "Jasmim"],
-      base: ["Cacau", "Patchouli"]
-    },
-    story: "Elegância sombria para noites inesquecíveis.",
-    categories: ["Oriental", "Floral"]
-  },
    {
     id: 242,
     name: "Enigma Noturno",
