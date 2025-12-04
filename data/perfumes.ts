@@ -3432,5 +3432,47 @@ export const perfumes: Perfume[] = [
     },
     story: "A pureza de uma floresta congelada no tempo. Floresta de Cristal é uma fragrância verde e nítida, que evoca a serenidade da natureza intocada.",
     categories: ["Aromático", "Amadeirado"]
+  },
+  {
+    id: 250,
+    name: "Guardião da Noite",
+    designer: "Obscura Parfums",
+    imageUrl: "https://imgur.com/qzm6knL.jpg",
+    year: 2025,
+    notes: {
+      top: ["Pimenta Preta", "Cardamomo"],
+      heart: ["Íris", "Couro"],
+      base: ["Vetiver", "Madeira de Ébano"]
+    },
+    story: "Um sentinela silencioso nas sombras. Guardião da Noite é uma fragrância robusta e protetora, evocando a força da pedra negra e o mistério da escuridão.",
+    categories: ["Amadeirado", "Couro"]
+  },
+  {
+    id: 251,
+    name: "Sol da Toscana",
+    designer: "Sartoria Olfattiva",
+    imageUrl: "https://imgur.com/NgUGWMJ.jpg",
+    year: 2024,
+    notes: {
+      top: ["Bergamota", "Néroli"],
+      heart: ["Flor de Laranjeira", "Mel"],
+      base: ["Âmbar", "Almíscar"]
+    },
+    story: "O calor reconfortante do sol do Mediterrâneo. Sol da Toscana é uma fragrância luminosa e envolvente, que irradia alegria e vitalidade dourada.",
+    categories: ["Floral", "Oriental"]
+  },
+  {
+    id: 252,
+    name: "Onda de Cristal",
+    designer: "Aura Maris",
+    imageUrl: "https://imgur.com/fdEnDqy.jpg",
+    year: 2023,
+    notes: {
+      top: ["Notas Oceânicas", "Limão"],
+      heart: ["Lótus", "Sal Marinho"],
+      base: ["Cedro", "Almíscar Branco"]
+    },
+    story: "A clareza cristalina de uma onda quebrando na areia. Onda de Cristal é refrescante e puro, capturando o movimento eterno e a beleza do mar.",
+    categories: ["Fresco", "Aromático"]
   }
 ];
