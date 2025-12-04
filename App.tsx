@@ -114,21 +114,25 @@ const App: React.FC = () => {
       basePerfumes = perfumes.filter(p => p.categories && p.categories.includes(selectedCategory));
     }
     
-    // 2. Filtrar por Cor (Heurística baseada em texto)
+    // 2. Filtrar por Cor (Otimizado por predominância do frasco)
     if (selectedColor !== 'Todas') {
       const colorTerm = selectedColor.toLowerCase();
+      
       basePerfumes = basePerfumes.filter(p => {
-        const content = `${p.name} ${p.story} ${JSON.stringify(p.notes)} ${p.imageUrl}`.toLowerCase();
+        // Otimização: Focamos apenas no Nome e na História (que descreve o visual do frasco).
+        // Ignoramos explicitamente as Notas Olfativas para evitar falsos positivos (ex: notas de rosa em frasco preto).
+        const content = `${p.name} ${p.story}`.toLowerCase();
         
-        if (colorTerm === 'dourado') return content.includes('dourado') || content.includes('ouro') || content.includes('gold') || content.includes('solar') || content.includes('amarelo') || content.includes('mel');
-        if (colorTerm === 'prateado') return content.includes('prateado') || content.includes('prata') || content.includes('silver') || content.includes('metálico') || content.includes('cromo') || content.includes('cinza');
-        if (colorTerm === 'vermelho') return content.includes('vermelho') || content.includes('rubi') || content.includes('carmesim') || content.includes('escarlate') || content.includes('sangue') || content.includes('cereja') || content.includes('rosa vermelha');
-        if (colorTerm === 'azul') return content.includes('azul') || content.includes('safira') || content.includes('lazúli') || content.includes('oceano') || content.includes('mar') || content.includes('blue');
-        if (colorTerm === 'verde') return content.includes('verde') || content.includes('esmeralda') || content.includes('floresta') || content.includes('musgo') || content.includes('jade') || content.includes('green');
-        if (colorTerm === 'preto') return content.includes('preto') || content.includes('negro') || content.includes('dark') || content.includes('noite') || content.includes('ônix') || content.includes('ébano') || content.includes('black');
-        if (colorTerm === 'branco') return content.includes('branco') || content.includes('claro') || content.includes('white') || content.includes('neve') || content.includes('paz') || content.includes('mármore');
-        if (colorTerm === 'roxo') return content.includes('roxo') || content.includes('violeta') || content.includes('ametista') || content.includes('púrpura');
-        if (colorTerm === 'rosa') return content.includes('rosa') || content.includes('pink') || content.includes('algodão') || content.includes('amor');
+        // Mapeamento de termos visuais e temáticos associados à cor do frasco
+        if (selectedColor === 'Dourado') return /dourado|ouro|gold|solar|amarelo|mel|âmbar|bronze|radiante|luxo|real/.test(content);
+        if (selectedColor === 'Prateado') return /prateado|prata|silver|metálico|cromo|cinza|aço|espelho|alumínio|futuro|lunar/.test(content);
+        if (selectedColor === 'Azul') return /azul|blue|safira|lazúli|turquesa|oceano|mar|céu|índigo|água|gelo|noite/.test(content);
+        if (selectedColor === 'Vermelho') return /vermelho|red|rubi|carmesim|escarlate|sangue|cereja|fogo|paixão|ardente|granada/.test(content);
+        if (selectedColor === 'Verde') return /verde|green|esmeralda|floresta|musgo|jade|oliva|menta|folha|natureza|botânico/.test(content);
+        if (selectedColor === 'Preto') return /preto|negro|black|noir|dark|ônix|ébano|obsidiana|carvão|sombra|mistério|escuro/.test(content);
+        if (selectedColor === 'Branco') return /branco|white|claro|neve|paz|mármore|pérola|marfim|cristal|puro|limpo|nuvem/.test(content);
+        if (selectedColor === 'Roxo') return /roxo|violeta|ametista|púrpura|lilás|uva|ameixa|místico|magia/.test(content);
+        if (selectedColor === 'Rosa') return /rosa|pink|rose|coral|fúcsia|magenta|blush|romance|suave|delicado|ternura/.test(content);
         
         return content.includes(colorTerm);
       });
