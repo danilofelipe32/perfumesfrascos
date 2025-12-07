@@ -3474,5 +3474,103 @@ export const perfumes: Perfume[] = [
     },
     story: "A clareza cristalina de uma onda quebrando na areia. Onda de Cristal é refrescante e puro, capturando o movimento eterno e a beleza do mar.",
     categories: ["Fresco", "Aromático"]
+  },
+  {
+    id: 253,
+    name: "Cetro Real",
+    designer: "Maison Royale",
+    imageUrl: "https://imgur.com/KfY9VFm.jpg",
+    year: 2024,
+    notes: {
+      top: ["Açafrão", "Noz-moscada"],
+      heart: ["Oud Dourado", "Rosa", "Benjoim"],
+      base: ["Âmbar", "Sândalo", "Baunilha"]
+    },
+    story: "Símbolo de autoridade e poder divino. Cetro Real é uma fragrância opulenta e majestosa, destinada àqueles que nasceram para governar.",
+    categories: ["Oriental", "Amadeirado"]
+  },
+  {
+    id: 254,
+    name: "Veludo Negro",
+    designer: "Atelier Noir",
+    imageUrl: "https://imgur.com/9g4ITyR.jpg",
+    year: 2025,
+    notes: {
+      top: ["Cacau", "Pimenta Preta"],
+      heart: ["Café", "Tabaco", "Patchouli"],
+      base: ["Fava Tonka", "Madeira de Ébano", "Baunilha Escura"]
+    },
+    story: "A suavidade misteriosa de um tecido nobre na escuridão. Veludo Negro é envolvente, sedutor e profundamente sofisticado.",
+    categories: ["Gourmand", "Couro"]
+  },
+  {
+    id: 255,
+    name: "Brisa de Cristal",
+    designer: "Lapidari",
+    imageUrl: "https://imgur.com/vHntSpc.jpg",
+    year: 2023,
+    notes: {
+      top: ["Notas de Ozônio", "Pera"],
+      heart: ["Frésia", "Magnólia", "Lírio"],
+      base: ["Musk Branco", "Cedro", "Ambreta"]
+    },
+    story: "Leve e pura como o ar da montanha. Brisa de Cristal é uma fragrância transparente e luminosa que renova o espírito.",
+    categories: ["Fresco", "Floral"]
+  },
+  {
+    id: 256,
+    name: "Chama Púrpura",
+    designer: "Ignis Scents",
+    imageUrl: "https://imgur.com/iVyIZme.jpg",
+    year: 2024,
+    notes: {
+      top: ["Amora", "Pimenta Rosa"],
+      heart: ["Rosa Búlgara", "Açafrão", "Violeta"],
+      base: ["Oud", "Âmbar", "Patchouli"]
+    },
+    story: "Uma chama mística que queima com intensidade e cor. Chama Púrpura é enigmática, quente e cheia de personalidade.",
+    categories: ["Oriental", "Floral"]
+  },
+  {
+    id: 257,
+    name: "Horizonte Azul",
+    designer: "Aura Maris",
+    imageUrl: "https://imgur.com/lJWa57h.jpg",
+    year: 2025,
+    notes: {
+      top: ["Bergamota", "Notas Marinhas"],
+      heart: ["Lavanda", "Alecrim", "Gerânio"],
+      base: ["Vetiver", "Musgo", "Madeira de Teca"]
+    },
+    story: "Onde o céu encontra o mar. Horizonte Azul traz a liberdade infinita e a frescura revigorante das águas abertas.",
+    categories: ["Fresco", "Aromático"]
+  },
+  {
+    id: 258,
+    name: "Musgo Selvagem",
+    designer: "Sylva Studios",
+    imageUrl: "https://imgur.com/VRA2EEu.jpg",
+    year: 2023,
+    notes: {
+      top: ["Gálbano", "Pinho"],
+      heart: ["Fougère", "Sálvia", "Cipreste"],
+      base: ["Musgo de Carvalho", "Patchouli", "Couro"]
+    },
+    story: "A essência bruta da floresta intocada. Musgo Selvagem é terroso, verde e profundamente conectado com a natureza.",
+    categories: ["Aromático", "Chipre"]
+  },
+  {
+    id: 259,
+    name: "Minimalista",
+    designer: "Kanso Scents",
+    imageUrl: "https://imgur.com/qMxUzgI.jpg",
+    year: 2024,
+    notes: {
+      top: ["Chá Branco", "Bambu"],
+      heart: ["Lótus", "Madeira Clara"],
+      base: ["Musk", "Iso E Super"]
+    },
+    story: "Menos é mais. Uma fragrância limpa, moderna e descomplicada para quem aprecia a beleza na simplicidade.",
+    categories: ["Fresco", "Amadeirado"]
   }
 ];
