@@ -420,7 +420,7 @@ export const perfumes: Perfume[] = [
         heart: ["Flor de Gelo", "Lírio-do-vale", "Edelweiss"],
         base: ["Almíscar Branco", "Musgo de Carvalho", "Sândalo"],
     },
-    story: "A beleza silenciosa de um jardim coberto pela primeira geada. Jardim de Gelo é um floral fresco e cristalino, nítido e puro como o ar do inverno.",
+    story: "A beleza silenciosa de um jardim coberto pela primeira geada. Jardim de Gelo é um floral fresco e cristalino, nítida e puro como o ar do inverno.",
     categories: ["Fresco", "Floral"],
   },
   {
@@ -3572,5 +3572,299 @@ export const perfumes: Perfume[] = [
     },
     story: "Menos é mais. Uma fragrância limpa, moderna e descomplicada para quem aprecia a beleza na simplicidade.",
     categories: ["Fresco", "Amadeirado"]
+  },
+  {
+    id: 260,
+    name: "Aurora Floral",
+    designer: "Floraïs",
+    imageUrl: "https://imgur.com/IuhfyNE.jpg",
+    year: 2024,
+    notes: {
+      top: ["Pêra", "Frésia"],
+      heart: ["Rosa", "Orquídea"],
+      base: ["Almíscar", "Âmbar"]
+    },
+    story: "O despertar suave de um jardim ao amanhecer.",
+    categories: ["Floral", "Fresco"]
+  },
+  {
+    id: 261,
+    name: "Noite de Veludo",
+    designer: "Atelier Noir",
+    imageUrl: "https://imgur.com/2uO6Tn5.jpg",
+    year: 2025,
+    notes: {
+      top: ["Ameixa", "Canela"],
+      heart: ["Jasmim", "Patchouli"],
+      base: ["Baunilha", "Couro"]
+    },
+    story: "Mistério e sofisticação em uma noite inesquecível.",
+    categories: ["Oriental", "Couro"]
+  },
+  {
+    id: 262,
+    name: "Sombra da Meia-Noite",
+    designer: "Nocturne Parfums",
+    imageUrl: "https://imgur.com/2uO6Tn5.jpg",
+    year: 2023,
+    notes: {
+      top: ["Pimenta Negra", "Groselha"],
+      heart: ["Íris", "Violeta"],
+      base: ["Cedro", "Vetiver"]
+    },
+    story: "A elegância silenciosa das sombras noturnas.",
+    categories: ["Amadeirado", "Aromático"]
+  },
+  {
+    id: 263,
+    name: "Brisa do Oceano",
+    designer: "Aura Maris",
+    imageUrl: "https://imgur.com/mOiO6Ym.jpg",
+    year: 2024,
+    notes: {
+      top: ["Sal Marinho", "Limão"],
+      heart: ["Algas", "Sálvia"],
+      base: ["Madeira Flutuante", "Musk"]
+    },
+    story: "O frescor revigorante do mar aberto.",
+    categories: ["Fresco", "Aromático"]
+  },
+  {
+    id: 264,
+    name: "Ouro Solar",
+    designer: "Helios Fragrances",
+    imageUrl: "https://imgur.com/FkrAe0Q.jpg",
+    year: 2025,
+    notes: {
+      top: ["Bergamota", "Tangerina"],
+      heart: ["Ylang-Ylang", "Flor de Laranjeira"],
+      base: ["Âmbar", "Benjoim"]
+    },
+    story: "Radiante como o sol do meio-dia.",
+    categories: ["Floral", "Oriental"]
+  },
+  {
+    id: 265,
+    name: "Jardim de Especiarias",
+    designer: "Bazaar Scents",
+    imageUrl: "https://imgur.com/IbEIkvn.jpg",
+    year: 2023,
+    notes: {
+      top: ["Cardamomo", "Gengibre"],
+      heart: ["Cravo", "Canela"],
+      base: ["Sândalo", "Baunilha"]
+    },
+    story: "Uma viagem sensorial aos mercados do oriente.",
+    categories: ["Oriental", "Gourmand"]
+  },
+  {
+    id: 266,
+    name: "Floresta Profunda",
+    designer: "Sylva Studios",
+    imageUrl: "https://imgur.com/JTtaoP9.jpg",
+    year: 2024,
+    notes: {
+      top: ["Pinho", "Eucalipto"],
+      heart: ["Musgo", "Cedro"],
+      base: ["Vetiver", "Patchouli"]
+    },
+    story: "A calmaria e o mistério de uma floresta antiga.",
+    categories: ["Amadeirado", "Aromático"]
+  },
+  {
+    id: 267,
+    name: "Doce Encanto",
+    designer: "Dolce Vita",
+    imageUrl: "https://imgur.com/HWD3act.jpg",
+    year: 2025,
+    notes: {
+      top: ["Framboesa", "Pêssego"],
+      heart: ["Caramelo", "Jasmim"],
+      base: ["Baunilha", "Fava Tonka"]
+    },
+    story: "Um perfume delicioso que desperta sorrisos.",
+    categories: ["Gourmand", "Floral"]
+  },
+  {
+    id: 268,
+    name: "Elegância Clássica",
+    designer: "Maison Royale",
+    imageUrl: "https://imgur.com/vJX5OOx.jpg",
+    year: 2023,
+    notes: {
+      top: ["Aldeídos", "Bergamota"],
+      heart: ["Rosa", "Jasmim"],
+      base: ["Sândalo", "Musk"]
+    },
+    story: "A sofisticação atemporal de um clássico.",
+    categories: ["Floral", "Aldeídico"]
+  },
+  {
+    id: 269,
+    name: "Mistério Azul",
+    designer: "Cosmos Scents",
+    imageUrl: "https://imgur.com/FTVaoBV.jpg",
+    year: 2024,
+    notes: {
+      top: ["Menta", "Lavanda"],
+      heart: ["Gerânio", "Notas Aquáticas"],
+      base: ["Cedro", "Ambroxan"]
+    },
+    story: "Profundo e envolvente como o oceano à noite.",
+    categories: ["Fresco", "Aromático"]
+  },
+  {
+    id: 270,
+    name: "Rubi Flamejante",
+    designer: "Ignis Scents",
+    imageUrl: "https://imgur.com/RJdMOvR.jpg",
+    year: 2025,
+    notes: {
+      top: ["Cereja", "Pimenta Rosa"],
+      heart: ["Rosa Vermelha", "Açafrão"],
+      base: ["Oud", "Âmbar"]
+    },
+    story: "A paixão ardente capturada em um frasco.",
+    categories: ["Oriental", "Floral"]
+  },
+  {
+    id: 271,
+    name: "Cristal Puro",
+    designer: "Lapidari",
+    imageUrl: "https://imgur.com/IL4Yguq.jpg",
+    year: 2023,
+    notes: {
+      top: ["Limão", "Maçã Verde"],
+      heart: ["Lírio", "Frésia"],
+      base: ["Musk Branco", "Madeira Clara"]
+    },
+    story: "Transparência e pureza em sua forma mais bela.",
+    categories: ["Fresco", "Floral"]
+  },
+  {
+    id: 272,
+    name: "Herança Antiga",
+    designer: "Imperiale Scents",
+    imageUrl: "https://imgur.com/iMZNCvn.jpg",
+    year: 2024,
+    notes: {
+      top: ["Incenso", "Mirra"],
+      heart: ["Couro", "Especiarias"],
+      base: ["Oud", "Bálsamo"]
+    },
+    story: "Um legado olfativo de tempos passados.",
+    categories: ["Oriental", "Amadeirado"]
+  },
+  {
+    id: 273,
+    name: "Vento da Montanha",
+    designer: "Glacialis Parfums",
+    imageUrl: "https://imgur.com/tp57Qvd.jpg",
+    year: 2025,
+    notes: {
+      top: ["Ar da Montanha", "Hortelã"],
+      heart: ["Lavanda", "Zimbro"],
+      base: ["Musgo", "Madeira de Pinho"]
+    },
+    story: "O frescor revigorante dos picos nevados.",
+    categories: ["Fresco", "Aromático"]
+  },
+  {
+    id: 274,
+    name: "Flor de Lis",
+    designer: "Maison Violette",
+    imageUrl: "https://imgur.com/PZkqF6Y.jpg",
+    year: 2023,
+    notes: {
+      top: ["Lírio", "Bergamota"],
+      heart: ["Íris", "Violeta"],
+      base: ["Sândalo", "Baunilha"]
+    },
+    story: "Nobreza e delicadeza em cada gota.",
+    categories: ["Floral", "Atalcado"]
+  },
+  {
+    id: 275,
+    name: "Coração Valente",
+    designer: "Tectonic Scents",
+    imageUrl: "https://imgur.com/MdB8toF.jpg",
+    year: 2024,
+    notes: {
+      top: ["Pimenta Preta", "Gengibre"],
+      heart: ["Couro", "Tabaco"],
+      base: ["Vetiver", "Cedro"]
+    },
+    story: "Para aqueles que enfrentam o mundo com coragem.",
+    categories: ["Couro", "Amadeirado"]
+  },
+  {
+    id: 276,
+    name: "Água Doce",
+    designer: "Zen Garden",
+    imageUrl: "https://imgur.com/FNCyhbe.jpg",
+    year: 2025,
+    notes: {
+      top: ["Lótus", "Pepino"],
+      heart: ["Bambu", "Chá Verde"],
+      base: ["Musk", "Madeira de Sândalo"]
+    },
+    story: "Serenidade e fluidez como um rio calmo.",
+    categories: ["Fresco", "Aquático"]
+  },
+  {
+    id: 277,
+    name: "Espírito Livre",
+    designer: "Nomad Fragrances",
+    imageUrl: "https://imgur.com/oXU889Z.jpg",
+    year: 2023,
+    notes: {
+      top: ["Cítricos", "Manjericão"],
+      heart: ["Sálvia", "Alecrim"],
+      base: ["Madeira à Deriva", "Âmbar"]
+    },
+    story: "A liberdade de ir aonde o vento levar.",
+    categories: ["Aromático", "Fresco"]
+  },
+  {
+    id: 278,
+    name: "Magia Negra",
+    designer: "Grimório Aromas",
+    imageUrl: "https://imgur.com/T4YHeza.jpg",
+    year: 2024,
+    notes: {
+      top: ["Absinto", "Anis"],
+      heart: ["Rosa Negra", "Beladona"],
+      base: ["Patchouli", "Musk Negro"]
+    },
+    story: "Um feitiço olfativo misterioso e sedutor.",
+    categories: ["Oriental", "Floral"]
+  },
+  {
+    id: 279,
+    name: "Ouro Branco",
+    designer: "Bijoux Parfumés",
+    imageUrl: "https://imgur.com/JS4ZZLV.jpg",
+    year: 2025,
+    notes: {
+      top: ["Champanhe", "Pera"],
+      heart: ["Jasmim", "Gardênia"],
+      base: ["Âmbar Branco", "Musk"]
+    },
+    story: "Luxo discreto e radiante como platina.",
+    categories: ["Floral", "Fresco"]
+  },
+  {
+    id: 280,
+    name: "Eclipse Lunar",
+    designer: "Nocturne Parfums",
+    imageUrl: "https://imgur.com/k8RB0ZO.jpg",
+    year: 2023,
+    notes: {
+      top: ["Bergamota", "Lavanda"],
+      heart: ["Íris", "Fava Tonka"],
+      base: ["Baunilha", "Sândalo"]
+    },
+    story: "O encontro místico entre a luz e a sombra.",
+    categories: ["Oriental", "Aromático"]
   }
 ];
