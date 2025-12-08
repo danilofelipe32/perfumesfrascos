@@ -3570,5 +3570,285 @@ export const perfumes: Perfume[] = [
     },
     story: "Uma estrutura perfeita banhada a ouro. Cúpula Dourada é grandioso e simétrico, refletindo ordem e magnificência.",
     categories: ["Floral", "Oriental"]
+  },
+  {
+    id: 260,
+    name: "Safira Profunda",
+    designer: "Aura Maris",
+    imageUrl: "https://imgur.com/IuhfyNE.jpg",
+    year: 2025,
+    notes: {
+      top: ["Sal Marinho", "Bergamota"],
+      heart: ["Lótus Azul", "Algas", "Jasmim"],
+      base: ["Âmbar Cinza", "Madeira Flutuante", "Musk"]
+    },
+    story: "O mistério do oceano profundo capturado em vidro. Safira Profunda é fresco, misterioso e envolvente.",
+    categories: ["Fresco", "Oriental"]
+  },
+  {
+    id: 261,
+    name: "Mistério da Meia-Noite",
+    designer: "Nocturne Parfums",
+    imageUrl: "https://imgur.com/2uO6Tn5.jpg",
+    year: 2024,
+    notes: {
+      top: ["Ameixa", "Groselha Preta"],
+      heart: ["Orquídea Negra", "Tuberosa", "Incenso"],
+      base: ["Baunilha", "Patchouli", "Sândalo"]
+    },
+    story: "Um elixir para as horas mágicas. Mistério da Meia-Noite seduz com sua aura escura e sofisticada.",
+    categories: ["Oriental", "Floral"]
+  },
+  {
+    id: 262,
+    name: "Jardim Suspenso",
+    designer: "Botanica",
+    imageUrl: "https://imgur.com/mOiO6Ym.jpg",
+    year: 2023,
+    notes: {
+      top: ["Hera", "Maçã Verde"],
+      heart: ["Chá Verde", "Magnólia", "Bambu"],
+      base: ["Musgo", "Vetiver", "Cedro"]
+    },
+    story: "Natureza exuberante desafiando a gravidade. Jardim Suspenso é verde, vibrante e cheio de vida.",
+    categories: ["Aromático", "Verde"]
+  },
+  {
+    id: 263,
+    name: "Fogo Sagrado",
+    designer: "Ignis Scents",
+    imageUrl: "https://imgur.com/FkrAe0Q.jpg",
+    year: 2025,
+    notes: {
+      top: ["Canela", "Pimenta Rosa"],
+      heart: ["Cravo", "Rosa", "Mirra"],
+      base: ["Benjoim", "Âmbar", "Fava Tonka"]
+    },
+    story: "Uma chama que purifica e aquece. Fogo Sagrado é intenso, espiritual e reconfortante.",
+    categories: ["Oriental", "Gourmand"]
+  },
+  {
+    id: 264,
+    name: "Coração de Aço",
+    designer: "Metropole Fragrances",
+    imageUrl: "https://imgur.com/IbEIkvn.jpg",
+    year: 2024,
+    notes: {
+      top: ["Notas Metálicas", "Pimenta Preta"],
+      heart: ["Lavanda", "Gerânio", "Sálvia"],
+      base: ["Cedro", "Musk", "Couro"]
+    },
+    story: "Força e resiliência na selva de pedra. Coração de Aço é moderno, frio e inabalável.",
+    categories: ["Aromático", "Amadeirado"]
+  },
+  {
+    id: 265,
+    name: "Pérola do Mar",
+    designer: "Lapidari",
+    imageUrl: "https://imgur.com/JTtaoP9.jpg",
+    year: 2023,
+    notes: {
+      top: ["Pera", "Notas Oceânicas"],
+      heart: ["Nenúfar", "Frésia", "Jasmim"],
+      base: ["Musk Branco", "Sândalo", "Ambreta"]
+    },
+    story: "Um tesouro escondido nas profundezas. Pérola do Mar brilha com uma luz suave e iridescente.",
+    categories: ["Floral", "Fresco"]
+  },
+  {
+    id: 266,
+    name: "Rosa do Deserto",
+    designer: "Helios Fragrances",
+    imageUrl: "https://imgur.com/HWD3act.jpg",
+    year: 2025,
+    notes: {
+      top: ["Acorde de Areia", "Açafrão"],
+      heart: ["Rosa", "Gerânio", "Oud"],
+      base: ["Âmbar", "Incenso", "Mirra"]
+    },
+    story: "Beleza florescendo na aridez. Rosa do Deserto é exótico, quente e resiliente.",
+    categories: ["Floral", "Oriental"]
+  },
+  {
+    id: 267,
+    name: "Brisa da Montanha",
+    designer: "Glacialis Parfums",
+    imageUrl: "https://imgur.com/vJX5OOx.jpg",
+    year: 2024,
+    notes: {
+      top: ["Menta", "Notas Ozônicas"],
+      heart: ["Agulhas de Pinho", "Zimbro"],
+      base: ["Musk", "Madeira Branca", "Musgo"]
+    },
+    story: "O ar puro das alturas. Brisa da Montanha revigora o espírito com sua frescura alpina.",
+    categories: ["Fresco", "Aromático"]
+  },
+  {
+    id: 268,
+    name: "Ouro Líquido",
+    designer: "Imperiale Scents",
+    imageUrl: "https://imgur.com/FTVaoBV.jpg",
+    year: 2023,
+    notes: {
+      top: ["Mel", "Açafrão"],
+      heart: ["Ylang-Ylang", "Flor de Laranjeira", "Jasmim"],
+      base: ["Oud", "Baunilha", "Sândalo"]
+    },
+    story: "Luxo derretido sobre a pele. Ouro Líquido é rico, doce e absolutamente opulento.",
+    categories: ["Gourmand", "Oriental"]
+  },
+  {
+    id: 269,
+    name: "Sombra Vermelha",
+    designer: "Atelier Rouge",
+    imageUrl: "https://imgur.com/RJdMOvR.jpg",
+    year: 2025,
+    notes: {
+      top: ["Groselha Vermelha", "Pimenta Rosa"],
+      heart: ["Rosa Vermelha", "Couro", "Patchouli"],
+      base: ["Musk", "Madeira de Guaiaco", "Ládano"]
+    },
+    story: "Paixão oculta nas sombras. Sombra Vermelha é intrigante, sensual e perigoso.",
+    categories: ["Chipre", "Frutado"]
+  },
+  {
+    id: 270,
+    name: "Cristal Azul",
+    designer: "Cosmos Scents",
+    imageUrl: "https://imgur.com/IL4Yguq.jpg",
+    year: 2024,
+    notes: {
+      top: ["Bluebells", "Maçã Verde"],
+      heart: ["Jasmim", "Rosa Branca", "Bambu"],
+      base: ["Musk", "Cedro", "Âmbar"]
+    },
+    story: "Um fragmento do céu claro. Cristal Azul reflete a luz com pureza e serenidade.",
+    categories: ["Floral", "Fresco"]
+  },
+  {
+    id: 271,
+    name: "Madeira Antiga",
+    designer: "Artisan Woodworks",
+    imageUrl: "https://imgur.com/iMZNCvn.jpg",
+    year: 2023,
+    notes: {
+      top: ["Papiro", "Bergamota"],
+      heart: ["Cedro", "Patchouli", "Vetiver"],
+      base: ["Couro", "Sândalo", "Tabaco"]
+    },
+    story: "O aroma de uma biblioteca centenária. Madeira Antiga é sábio, profundo e reconfortante.",
+    categories: ["Amadeirado"]
+  },
+  {
+    id: 272,
+    name: "Luz da Lua",
+    designer: "Nocturne Parfums",
+    imageUrl: "https://imgur.com/tp57Qvd.jpg",
+    year: 2025,
+    notes: {
+      top: ["Pera", "Bergamota"],
+      heart: ["Jasmim", "Lírio", "Orquídea"],
+      base: ["Âmbar Branco", "Sândalo", "Musk"]
+    },
+    story: "Um brilho suave na escuridão. Luz da Lua é etéreo, romântico e sonhador.",
+    categories: ["Floral", "Oriental"]
+  },
+  {
+    id: 273,
+    name: "Esmeralda Real",
+    designer: "Maison Royale",
+    imageUrl: "https://imgur.com/PZkqF6Y.jpg",
+    year: 2024,
+    notes: {
+      top: ["Gálbano", "Lima"],
+      heart: ["Jacinto", "Rosa", "Jasmim"],
+      base: ["Vetiver", "Musgo de Carvalho", "Patchouli"]
+    },
+    story: "A joia verde da coroa. Esmeralda Real é clássico, sofisticado e atemporal.",
+    categories: ["Chipre", "Verde"]
+  },
+  {
+    id: 274,
+    name: "Rubi Intenso",
+    designer: "Amore Scents",
+    imageUrl: "https://imgur.com/MdB8toF.jpg",
+    year: 2023,
+    notes: {
+      top: ["Romã", "Framboesa"],
+      heart: ["Rosa", "Pimenta Rosa", "Lírio"],
+      base: ["Baunilha", "Patchouli", "Musk"]
+    },
+    story: "Uma gema que pulsa como um coração. Rubi Intenso é vibrante, doce e cheio de vida.",
+    categories: ["Frutado", "Floral"]
+  },
+  {
+    id: 275,
+    name: "Onda Azul",
+    designer: "Aura Maris",
+    imageUrl: "https://imgur.com/FNCyhbe.jpg",
+    year: 2025,
+    notes: {
+      top: ["Brisa do Mar", "Melão"],
+      heart: ["Algas", "Lótus", "Pepino"],
+      base: ["Madeira à Deriva", "Musk", "Âmbar"]
+    },
+    story: "O ritmo constante do oceano. Onda Azul traz a calma e a frescura das águas infinitas.",
+    categories: ["Fresco", "Aquático"]
+  },
+  {
+    id: 276,
+    name: "Âmbar Dourado",
+    designer: "Imperiale Scents",
+    imageUrl: "https://imgur.com/oXU889Z.jpg",
+    year: 2024,
+    notes: {
+      top: ["Laranja", "Canela"],
+      heart: ["Âmbar", "Benjoim", "Ládano"],
+      base: ["Baunilha", "Fava Tonka", "Sândalo"]
+    },
+    story: "Luz do sol fossilizada. Âmbar Dourado é quente, envolvente e preciosamente antigo.",
+    categories: ["Oriental"]
+  },
+  {
+    id: 277,
+    name: "Flor de Cerejeira",
+    designer: "Floraïs",
+    imageUrl: "https://imgur.com/T4YHeza.jpg",
+    year: 2023,
+    notes: {
+      top: ["Flor de Cerejeira", "Chá Branco"],
+      heart: ["Rosa", "Magnólia", "Peônia"],
+      base: ["Musk", "Madeira Clara", "Heliotrópio"]
+    },
+    story: "A primavera em um frasco. Flor de Cerejeira é delicado, efêmero e belo.",
+    categories: ["Floral"]
+  },
+  {
+    id: 278,
+    name: "Pedra da Lua",
+    designer: "Cosmos Scents",
+    imageUrl: "https://imgur.com/JS4ZZLV.jpg",
+    year: 2025,
+    notes: {
+      top: ["Violeta", "Anis"],
+      heart: ["Íris", "Dama da Noite", "Heliotrópio"],
+      base: ["Sândalo", "Baunilha", "Musk"]
+    },
+    story: "Conexão mística com as marés. Pedra da Lua é mágico, suave e intuitivo.",
+    categories: ["Floral", "Atalcado"]
+  },
+  {
+    id: 279,
+    name: "Obsidiana",
+    designer: "Tectonic Scents",
+    imageUrl: "https://imgur.com/k8RB0ZO.jpg",
+    year: 2024,
+    notes: {
+      top: ["Pimenta Preta", "Pólvora"],
+      heart: ["Vetiver", "Incenso", "Cedro"],
+      base: ["Couro", "Musgo", "Patchouli"]
+    },
+    story: "Vidro vulcânico afiado. Obsidiana é cortante, escuro e poderoso.",
+    categories: ["Amadeirado", "Especiado"]
   }
 ];
