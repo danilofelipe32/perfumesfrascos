@@ -826,7 +826,7 @@ export const perfumes: Perfume[] = [
         heart: ["Pinheiro Siberiano", "Incenso Frio", "Íris"],
         base: ["Cedro Branco", "Almíscar Cristalino"],
     },
-    story: "O guia luminoso nas noites mais frias e escuras. Estrela do Norte é um perfume amadeirado e aromático, nítido e brilhante como a aurora boreal.",
+    story: "O guia luminoso nas noites mais frias e escuras. Estrela do Norte é um perfume amadeirado e aromático, nítida e brilhante como a aurora boreal.",
     categories: ["Amadeirado", "Fresco"],
   },
   {
@@ -2042,7 +2042,7 @@ export const perfumes: Perfume[] = [
     notes: {
       top: ["Laranja Sanguínea", "Pimenta Malagueta", "Canela"],
       heart: ["Rosa Vermelha", "Cravo", "Tabaco"],
-      base: ["Âmbar", "Fava Tonka", "Patchouli"],
+      base: ["Âmbar", "Fava Tonka", "Benjoim"],
     },
     story: "A faísca de uma paixão incontrolável, a chama que nunca se apaga. Ignição Escarlate é uma fragrância quente, picante e intensamente viva, para quem vive com o coração em chamas.",
     categories: ["Oriental", "Gourmand"],
@@ -3586,20 +3586,6 @@ export const perfumes: Perfume[] = [
     },
     story: "O despertar suave de um jardim ao amanhecer.",
     categories: ["Floral", "Fresco"]
-  },
-  {
-    id: 261,
-    name: "Noite de Veludo",
-    designer: "Atelier Noir",
-    imageUrl: "https://imgur.com/2uO6Tn5.jpg",
-    year: 2025,
-    notes: {
-      top: ["Ameixa", "Canela"],
-      heart: ["Jasmim", "Patchouli"],
-      base: ["Baunilha", "Couro"]
-    },
-    story: "Mistério e sofisticação em uma noite inesquecível.",
-    categories: ["Oriental", "Couro"]
   },
   {
     id: 262,
