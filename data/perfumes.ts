@@ -3850,5 +3850,131 @@ export const perfumes: Perfume[] = [
     },
     story: "Vidro vulcânico afiado. Obsidiana é cortante, escuro e poderoso.",
     categories: ["Amadeirado", "Especiado"]
+  },
+  {
+    id: 280,
+    name: "Chama de Bronze",
+    designer: "Ignis Scents",
+    imageUrl: "https://imgur.com/PHMD4Gj.jpg",
+    year: 2024,
+    notes: {
+      top: ["Açafrão", "Canela"],
+      heart: ["Acorde Metálico", "Rosa"],
+      base: ["Âmbar", "Couro", "Fumaça"]
+    },
+    story: "Metal derretido em movimento. Chama de Bronze captura o calor e a beleza da fundição artística.",
+    categories: ["Oriental", "Amadeirado"]
+  },
+  {
+    id: 281,
+    name: "Éter Azul",
+    designer: "Aura Maris",
+    imageUrl: "https://imgur.com/5f9wXRw.jpg",
+    year: 2025,
+    notes: {
+      top: ["Notas Ozônicas", "Menta"],
+      heart: ["Lavanda", "Flor de Lótus"],
+      base: ["Almíscar Branco", "Madeira de Teca"]
+    },
+    story: "A leveza do ar rarefeito. Éter Azul é uma lufada de frescor celestial.",
+    categories: ["Fresco", "Aromático"]
+  },
+  {
+    id: 282,
+    name: "Jardim de Cobre",
+    designer: "Artisan Atelier",
+    imageUrl: "https://imgur.com/hkJptiq.jpg",
+    year: 2023,
+    notes: {
+      top: ["Gengibre", "Bergamota"],
+      heart: ["Rosa Metálica", "Gerânio"],
+      base: ["Patchouli", "Cobre", "Vetiver"]
+    },
+    story: "A fusão entre o industrial e o orgânico. Jardim de Cobre brilha com uma elegância moderna.",
+    categories: ["Floral", "Amadeirado"]
+  },
+  {
+    id: 283,
+    name: "Prisma Violeta",
+    designer: "Cosmos Scents",
+    imageUrl: "https://imgur.com/rspleK5.jpg",
+    year: 2024,
+    notes: {
+      top: ["Violeta", "Amora"],
+      heart: ["Íris", "Heliotrópio"],
+      base: ["Sândalo", "Baunilha", "Musk"]
+    },
+    story: "Luz refratada através de uma ametista. Prisma Violeta é suave, místico e encantador.",
+    categories: ["Floral", "Oriental"]
+  },
+  {
+    id: 284,
+    name: "Névoa Dourada",
+    designer: "Imperiale Scents",
+    imageUrl: "https://imgur.com/i9NBHQ4.jpg",
+    year: 2025,
+    notes: {
+      top: ["Mel", "Pera"],
+      heart: ["Jasmim", "Magnólia"],
+      base: ["Âmbar Dourado", "Benjoim"]
+    },
+    story: "Um amanhecer nebuloso nos jardins do palácio. Névoa Dourada é envolvente e luminoso.",
+    categories: ["Oriental", "Floral"]
+  },
+  {
+    id: 285,
+    name: "Oceano de Vidro",
+    designer: "Lapidari",
+    imageUrl: "https://imgur.com/CnIRPe4.jpg",
+    year: 2023,
+    notes: {
+      top: ["Sal Marinho", "Aldeídos"],
+      heart: ["Lótus", "Água de Coco"],
+      base: ["Almíscar", "Ambregris"]
+    },
+    story: "A superfície calma e transparente do mar. Oceano de Vidro reflete a pureza da água.",
+    categories: ["Fresco", "Aquático"]
+  },
+  {
+    id: 286,
+    name: "Coração de Âmbar",
+    designer: "Artisan Woodworks",
+    imageUrl: "https://imgur.com/TU6s1ZR.jpg",
+    year: 2024,
+    notes: {
+      top: ["Cardamomo", "Laranja"],
+      heart: ["Âmbar", "Mirra"],
+      base: ["Cedro", "Baunilha", "Ládano"]
+    },
+    story: "A alma quente de uma resina antiga. Coração de Âmbar é profundo, rico e acolhedor.",
+    categories: ["Oriental", "Amadeirado"]
+  },
+  {
+    id: 287,
+    name: "Flor da Meia-Noite",
+    designer: "Nocturne Parfums",
+    imageUrl: "https://imgur.com/wORXsnY.jpg",
+    year: 2025,
+    notes: {
+      top: ["Pimenta Preta", "Groselha"],
+      heart: ["Tuberosa", "Ylang-Ylang", "Jasmim Noturno"],
+      base: ["Sândalo", "Patchouli", "Cacau"]
+    },
+    story: "Florescendo sob o luar. Flor da Meia-Noite é sedutora, narcótica e misteriosa.",
+    categories: ["Floral", "Oriental"]
+  },
+  {
+    id: 288,
+    name: "Brisa Dourada",
+    designer: "Helios Fragrances",
+    imageUrl: "https://imgur.com/wHApzPS.jpg",
+    year: 2024,
+    notes: {
+      top: ["Mandarina", "Neroli"],
+      heart: ["Flor de Laranjeira", "Acorde Solar"],
+      base: ["Madeira Clara", "Musk", "Âmbar"]
+    },
+    story: "O vento quente do verão. Brisa Dourada traz a alegria e a vitalidade do sol.",
+    categories: ["Fresco", "Floral"]
   }
 ];
