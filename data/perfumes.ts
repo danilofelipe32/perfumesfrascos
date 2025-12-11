@@ -3979,114 +3979,114 @@ export const perfumes: Perfume[] = [
   },
   {
     id: 289,
-    name: "Cúpula Celeste",
+    name: "Céu de Safira",
     designer: "Cosmos Scents",
-    imageUrl: "https://imgur.com/PHPf9w0.jpg",
+    imageUrl: "https://imgur.com/UQnQZCE.jpg",
     year: 2025,
     notes: {
-      top: ["Aldeídos", "Bergamota"],
-      heart: ["Lótus Azul", "Íris", "Violeta"],
-      base: ["Almíscar Branco", "Sândalo", "Âmbar Claro"]
+      top: ["Mirtilo", "Ozônio"],
+      heart: ["Íris", "Violeta"],
+      base: ["Almíscar", "Cedro"]
     },
-    story: "Uma abóbada de cristal que reflete o infinito do céu. Cúpula Celeste é etéreo e expansivo, trazendo a serenidade das alturas.",
+    story: "A imensidão do céu azul capturada em uma joia.",
     categories: ["Fresco", "Floral"]
   },
   {
     id: 290,
-    name: "Chama de Cobre",
-    designer: "Ignis Scents",
-    imageUrl: "https://imgur.com/fJZ2yHO.jpg",
+    name: "Rosa Encantada",
+    designer: "Floraïs",
+    imageUrl: "https://imgur.com/LrAAowe.jpg",
     year: 2024,
     notes: {
-      top: ["Gengibre", "Pimenta Rosa"],
-      heart: ["Canela", "Açafrão", "Rosa Metálica"],
-      base: ["Âmbar", "Mirra", "Madeira de Guaiaco"]
+      top: ["Pimenta Rosa", "Framboesa"],
+      heart: ["Rosa", "Peônia"],
+      base: ["Baunilha", "Sândalo"]
     },
-    story: "O calor radiante do metal fundido. Chama de Cobre é intenso e vibrante, uma fusão de especiarias quentes e brilho metálico.",
-    categories: ["Oriental", "Amadeirado"]
+    story: "Um jardim secreto onde as rosas nunca murcham.",
+    categories: ["Floral"]
   },
   {
     id: 291,
-    name: "Essência de Lavanda",
-    designer: "Botanica",
-    imageUrl: "https://imgur.com/j8IthuB.jpg",
+    name: "Verde Profundo",
+    designer: "Viridis",
+    imageUrl: "https://imgur.com/C3RpPil.jpg",
     year: 2023,
     notes: {
-      top: ["Lavanda", "Bergamota"],
-      heart: ["Sálvia", "Gerânio", "Alecrim"],
-      base: ["Cedro", "Fava Tonka", "Musgo"]
+      top: ["Manjericão", "Lima"],
+      heart: ["Chá Verde", "Bambu"],
+      base: ["Musgo", "Vetiver"]
     },
-    story: "A pureza de um campo de lavanda em plena floração. Uma fragrância aromática clássica que acalma a mente e o espírito.",
-    categories: ["Aromático", "Floral"]
+    story: "A tranquilidade de uma floresta antiga e densa.",
+    categories: ["Aromático", "Verde"]
   },
   {
     id: 292,
-    name: "Gota de Âmbar",
-    designer: "Artisan Atelier",
-    imageUrl: "https://imgur.com/jOjYcDw.jpg",
+    name: "Coroa de Ouro",
+    designer: "Imperiale Scents",
+    imageUrl: "https://imgur.com/7bqi0Vd.jpg",
     year: 2025,
     notes: {
-      top: ["Laranja Doce", "Cardamomo"],
-      heart: ["Âmbar", "Benjoim", "Mel"],
-      base: ["Baunilha", "Ládano", "Sândalo"]
+      top: ["Açafrão", "Mel"],
+      heart: ["Jasmim", "Âmbar"],
+      base: ["Oud", "Mirra"]
     },
-    story: "Uma resina preciosa capturada no tempo. Gota de Âmbar é rico, doce e profundamente envolvente, como um abraço caloroso.",
+    story: "O símbolo máximo de poder e riqueza.",
     categories: ["Oriental", "Gourmand"]
   },
   {
     id: 293,
-    name: "Mar Profundo",
-    designer: "Aura Maris",
-    imageUrl: "https://imgur.com/vHEgYFS.jpg",
+    name: "Rubi Flamejante",
+    designer: "Ignis Scents",
+    imageUrl: "https://imgur.com/wB0mCEt.jpg",
     year: 2024,
     notes: {
-      top: ["Notas Oceânicas", "Menta"],
-      heart: ["Algas Marinhas", "Sal Marinho", "Lótus"],
-      base: ["Madeira Flutuante", "Ambregris", "Musk"]
+      top: ["Cereja", "Canela"],
+      heart: ["Rosa Vermelha", "Pimenta"],
+      base: ["Patchouli", "Couro"]
     },
-    story: "Os mistérios das fossas abissais. Mar Profundo é fresco, salgado e enigmático, evocando a vastidão azul.",
-    categories: ["Fresco", "Aromático"]
+    story: "Uma paixão que arde intensamente.",
+    categories: ["Oriental", "Frutado"]
   },
   {
     id: 294,
-    name: "Orquídea Selvagem",
-    designer: "Sylva Studios",
-    imageUrl: "https://imgur.com/PAfv20b.jpg",
+    name: "Noite Eterna",
+    designer: "Nocturne Parfums",
+    imageUrl: "https://imgur.com/kLaelSO.jpg",
     year: 2023,
     notes: {
-      top: ["Pera", "Pimenta Rosa"],
-      heart: ["Orquídea", "Jasmim", "Magnólia"],
-      base: ["Patchouli", "Baunilha", "Musgo"]
+      top: ["Ameixa", "Groselha"],
+      heart: ["Orquídea Negra", "Incenso"],
+      base: ["Ébano", "Almíscar Negro"]
     },
-    story: "Beleza exótica florescendo na mata. Orquídea Selvagem é floral e terroso, capturando a elegância natural da flora tropical.",
-    categories: ["Floral", "Chipre"]
+    story: "O mistério sedutor da escuridão absoluta.",
+    categories: ["Oriental", "Floral"]
   },
   {
     id: 295,
-    name: "Obsidiana Real",
-    designer: "Atelier Noir",
-    imageUrl: "https://imgur.com/7ZVo7x8.jpg",
+    name: "Cristal Puro",
+    designer: "Lapidari",
+    imageUrl: "https://imgur.com/6dfc8hj.jpg",
     year: 2025,
     notes: {
-      top: ["Pimenta Preta", "Bergamota"],
-      heart: ["Couro", "Íris", "Incenso"],
-      base: ["Vetiver", "Madeira de Ébano", "Almíscar Negro"]
+      top: ["Pera", "Aldeídos"],
+      heart: ["Lírio", "Frésia"],
+      base: ["Musk Branco", "Ambreta"]
     },
-    story: "Escuro e impenetrável como a pedra vulcânica. Obsidiana Real é uma fragrância de poder e sofisticação noturna.",
-    categories: ["Couro", "Amadeirado"]
+    story: "Transparência e luz em sua forma mais pura.",
+    categories: ["Fresco", "Floral"]
   },
   {
     id: 296,
-    name: "Raio de Sol",
+    name: "Sol Poente",
     designer: "Helios Fragrances",
-    imageUrl: "https://imgur.com/w65ax6Y.jpg",
+    imageUrl: "https://imgur.com/mVoZxBd.jpg",
     year: 2024,
     notes: {
-      top: ["Yuzu", "Limão Siciliano"],
-      heart: ["Flor de Laranjeira", "Mimosa", "Frésia"],
-      base: ["Musk", "Âmbar Claro", "Madeira de Cedro"]
+      top: ["Laranja", "Gengibre"],
+      heart: ["Ylang-Ylang", "Canela"],
+      base: ["Âmbar", "Benjoim"]
     },
-    story: "A alegria efervescente de uma manhã ensolarada. Raio de Sol ilumina o dia com sua energia cítrica e floral.",
-    categories: ["Fresco", "Floral"]
+    story: "As cores quentes do fim de tarde no horizonte.",
+    categories: ["Oriental", "Cítrico"]
   }
 ];
