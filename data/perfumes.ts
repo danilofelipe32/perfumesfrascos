@@ -2959,7 +2959,7 @@ export const perfumes: Perfume[] = [
     id: 215,
     name: "Sombra da Lua",
     designer: "Nocturne Parfums",
-    imageUrl: "https://imgur.com/TMfVyOZ.jpg",
+    imageUrl: "https://i.imgur.com/TMfVyOZ.jpg",
     year: 2025,
     notes: {
       top: ["Pimenta Preta", "Groselha"],
@@ -2973,7 +2973,7 @@ export const perfumes: Perfume[] = [
     id: 216,
     name: "Aurora Boreal",
     designer: "Glacialis Parfums",
-    imageUrl: "https://imgur.com/dnYo90q.jpg",
+    imageUrl: "https://i.imgur.com/dnYo90q.jpg",
     year: 2024,
     notes: {
       top: ["Menta Gelada", "Bergamota"],
@@ -2987,7 +2987,7 @@ export const perfumes: Perfume[] = [
     id: 217,
     name: "Fogo Primordial",
     designer: "Ignis Scents",
-    imageUrl: "https://imgur.com/G5e81rP.jpg",
+    imageUrl: "https://i.imgur.com/G5e81rP.jpg",
     year: 2023,
     notes: {
       top: ["Pimenta Malagueta", "Canela"],
@@ -3001,7 +3001,7 @@ export const perfumes: Perfume[] = [
     id: 218,
     name: "Jardim de Cristal",
     designer: "Lapidari",
-    imageUrl: "https://imgur.com/ONItK7A.jpg",
+    imageUrl: "https://i.imgur.com/ONItK7A.jpg",
     year: 2025,
     notes: {
       top: ["Pera", "Maçã Verde"],
@@ -3015,7 +3015,7 @@ export const perfumes: Perfume[] = [
     id: 219,
     name: "Essência do Tempo",
     designer: "Metropole Fragrances",
-    imageUrl: "https://imgur.com/fmw1zE0.jpg",
+    imageUrl: "https://i.imgur.com/fmw1zE0.jpg",
     year: 2024,
     notes: {
       top: ["Cardamomo", "Gengibre"],
@@ -3029,7 +3029,7 @@ export const perfumes: Perfume[] = [
     id: 220,
     name: "Luz Estelar",
     designer: "Cosmos Scents",
-    imageUrl: "https://imgur.com/Ph10ra8.jpg",
+    imageUrl: "https://i.imgur.com/Ph10ra8.jpg",
     year: 2024,
     notes: {
       top: ["Aldeídos", "Pera"],
@@ -3043,7 +3043,7 @@ export const perfumes: Perfume[] = [
     id: 221,
     name: "Jardim Imperial",
     designer: "Maison Royale",
-    imageUrl: "https://imgur.com/kdH7Ped.jpg",
+    imageUrl: "https://i.imgur.com/kdH7Ped.jpg",
     year: 2023,
     notes: {
       top: ["Peônia", "Lichia"],
@@ -3057,7 +3057,7 @@ export const perfumes: Perfume[] = [
     id: 222,
     name: "Orvalho da Manhã",
     designer: "Floraïs",
-    imageUrl: "https://imgur.com/4uiqK1w.jpg",
+    imageUrl: "https://i.imgur.com/4uiqK1w.jpg",
     year: 2025,
     notes: {
       top: ["Grama Cortada", "Menta"],
@@ -3071,7 +3071,7 @@ export const perfumes: Perfume[] = [
     id: 223,
     name: "Noite de Gala",
     designer: "Sartoria Olfattiva",
-    imageUrl: "https://imgur.com/UFPVqI2.jpg",
+    imageUrl: "https://i.imgur.com/UFPVqI2.jpg",
     year: 2024,
     notes: {
       top: ["Champanhe", "Morango"],
@@ -3085,7 +3085,7 @@ export const perfumes: Perfume[] = [
     id: 224,
     name: "Águas Profundas",
     designer: "Aura Maris",
-    imageUrl: "https://imgur.com/Ox2cvQJ.jpg",
+    imageUrl: "https://i.imgur.com/Ox2cvQJ.jpg",
     year: 2023,
     notes: {
       top: ["Sal Marinho", "Limão"],
@@ -3099,7 +3099,7 @@ export const perfumes: Perfume[] = [
     id: 225,
     name: "Ouro Antigo",
     designer: "Imperiale Scents",
-    imageUrl: "https://imgur.com/QFIkwqb.jpg",
+    imageUrl: "https://i.imgur.com/QFIkwqb.jpg",
     year: 2022,
     notes: {
       top: ["Açafrão", "Canela"],
@@ -3113,7 +3113,7 @@ export const perfumes: Perfume[] = [
     id: 226,
     name: "Brisa Suave",
     designer: "Kanso Scents",
-    imageUrl: "https://imgur.com/EVd7RDB.jpg",
+    imageUrl: "https://i.imgur.com/EVd7RDB.jpg",
     year: 2024,
     notes: {
       top: ["Chá Branco", "Bambu"],
@@ -3127,7 +3127,7 @@ export const perfumes: Perfume[] = [
     id: 227,
     name: "Rubi Sangrento",
     designer: "Atelier Rouge",
-    imageUrl: "https://imgur.com/4h99xPS.jpg",
+    imageUrl: "https://i.imgur.com/4h99xPS.jpg",
     year: 2025,
     notes: {
       top: ["Cereja", "Pimenta Rosa"],
@@ -3141,7 +3141,7 @@ export const perfumes: Perfume[] = [
     id: 228,
     name: "Floresta Encantada",
     designer: "Sylva Studios",
-    imageUrl: "https://imgur.com/PgahrL7.jpg",
+    imageUrl: "https://i.imgur.com/PgahrL7.jpg",
     year: 2023,
     notes: {
       top: ["Pinheiro", "Groselha"],
@@ -3155,7 +3155,7 @@ export const perfumes: Perfume[] = [
     id: 229,
     name: "Céu de Verão",
     designer: "Symphonia Olfattiva",
-    imageUrl: "https://imgur.com/CCgqR3J.jpg",
+    imageUrl: "https://i.imgur.com/CCgqR3J.jpg",
     year: 2024,
     notes: {
       top: ["Bergamota", "Grapefruit"],
@@ -3169,7 +3169,7 @@ export const perfumes: Perfume[] = [
     id: 230,
     name: "Doce Melodia",
     designer: "Dolce Vita",
-    imageUrl: "https://imgur.com/tnWV5IV.jpg",
+    imageUrl: "https://i.imgur.com/tnWV5IV.jpg",
     year: 2025,
     notes: {
       top: ["Pêssego", "Damasco"],
@@ -3183,7 +3183,7 @@ export const perfumes: Perfume[] = [
     id: 231,
     name: "Pedra Filosofal",
     designer: "Grimório Aromas",
-    imageUrl: "https://imgur.com/FDC7AIG.jpg",
+    imageUrl: "https://i.imgur.com/FDC7AIG.jpg",
     year: 2023,
     notes: {
       top: ["Incenso", "Mirra"],
@@ -3197,7 +3197,7 @@ export const perfumes: Perfume[] = [
     id: 232,
     name: "Vento do Deserto",
     designer: "Nomad Fragrances",
-    imageUrl: "https://imgur.com/qE7iGjh.jpg",
+    imageUrl: "https://i.imgur.com/qE7iGjh.jpg",
     year: 2024,
     notes: {
       top: ["Cominho", "Cardamomo"],
@@ -3211,7 +3211,7 @@ export const perfumes: Perfume[] = [
     id: 233,
     name: "Flor de Gelo",
     designer: "Glacialis Parfums",
-    imageUrl: "https://imgur.com/FWbvt7X.jpg",
+    imageUrl: "https://i.imgur.com/FWbvt7X.jpg",
     year: 2025,
     notes: {
       top: ["Menta", "Eucalipto"],
@@ -3225,7 +3225,7 @@ export const perfumes: Perfume[] = [
     id: 234,
     name: "Coração de Madeira",
     designer: "Artisan Woodworks",
-    imageUrl: "https://imgur.com/3LAU0N9.jpg",
+    imageUrl: "https://i.imgur.com/3LAU0N9.jpg",
     year: 2023,
     notes: {
       top: ["Cedro", "Pimenta Preta"],
@@ -3239,7 +3239,7 @@ export const perfumes: Perfume[] = [
     id: 235,
     name: "Essência Pura",
     designer: "Aether Fragrances",
-    imageUrl: "https://imgur.com/eQJA63W.jpg",
+    imageUrl: "https://i.imgur.com/eQJA63W.jpg",
     year: 2024,
     notes: {
       top: ["Iso E Super", "Ambreta"],
@@ -3253,7 +3253,7 @@ export const perfumes: Perfume[] = [
     id: 236,
     name: "Jóia Rara",
     designer: "Bijoux Parfumés",
-    imageUrl: "https://imgur.com/yDOoxAG.jpg",
+    imageUrl: "https://i.imgur.com/yDOoxAG.jpg",
     year: 2025,
     notes: {
       top: ["Pera", "Frésia"],
@@ -3267,7 +3267,7 @@ export const perfumes: Perfume[] = [
     id: 237,
     name: "Nebulosa Violeta",
     designer: "Cosmos Scents",
-    imageUrl: "https://imgur.com/9Dd8Ez8.jpg",
+    imageUrl: "https://i.imgur.com/9Dd8Ez8.jpg",
     year: 2025,
     notes: {
       top: ["Amora", "Pimenta Rosa"],
@@ -3281,7 +3281,7 @@ export const perfumes: Perfume[] = [
     id: 238,
     name: "Cálice de Fogo",
     designer: "Ignis Scents",
-    imageUrl: "https://imgur.com/tMKCZzb.jpg",
+    imageUrl: "https://i.imgur.com/tMKCZzb.jpg",
     year: 2024,
     notes: {
       top: ["Canela", "Laranja"],
@@ -3295,7 +3295,7 @@ export const perfumes: Perfume[] = [
     id: 239,
     name: "Água da Nascente",
     designer: "Aura Maris",
-    imageUrl: "https://imgur.com/44IfEul.jpg",
+    imageUrl: "https://i.imgur.com/44IfEul.jpg",
     year: 2023,
     notes: {
       top: ["Limão", "Hortelã"],
@@ -3309,7 +3309,7 @@ export const perfumes: Perfume[] = [
     id: 240,
     name: "Rosa Real",
     designer: "Maison Royale",
-    imageUrl: "https://imgur.com/kS4aDkM.jpg",
+    imageUrl: "https://i.imgur.com/kS4aDkM.jpg",
     year: 2024,
     notes: {
       top: ["Champanhe", "Framboesa"],
@@ -3323,7 +3323,7 @@ export const perfumes: Perfume[] = [
     id: 242,
     name: "Enigma Noturno",
     designer: "Nocturne Parfums",
-    imageUrl: "https://imgur.com/i0SdLti.jpg",
+    imageUrl: "https://i.imgur.com/i0SdLti.jpg",
     year: 2025,
     notes: {
        top: ["Ameixa", "Bergamota"],
@@ -3337,7 +3337,7 @@ export const perfumes: Perfume[] = [
     id: 243,
     name: "Verde Imperial",
     designer: "Viridis",
-    imageUrl: "https://imgur.com/G7Vj6uD.jpg",
+    imageUrl: "https://i.imgur.com/G7Vj6uD.jpg",
     year: 2023,
     notes: {
       top: ["Gálbano", "Lima"],
@@ -3351,7 +3351,7 @@ export const perfumes: Perfume[] = [
     id: 244,
     name: "Obsidiana Bruta",
     designer: "Tectonic Scents",
-    imageUrl: "https://imgur.com/YUuQs7E.jpg",
+    imageUrl: "https://i.imgur.com/YUuQs7E.jpg",
     year: 2024,
     notes: {
       top: ["Pimenta Preta", "Cardamomo"],
@@ -3365,7 +3365,7 @@ export const perfumes: Perfume[] = [
     id: 245,
     name: "Luz do Dia",
     designer: "Helios Fragrances",
-    imageUrl: "https://imgur.com/Eg3gFcf.jpg",
+    imageUrl: "https://i.imgur.com/Eg3gFcf.jpg",
     year: 2023,
     notes: {
       top: ["Yuzu", "Tangerina"],
@@ -3379,7 +3379,7 @@ export const perfumes: Perfume[] = [
     id: 246,
     name: "Gota Pura",
     designer: "Kanso Scents",
-    imageUrl: "https://imgur.com/9kquCSQ.jpg",
+    imageUrl: "https://i.imgur.com/9kquCSQ.jpg",
     year: 2025,
     notes: {
       top: ["Aldeídos", "Pera"],
@@ -3393,7 +3393,7 @@ export const perfumes: Perfume[] = [
     id: 247,
     name: "Esplendor Noturno",
     designer: "Nocturne Parfums",
-    imageUrl: "https://imgur.com/5yOgctG.jpg",
+    imageUrl: "https://i.imgur.com/5yOgctG.jpg",
     year: 2024,
     notes: {
       top: ["Amora", "Pimenta Rosa"],
@@ -3407,7 +3407,7 @@ export const perfumes: Perfume[] = [
     id: 248,
     name: "Vento Solar",
     designer: "Helios Fragrances",
-    imageUrl: "https://imgur.com/vQLv4LL.jpg",
+    imageUrl: "https://i.imgur.com/vQLv4LL.jpg",
     year: 2025,
     notes: {
       top: ["Bergamota", "Grapefruit"],
@@ -3421,7 +3421,7 @@ export const perfumes: Perfume[] = [
     id: 249,
     name: "Floresta de Cristal",
     designer: "Sylva Studios",
-    imageUrl: "https://imgur.com/53Yu230.jpg",
+    imageUrl: "https://i.imgur.com/53Yu230.jpg",
     year: 2023,
     notes: {
       top: ["Agulhas de Pinheiro", "Limão Siciliano"],
@@ -3435,7 +3435,7 @@ export const perfumes: Perfume[] = [
     id: 250,
     name: "Guardião da Noite",
     designer: "Obscura Parfums",
-    imageUrl: "https://imgur.com/qzm6knL.jpg",
+    imageUrl: "https://i.imgur.com/qzm6knL.jpg",
     year: 2025,
     notes: {
       top: ["Pimenta Preta", "Cardamomo"],
@@ -3449,7 +3449,7 @@ export const perfumes: Perfume[] = [
     id: 251,
     name: "Sol da Toscana",
     designer: "Sartoria Olfattiva",
-    imageUrl: "https://imgur.com/NgUGWMJ.jpg",
+    imageUrl: "https://i.imgur.com/NgUGWMJ.jpg",
     year: 2024,
     notes: {
       top: ["Bergamota", "Néroli"],
@@ -3463,7 +3463,7 @@ export const perfumes: Perfume[] = [
     id: 252,
     name: "Onda de Cristal",
     designer: "Aura Maris",
-    imageUrl: "https://imgur.com/fdEnDqy.jpg",
+    imageUrl: "https://i.imgur.com/fdEnDqy.jpg",
     year: 2023,
     notes: {
       top: ["Notas Oceânicas", "Limão"],
@@ -3477,7 +3477,7 @@ export const perfumes: Perfume[] = [
     id: 253,
     name: "Cetro Real",
     designer: "Maison Royale",
-    imageUrl: "https://imgur.com/KfY9VFm.jpg",
+    imageUrl: "https://i.imgur.com/KfY9VFm.jpg",
     year: 2024,
     notes: {
       top: ["Açafrão", "Noz-moscada"],
@@ -3491,7 +3491,7 @@ export const perfumes: Perfume[] = [
     id: 254,
     name: "Veludo Negro",
     designer: "Atelier Noir",
-    imageUrl: "https://imgur.com/9g4ITyR.jpg",
+    imageUrl: "https://i.imgur.com/9g4ITyR.jpg",
     year: 2025,
     notes: {
       top: ["Cacau", "Pimenta Preta"],
@@ -3505,7 +3505,7 @@ export const perfumes: Perfume[] = [
     id: 255,
     name: "Brisa de Cristal",
     designer: "Lapidari",
-    imageUrl: "https://imgur.com/vHntSpc.jpg",
+    imageUrl: "https://i.imgur.com/vHntSpc.jpg",
     year: 2023,
     notes: {
       top: ["Notas de Ozônio", "Pera"],
@@ -3519,7 +3519,7 @@ export const perfumes: Perfume[] = [
     id: 256,
     name: "Chama Púrpura",
     designer: "Ignis Scents",
-    imageUrl: "https://imgur.com/iVyIZme.jpg",
+    imageUrl: "https://i.imgur.com/iVyIZme.jpg",
     year: 2024,
     notes: {
       top: ["Amora", "Pimenta Rosa"],
@@ -3533,7 +3533,7 @@ export const perfumes: Perfume[] = [
     id: 257,
     name: "Horizonte Azul",
     designer: "Aura Maris",
-    imageUrl: "https://imgur.com/lJWa57h.jpg",
+    imageUrl: "https://i.imgur.com/lJWa57h.jpg",
     year: 2025,
     notes: {
       top: ["Bergamota", "Notas Marinhas"],
@@ -3547,7 +3547,7 @@ export const perfumes: Perfume[] = [
     id: 258,
     name: "Musgo Selvagem",
     designer: "Sylva Studios",
-    imageUrl: "https://imgur.com/VRA2EEu.jpg",
+    imageUrl: "https://i.imgur.com/VRA2EEu.jpg",
     year: 2023,
     notes: {
       top: ["Gálbano", "Pinho"],
@@ -3561,7 +3561,7 @@ export const perfumes: Perfume[] = [
     id: 259,
     name: "Cúpula Dourada",
     designer: "Arquitetura Olfativa",
-    imageUrl: "https://imgur.com/qMxUzgI.jpg",
+    imageUrl: "https://i.imgur.com/qMxUzgI.jpg",
     year: 2025,
     notes: {
       top: ["Limão Siciliano", "Gengibre"],
@@ -3575,7 +3575,7 @@ export const perfumes: Perfume[] = [
     id: 260,
     name: "Safira Profunda",
     designer: "Aura Maris",
-    imageUrl: "https://imgur.com/IuhfyNE.jpg",
+    imageUrl: "https://i.imgur.com/IuhfyNE.jpg",
     year: 2025,
     notes: {
       top: ["Sal Marinho", "Bergamota"],
@@ -3589,7 +3589,7 @@ export const perfumes: Perfume[] = [
     id: 261,
     name: "Mistério da Meia-Noite",
     designer: "Nocturne Parfums",
-    imageUrl: "https://imgur.com/2uO6Tn5.jpg",
+    imageUrl: "https://i.imgur.com/2uO6Tn5.jpg",
     year: 2024,
     notes: {
       top: ["Ameixa", "Groselha Preta"],
@@ -3603,7 +3603,7 @@ export const perfumes: Perfume[] = [
     id: 262,
     name: "Jardim Suspenso",
     designer: "Botanica",
-    imageUrl: "https://imgur.com/mOiO6Ym.jpg",
+    imageUrl: "https://i.imgur.com/mOiO6Ym.jpg",
     year: 2023,
     notes: {
       top: ["Hera", "Maçã Verde"],
@@ -3617,7 +3617,7 @@ export const perfumes: Perfume[] = [
     id: 263,
     name: "Fogo Sagrado",
     designer: "Ignis Scents",
-    imageUrl: "https://imgur.com/FkrAe0Q.jpg",
+    imageUrl: "https://i.imgur.com/FkrAe0Q.jpg",
     year: 2025,
     notes: {
       top: ["Canela", "Pimenta Rosa"],
@@ -3631,7 +3631,7 @@ export const perfumes: Perfume[] = [
     id: 264,
     name: "Coração de Aço",
     designer: "Metropole Fragrances",
-    imageUrl: "https://imgur.com/IbEIkvn.jpg",
+    imageUrl: "https://i.imgur.com/IbEIkvn.jpg",
     year: 2024,
     notes: {
       top: ["Notas Metálicas", "Pimenta Preta"],
@@ -3645,7 +3645,7 @@ export const perfumes: Perfume[] = [
     id: 265,
     name: "Pérola do Mar",
     designer: "Lapidari",
-    imageUrl: "https://imgur.com/JTtaoP9.jpg",
+    imageUrl: "https://i.imgur.com/JTtaoP9.jpg",
     year: 2023,
     notes: {
       top: ["Pera", "Notas Oceânicas"],
@@ -3659,7 +3659,7 @@ export const perfumes: Perfume[] = [
     id: 266,
     name: "Rosa do Deserto",
     designer: "Helios Fragrances",
-    imageUrl: "https://imgur.com/HWD3act.jpg",
+    imageUrl: "https://i.imgur.com/HWD3act.jpg",
     year: 2025,
     notes: {
       top: ["Acorde de Areia", "Açafrão"],
@@ -3673,7 +3673,7 @@ export const perfumes: Perfume[] = [
     id: 267,
     name: "Brisa da Montanha",
     designer: "Glacialis Parfums",
-    imageUrl: "https://imgur.com/vJX5OOx.jpg",
+    imageUrl: "https://i.imgur.com/vJX5OOx.jpg",
     year: 2024,
     notes: {
       top: ["Menta", "Notas Ozônicas"],
@@ -3687,7 +3687,7 @@ export const perfumes: Perfume[] = [
     id: 268,
     name: "Ouro Líquido",
     designer: "Imperiale Scents",
-    imageUrl: "https://imgur.com/FTVaoBV.jpg",
+    imageUrl: "https://i.imgur.com/FTVaoBV.jpg",
     year: 2023,
     notes: {
       top: ["Mel", "Açafrão"],
@@ -3701,7 +3701,7 @@ export const perfumes: Perfume[] = [
     id: 269,
     name: "Sombra Vermelha",
     designer: "Atelier Rouge",
-    imageUrl: "https://imgur.com/RJdMOvR.jpg",
+    imageUrl: "https://i.imgur.com/RJdMOvR.jpg",
     year: 2025,
     notes: {
       top: ["Groselha Vermelha", "Pimenta Rosa"],
@@ -3715,7 +3715,7 @@ export const perfumes: Perfume[] = [
     id: 270,
     name: "Cristal Azul",
     designer: "Cosmos Scents",
-    imageUrl: "https://imgur.com/IL4Yguq.jpg",
+    imageUrl: "https://i.imgur.com/IL4Yguq.jpg",
     year: 2024,
     notes: {
       top: ["Bluebells", "Maçã Verde"],
@@ -3729,7 +3729,7 @@ export const perfumes: Perfume[] = [
     id: 271,
     name: "Madeira Antiga",
     designer: "Artisan Woodworks",
-    imageUrl: "https://imgur.com/iMZNCvn.jpg",
+    imageUrl: "https://i.imgur.com/iMZNCvn.jpg",
     year: 2023,
     notes: {
       top: ["Papiro", "Bergamota"],
@@ -3743,7 +3743,7 @@ export const perfumes: Perfume[] = [
     id: 272,
     name: "Luz da Lua",
     designer: "Nocturne Parfums",
-    imageUrl: "https://imgur.com/tp57Qvd.jpg",
+    imageUrl: "https://i.imgur.com/tp57Qvd.jpg",
     year: 2025,
     notes: {
       top: ["Pera", "Bergamota"],
@@ -3757,7 +3757,7 @@ export const perfumes: Perfume[] = [
     id: 273,
     name: "Esmeralda Real",
     designer: "Maison Royale",
-    imageUrl: "https://imgur.com/PZkqF6Y.jpg",
+    imageUrl: "https://i.imgur.com/PZkqF6Y.jpg",
     year: 2024,
     notes: {
       top: ["Gálbano", "Lima"],
@@ -3771,7 +3771,7 @@ export const perfumes: Perfume[] = [
     id: 274,
     name: "Rubi Intenso",
     designer: "Amore Scents",
-    imageUrl: "https://imgur.com/MdB8toF.jpg",
+    imageUrl: "https://i.imgur.com/MdB8toF.jpg",
     year: 2023,
     notes: {
       top: ["Romã", "Framboesa"],
@@ -3785,7 +3785,7 @@ export const perfumes: Perfume[] = [
     id: 275,
     name: "Onda Azul",
     designer: "Aura Maris",
-    imageUrl: "https://imgur.com/FNCyhbe.jpg",
+    imageUrl: "https://i.imgur.com/FNCyhbe.jpg",
     year: 2025,
     notes: {
       top: ["Brisa do Mar", "Melão"],
@@ -3799,7 +3799,7 @@ export const perfumes: Perfume[] = [
     id: 276,
     name: "Âmbar Dourado",
     designer: "Imperiale Scents",
-    imageUrl: "https://imgur.com/oXU889Z.jpg",
+    imageUrl: "https://i.imgur.com/oXU889Z.jpg",
     year: 2024,
     notes: {
       top: ["Laranja", "Canela"],
@@ -3813,7 +3813,7 @@ export const perfumes: Perfume[] = [
     id: 277,
     name: "Flor de Cerejeira",
     designer: "Floraïs",
-    imageUrl: "https://imgur.com/T4YHeza.jpg",
+    imageUrl: "https://i.imgur.com/T4YHeza.jpg",
     year: 2023,
     notes: {
       top: ["Flor de Cerejeira", "Chá Branco"],
@@ -3827,7 +3827,7 @@ export const perfumes: Perfume[] = [
     id: 278,
     name: "Pedra da Lua",
     designer: "Cosmos Scents",
-    imageUrl: "https://imgur.com/JS4ZZLV.jpg",
+    imageUrl: "https://i.imgur.com/JS4ZZLV.jpg",
     year: 2025,
     notes: {
       top: ["Violeta", "Anis"],
@@ -3841,7 +3841,7 @@ export const perfumes: Perfume[] = [
     id: 279,
     name: "Obsidiana",
     designer: "Tectonic Scents",
-    imageUrl: "https://imgur.com/k8RB0ZO.jpg",
+    imageUrl: "https://i.imgur.com/k8RB0ZO.jpg",
     year: 2024,
     notes: {
       top: ["Pimenta Preta", "Pólvora"],
@@ -3975,6 +3975,118 @@ export const perfumes: Perfume[] = [
       base: ["Madeira Clara", "Musk", "Âmbar"]
     },
     story: "O vento quente do verão. Brisa Dourada traz a alegria e a vitalidade do sol.",
+    categories: ["Fresco", "Floral"]
+  },
+  {
+    id: 289,
+    name: "Cúpula Celeste",
+    designer: "Cosmos Scents",
+    imageUrl: "https://imgur.com/PHPf9w0.jpg",
+    year: 2025,
+    notes: {
+      top: ["Aldeídos", "Bergamota"],
+      heart: ["Lótus Azul", "Íris", "Violeta"],
+      base: ["Almíscar Branco", "Sândalo", "Âmbar Claro"]
+    },
+    story: "Uma abóbada de cristal que reflete o infinito do céu. Cúpula Celeste é etéreo e expansivo, trazendo a serenidade das alturas.",
+    categories: ["Fresco", "Floral"]
+  },
+  {
+    id: 290,
+    name: "Chama de Cobre",
+    designer: "Ignis Scents",
+    imageUrl: "https://imgur.com/fJZ2yHO.jpg",
+    year: 2024,
+    notes: {
+      top: ["Gengibre", "Pimenta Rosa"],
+      heart: ["Canela", "Açafrão", "Rosa Metálica"],
+      base: ["Âmbar", "Mirra", "Madeira de Guaiaco"]
+    },
+    story: "O calor radiante do metal fundido. Chama de Cobre é intenso e vibrante, uma fusão de especiarias quentes e brilho metálico.",
+    categories: ["Oriental", "Amadeirado"]
+  },
+  {
+    id: 291,
+    name: "Essência de Lavanda",
+    designer: "Botanica",
+    imageUrl: "https://imgur.com/j8IthuB.jpg",
+    year: 2023,
+    notes: {
+      top: ["Lavanda", "Bergamota"],
+      heart: ["Sálvia", "Gerânio", "Alecrim"],
+      base: ["Cedro", "Fava Tonka", "Musgo"]
+    },
+    story: "A pureza de um campo de lavanda em plena floração. Uma fragrância aromática clássica que acalma a mente e o espírito.",
+    categories: ["Aromático", "Floral"]
+  },
+  {
+    id: 292,
+    name: "Gota de Âmbar",
+    designer: "Artisan Atelier",
+    imageUrl: "https://imgur.com/jOjYcDw.jpg",
+    year: 2025,
+    notes: {
+      top: ["Laranja Doce", "Cardamomo"],
+      heart: ["Âmbar", "Benjoim", "Mel"],
+      base: ["Baunilha", "Ládano", "Sândalo"]
+    },
+    story: "Uma resina preciosa capturada no tempo. Gota de Âmbar é rico, doce e profundamente envolvente, como um abraço caloroso.",
+    categories: ["Oriental", "Gourmand"]
+  },
+  {
+    id: 293,
+    name: "Mar Profundo",
+    designer: "Aura Maris",
+    imageUrl: "https://imgur.com/vHEgYFS.jpg",
+    year: 2024,
+    notes: {
+      top: ["Notas Oceânicas", "Menta"],
+      heart: ["Algas Marinhas", "Sal Marinho", "Lótus"],
+      base: ["Madeira Flutuante", "Ambregris", "Musk"]
+    },
+    story: "Os mistérios das fossas abissais. Mar Profundo é fresco, salgado e enigmático, evocando a vastidão azul.",
+    categories: ["Fresco", "Aromático"]
+  },
+  {
+    id: 294,
+    name: "Orquídea Selvagem",
+    designer: "Sylva Studios",
+    imageUrl: "https://imgur.com/PAfv20b.jpg",
+    year: 2023,
+    notes: {
+      top: ["Pera", "Pimenta Rosa"],
+      heart: ["Orquídea", "Jasmim", "Magnólia"],
+      base: ["Patchouli", "Baunilha", "Musgo"]
+    },
+    story: "Beleza exótica florescendo na mata. Orquídea Selvagem é floral e terroso, capturando a elegância natural da flora tropical.",
+    categories: ["Floral", "Chipre"]
+  },
+  {
+    id: 295,
+    name: "Obsidiana Real",
+    designer: "Atelier Noir",
+    imageUrl: "https://imgur.com/7ZVo7x8.jpg",
+    year: 2025,
+    notes: {
+      top: ["Pimenta Preta", "Bergamota"],
+      heart: ["Couro", "Íris", "Incenso"],
+      base: ["Vetiver", "Madeira de Ébano", "Almíscar Negro"]
+    },
+    story: "Escuro e impenetrável como a pedra vulcânica. Obsidiana Real é uma fragrância de poder e sofisticação noturna.",
+    categories: ["Couro", "Amadeirado"]
+  },
+  {
+    id: 296,
+    name: "Raio de Sol",
+    designer: "Helios Fragrances",
+    imageUrl: "https://imgur.com/w65ax6Y.jpg",
+    year: 2024,
+    notes: {
+      top: ["Yuzu", "Limão Siciliano"],
+      heart: ["Flor de Laranjeira", "Mimosa", "Frésia"],
+      base: ["Musk", "Âmbar Claro", "Madeira de Cedro"]
+    },
+    story: "A alegria efervescente de uma manhã ensolarada. Raio de Sol ilumina o dia com sua energia cítrica e floral.",
     categories: ["Fresco", "Floral"]
   }
 ];
