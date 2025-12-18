@@ -460,7 +460,7 @@ export const perfumes: Perfume[] = [
         heart: ["Rosa", "Tuberosa", "Acorde de Veludo"],
         base: ["Âmbar", "Patchouli", "Fava Tonka"],
     },
-    story: "Inspirado no esplendor decadente dos palácios venezianos. Veneza Dourada é um perfume opulento e festivo, que evoca bailes de máscaras e o brilho do ouro.",
+    story: "Inspirado no esplendor decadente dos palácios venezianos. Veneza Dourada é um perfume opulento e festivo, que evoca bailles de máscaras e o brilho do ouro.",
     categories: ["Oriental", "Floral"],
   },
   {
@@ -1440,7 +1440,7 @@ export const perfumes: Perfume[] = [
       heart: ["Íris", "Lavanda", "Incenso Frio"],
       base: ["Âmbar Cinza", "Vetiver", "Almíscar Nebuloso"],
     },
-    story: "Um fragmento do cosmos contido em suas mãos. Orbe Celestial é uma fragrância etérea e mineral, que evoca o silêncio do espaço e o brilho de estrelas distantes. É um perfume frio e meditativo, uma viagem olfativa para além da atmosfera, para quem sonha com outros mundos.",
+    story: "Um fragmento do cosmos contido em suas mãos. Orbe Celestial é uma fragrância etérea e mineral, que evoca o silêncio do espaço e o brilho de estrelas distantes. É un perfume frio e meditativo, uma viagem olfativa para além da atmosfera, para quem sonha com outros mundos.",
     categories: ["Fresco", "Aromático"],
   },
   {
@@ -1776,7 +1776,7 @@ export const perfumes: Perfume[] = [
       heart: ["Gardênia", "Íris", "Magnólia"],
       base: ["Sândalo", "Almíscar Branco", "Cashmeran"],
     },
-    story: "Uma fragrância de estratégia e graça, inspirada na peça mais poderosa do xadrez. Rainha Branca é um floral branco imponente e cremoso, para quem comanda o jogo com elegância e inteligência.",
+    story: "Uma fragrância de estratégia e graça, inspirada na peça mais poderosa do xadrez. Rainha Branca é un floral branco imponente e cremoso, para quem comanda o jogo com elegância e inteligência.",
     categories: ["Floral", "Fresco"],
   },
   {
@@ -2238,7 +2238,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa Turca", "Oud", "Canela"],
       base: ["Âmbar", "Benjoim", "Patchouli"],
     },
-    story: "Uma joia da coroa, guardando um elixir de poder e paixão. Rubi Imperial é um perfume oriental opulento, uma mistura rica de rosa, especiarias e oud, para quem nasceu para reinar.",
+    story: "Uma joia da coroa, guardando un elixir de poder e paixão. Rubi Imperial é um perfume oriental opulento, uma mistura rica de rosa, especiarias e oud, para quem nasceu para reinar.",
     categories: ["Oriental", "Gourmand"],
   },
   {
@@ -4088,5 +4088,103 @@ export const perfumes: Perfume[] = [
     },
     story: "As cores quentes do fim de tarde no horizonte.",
     categories: ["Oriental", "Cítrico"]
+  },
+  {
+    id: 297,
+    name: "Profundidade Real",
+    designer: "Vapori Artistici",
+    imageUrl: "https://i.imgur.com/Ebyz4Yv.jpg",
+    year: 2025,
+    notes: {
+      top: ["Bergamota", "Pimenta Azul"],
+      heart: ["Jasmim da Noite", "Acorde Marinho"],
+      base: ["Âmbar Cinza", "Oud Branco", "Sândalo"]
+    },
+    story: "Um frasco que captura o azul profundo do oceano sob a luz do luar, com detalhes dourados que evocam tesouros submersos. Uma fragrância majestosa para quem comanda seu próprio destino.",
+    categories: ["Oriental", "Fresco"]
+  },
+  {
+    id: 298,
+    name: "Majestade Solar",
+    designer: "Helios Fragrances",
+    imageUrl: "https://i.imgur.com/ajq5WnA.jpg",
+    year: 2024,
+    notes: {
+      top: ["Mandarina Real", "Açafrão"],
+      heart: ["Flor de Laranjeira", "Mel de Flores"],
+      base: ["Âmbar Dourado", "Fava Tonka", "Baunilha"]
+    },
+    story: "O brilho absoluto do sol capturado em um recipiente ornamentado. Majestade Solar é um perfume radiante que celebra a luz, a riqueza e a energia vital eterna.",
+    categories: ["Floral", "Oriental", "Gourmand"]
+  },
+  {
+    id: 299,
+    name: "Pulso da Terra",
+    designer: "Viridis",
+    imageUrl: "https://i.imgur.com/5dhJyGS.jpg",
+    year: 2023,
+    notes: {
+      top: ["Folhas de Figo", "Manjericão"],
+      heart: ["Bambu", "Vetiver", "Musgo"],
+      base: ["Cedro", "Patchouli", "Âmbar Verde"]
+    },
+    story: "A força orgânica da natureza em uma escultura de vidro esmeralda. Pulso da Terra é uma conexão visceral com o solo fértil e a exuberância das florestas tropicais.",
+    categories: ["Aromático", "Amadeirado", "Verde"]
+  },
+  {
+    id: 300,
+    name: "Segredo de Ônix",
+    designer: "Obscura Parfums",
+    imageUrl: "https://i.imgur.com/4BaOjam.jpg",
+    year: 2025,
+    notes: {
+      top: ["Incenso Preto", "Cardamomo"],
+      heart: ["Orquídea Negra", "Couro"],
+      base: ["Oud", "Ládano", "Mirra"]
+    },
+    story: "Um monólito de mistério que guarda um elixir de sofisticação sombria. Segredo de Ônix é a personificação da elegância noturna, denso e inesquecível.",
+    categories: ["Oriental", "Amadeirado", "Couro"]
+  },
+  {
+    id: 301,
+    name: "Amor de Safira",
+    designer: "Joalheria Olfativa",
+    imageUrl: "https://i.imgur.com/GbSRBK7.jpg",
+    year: 2024,
+    notes: {
+      top: ["Blueberry", "Néroli"],
+      heart: ["Rosa Azul", "Gardênia", "Íris"],
+      base: ["Almíscar Branco", "Sândalo", "Âmbar Claro"]
+    },
+    story: "Um coração de cristal lapidado a partir da safira mais pura. Amor de Safira celebra a devoção eterna com um floral azul etéreo e reconfortante.",
+    categories: ["Floral", "Fresco"]
+  },
+  {
+    id: 302,
+    name: "Espectro de Aço",
+    designer: "GeoMetric Creations",
+    imageUrl: "https://i.imgur.com/SjCvXiy.jpg",
+    year: 2025,
+    notes: {
+      top: ["Aldeídos", "Pimenta Branca"],
+      heart: ["Notas Metálicas", "Violeta"],
+      base: ["Iso E Super", "Almíscar", "Cedro Branco"]
+    },
+    story: "Inspirado na precisão da arquitetura moderna e no brilho das cidades futuristas. Espectro de Aço é uma fragrância limpa, cortante e imponente.",
+    categories: ["Fresco", "Aromático"]
+  },
+  {
+    id: 303,
+    name: "Orvalho de Rubi",
+    designer: "Aethel",
+    imageUrl: "https://i.imgur.com/8Uk2spR.jpg",
+    year: 2023,
+    notes: {
+      top: ["Framboesa", "Pera"],
+      heart: ["Peônia", "Frésia", "Rosa Rosa"],
+      base: ["Baunilha", "Madeira de Cashmere", "Musk"]
+    },
+    story: "A delicadeza de uma flor cristalizada no orvalho da manhã. Orvalho de Rubi é um floral frutado vibrante que captura a inocência e o brilho da aurora.",
+    categories: ["Floral", "Fresco", "Rosa"]
   }
 ];
