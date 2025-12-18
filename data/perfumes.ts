@@ -194,7 +194,7 @@ export const perfumes: Perfume[] = [
         heart: ["Flor de Laranjeira", "Tuberosa", "Ylang-Ylang"],
         base: ["Baunilha", "Sândalo", "Âmbar"],
     },
-    story: "Aquecido pelo sol do deserto, o frasco Pedra do Sol brilha por dentro. A fragrância é um floral picante e radiante que se sente como luz do sol líquida, cheia de otimismo e energia vibrante.",
+    story: "Aquecido pelo sol do deserto, o frasco Pedra do Sol brilha por dentro. A fragrância é un floral picante e radiante que se sente como luz do sol líquida, cheia de otimismo e energia vibrante.",
     categories: ["Oriental", "Floral"],
   },
   {
@@ -2109,8 +2109,8 @@ export const perfumes: Perfume[] = [
     year: 2023,
     notes: {
       top: ["Pimenta Preta", "Incenso"],
-      heart: ["Couro Esfumaçado", "Ládano", "Oud"],
-      base: ["Vetiver de Java", "Musgo de Carvalho", "Âmbar Negro"],
+      heart: ["Couro Esfumaçado", "Incenso", "Madeira de Cedro"],
+      base: ["Vetiver", "Patchouli", "Âmbar"],
     },
     story: "Nascido do fogo e da pressão, este frasco captura a beleza bruta da rocha vulcânica. Noite Vulcânica é uma fragrância magnética e poderosa, que evoca a energia primária da terra e a elegância sombria da noite.",
     categories: ["Amadeirado", "Couro", "Oriental"],
@@ -4186,5 +4186,61 @@ export const perfumes: Perfume[] = [
     },
     story: "A delicadeza de uma flor cristalizada no orvalho da manhã. Orvalho de Rubi é um floral frutado vibrante que captura a inocência e o brilho da aurora.",
     categories: ["Floral", "Fresco", "Rosa"]
+  },
+  {
+    id: 304,
+    name: "Oceano de Safira",
+    designer: "Aura Maris",
+    imageUrl: "https://i.imgur.com/uLC5u78.jpg",
+    year: 2025,
+    notes: {
+      top: ["Sal Marinho", "Bergamota"],
+      heart: ["Lótus Azul", "Néroli"],
+      base: ["Ambregris", "Madeira Flutuante"]
+    },
+    story: "Captura o azul infinito e a pureza do oceano em um cristal de safira lapidado pela força das ondas.",
+    categories: ["Fresco", "Aromático"]
+  },
+  {
+    id: 305,
+    name: "Ouro do Oriente",
+    designer: "Maison Royale",
+    imageUrl: "https://i.imgur.com/9vF5gFh.jpg",
+    year: 2024,
+    notes: {
+      top: ["Açafrão", "Cardamomo"],
+      heart: ["Rosa Turca", "Oud Dourado"],
+      base: ["Âmbar", "Sândalo", "Baunilha"]
+    },
+    story: "Uma joia líquida que exala a opulência dos antigos palácios, protegida por um frasco de ouro e filigrana.",
+    categories: ["Oriental", "Floral"]
+  },
+  {
+    id: 306,
+    name: "Coração Escultural",
+    designer: "Atelier Rouge",
+    imageUrl: "https://i.imgur.com/2OID2LS.jpg",
+    year: 2023,
+    notes: {
+      top: ["Cereja Preta", "Pimenta Rosa"],
+      heart: ["Tuberosa", "Jasmim Sambac"],
+      base: ["Patchouli", "Fava Tonka", "Baunilha"]
+    },
+    story: "O design arrojado em vermelho carmesim guarda uma fragrância inebriante que celebra a paixão e a arte moderna.",
+    categories: ["Gourmand", "Floral"]
+  },
+  {
+    id: 307,
+    name: "Essência de Jade",
+    designer: "Sylva Studios",
+    imageUrl: "https://i.imgur.com/g2PhLj4.jpg",
+    year: 2025,
+    notes: {
+      top: ["Folhas Verdes", "Menta Fresca"],
+      heart: ["Chá Branco", "Flor de Lótus"],
+      base: ["Vetiver", "Musgo", "Cedro"]
+    },
+    story: "Inspirado na tranquilidade dos jardins zen, o frasco de jade protege um elixir botânico de pureza inigualável.",
+    categories: ["Fresco", "Aromático"]
   }
 ];
