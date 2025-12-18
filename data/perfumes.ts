@@ -194,7 +194,7 @@ export const perfumes: Perfume[] = [
         heart: ["Flor de Laranjeira", "Tuberosa", "Ylang-Ylang"],
         base: ["Baunilha", "Sândalo", "Âmbar"],
     },
-    story: "Aquecido pelo sol do deserto, o frasco Pedra do Sol brilha por dentro. A fragrância é un floral picante e radiante que se sente como luz do sol líquida, cheia de otimismo e energia vibrante.",
+    story: "Aquecido pelo sol do deserto, o frasco Pedra do Sol brilha por dentro. A fragrância é um floral picante e radiante que se sente como luz do sol líquida, cheia de otimismo e energia vibrante.",
     categories: ["Oriental", "Floral"],
   },
   {
@@ -460,7 +460,7 @@ export const perfumes: Perfume[] = [
         heart: ["Rosa", "Tuberosa", "Acorde de Veludo"],
         base: ["Âmbar", "Patchouli", "Fava Tonka"],
     },
-    story: "Inspirado no esplendor decadente dos palácios venezianos. Veneza Dourada é um perfume opulento e festivo, que evoca bailles de máscaras e o brilho do ouro.",
+    story: "Inspirado no esplendor decadente dos palácios venezianos. Veneza Dourada é um perfume opulento e festivo, que evoca bailes de máscaras e o brilho do ouro.",
     categories: ["Oriental", "Floral"],
   },
   {
@@ -1370,7 +1370,7 @@ export const perfumes: Perfume[] = [
       heart: ["Incenso", "Couro", "Patchouli"],
       base: ["Vetiver", "Musgo de Carvalho", "Ládano"],
     },
-    story: "Forjado no coração de um vulcão, o frasco de Rocha Vulcânica é uma ode à força bruta da natureza. A fragrância é uma fusão de couro e especiarias, com um coração esfumaçado de incenso e uma base terrosa de vetiver, capturando a energia primária e o poder magnético da terra.",
+    story: "Forjado no coração de um vulcão, the frasco de Rocha Vulcânica is an ode to nature's raw power. A fragrância é uma fusão de couro e especiarias, com um coração esfumaçado de incenso e uma base terrosa de vetiver, capturando a energia primária e o poder magnético da terra.",
     categories: ["Couro", "Oriental"],
   },
   {
@@ -1440,7 +1440,7 @@ export const perfumes: Perfume[] = [
       heart: ["Íris", "Lavanda", "Incenso Frio"],
       base: ["Âmbar Cinza", "Vetiver", "Almíscar Nebuloso"],
     },
-    story: "Um fragmento do cosmos contido em suas mãos. Orbe Celestial é uma fragrância etérea e mineral, que evoca o silêncio do espaço e o brilho de estrelas distantes. É un perfume frio e meditativo, uma viagem olfativa para além da atmosfera, para quem sonha com outros mundos.",
+    story: "Um fragmento do cosmos contido em suas mãos. Orbe Celestial é uma fragrância etérea e mineral, que evoca o silêncio do espaço e o brilho de estrelas distantes. É um perfume frio e meditativo, uma viagem olfativa para além da atmosfera, para quem sonha com outros mundos.",
     categories: ["Fresco", "Aromático"],
   },
   {
@@ -1776,7 +1776,7 @@ export const perfumes: Perfume[] = [
       heart: ["Gardênia", "Íris", "Magnólia"],
       base: ["Sândalo", "Almíscar Branco", "Cashmeran"],
     },
-    story: "Uma fragrância de estratégia e graça, inspirada na peça mais poderosa do xadrez. Rainha Branca é un floral branco imponente e cremoso, para quem comanda o jogo com elegância e inteligência.",
+    story: "Uma fragrância de estratégia e graça, inspirada na peça mais poderosa do xadrez. Rainha Branca é um floral branco imponente e cremoso, para quem comanda o jogo com elegância e inteligência.",
     categories: ["Floral", "Fresco"],
   },
   {
@@ -2110,7 +2110,7 @@ export const perfumes: Perfume[] = [
     notes: {
       top: ["Pimenta Preta", "Incenso"],
       heart: ["Couro Esfumaçado", "Incenso", "Madeira de Cedro"],
-      base: ["Vetiver", "Patchouli", "Âmbar"],
+      base: ["Vetiver de Java", "Musgo de Carvalho", "Âmbar Negro"],
     },
     story: "Nascido do fogo e da pressão, este frasco captura a beleza bruta da rocha vulcânica. Noite Vulcânica é uma fragrância magnética e poderosa, que evoca a energia primária da terra e a elegância sombria da noite.",
     categories: ["Amadeirado", "Couro", "Oriental"],
@@ -3319,7 +3319,7 @@ export const perfumes: Perfume[] = [
     story: "A rainha das flores em sua forma mais majestosa.",
     categories: ["Floral"]
   },
-   {
+  {
     id: 242,
     name: "Enigma Noturno",
     designer: "Nocturne Parfums",
@@ -3855,7 +3855,7 @@ export const perfumes: Perfume[] = [
     id: 280,
     name: "Chama de Bronze",
     designer: "Ignis Scents",
-    imageUrl: "https://imgur.com/PHMD4Gj.jpg",
+    imageUrl: "https://i.imgur.com/PHMD4Gj.jpg",
     year: 2024,
     notes: {
       top: ["Açafrão", "Canela"],
@@ -3869,7 +3869,7 @@ export const perfumes: Perfume[] = [
     id: 281,
     name: "Éter Azul",
     designer: "Aura Maris",
-    imageUrl: "https://imgur.com/5f9wXRw.jpg",
+    imageUrl: "https://i.imgur.com/5f9wXRw.jpg",
     year: 2025,
     notes: {
       top: ["Notas Ozônicas", "Menta"],
@@ -3883,7 +3883,7 @@ export const perfumes: Perfume[] = [
     id: 282,
     name: "Jardim de Cobre",
     designer: "Artisan Atelier",
-    imageUrl: "https://imgur.com/hkJptiq.jpg",
+    imageUrl: "https://i.imgur.com/hkJptiq.jpg",
     year: 2023,
     notes: {
       top: ["Gengibre", "Bergamota"],
@@ -3897,7 +3897,7 @@ export const perfumes: Perfume[] = [
     id: 283,
     name: "Prisma Violeta",
     designer: "Cosmos Scents",
-    imageUrl: "https://imgur.com/rspleK5.jpg",
+    imageUrl: "https://i.imgur.com/rspleK5.jpg",
     year: 2024,
     notes: {
       top: ["Violeta", "Amora"],
@@ -3911,7 +3911,7 @@ export const perfumes: Perfume[] = [
     id: 284,
     name: "Névoa Dourada",
     designer: "Imperiale Scents",
-    imageUrl: "https://imgur.com/i9NBHQ4.jpg",
+    imageUrl: "https://i.imgur.com/i9NBHQ4.jpg",
     year: 2025,
     notes: {
       top: ["Mel", "Pera"],
@@ -3925,7 +3925,7 @@ export const perfumes: Perfume[] = [
     id: 285,
     name: "Oceano de Vidro",
     designer: "Lapidari",
-    imageUrl: "https://imgur.com/CnIRPe4.jpg",
+    imageUrl: "https://i.imgur.com/CnIRPe4.jpg",
     year: 2023,
     notes: {
       top: ["Sal Marinho", "Aldeídos"],
@@ -3939,7 +3939,7 @@ export const perfumes: Perfume[] = [
     id: 286,
     name: "Coração de Âmbar",
     designer: "Artisan Woodworks",
-    imageUrl: "https://imgur.com/TU6s1ZR.jpg",
+    imageUrl: "https://i.imgur.com/TU6s1ZR.jpg",
     year: 2024,
     notes: {
       top: ["Cardamomo", "Laranja"],
@@ -3953,7 +3953,7 @@ export const perfumes: Perfume[] = [
     id: 287,
     name: "Flor da Meia-Noite",
     designer: "Nocturne Parfums",
-    imageUrl: "https://imgur.com/wORXsnY.jpg",
+    imageUrl: "https://i.imgur.com/wORXsnY.jpg",
     year: 2025,
     notes: {
       top: ["Pimenta Preta", "Groselha"],
@@ -3967,7 +3967,7 @@ export const perfumes: Perfume[] = [
     id: 288,
     name: "Brisa Dourada",
     designer: "Helios Fragrances",
-    imageUrl: "https://imgur.com/wHApzPS.jpg",
+    imageUrl: "https://i.imgur.com/wHApzPS.jpg",
     year: 2024,
     notes: {
       top: ["Mandarina", "Neroli"],
@@ -3981,7 +3981,7 @@ export const perfumes: Perfume[] = [
     id: 289,
     name: "Céu de Safira",
     designer: "Cosmos Scents",
-    imageUrl: "https://imgur.com/UQnQZCE.jpg",
+    imageUrl: "https://i.imgur.com/UQnQZCE.jpg",
     year: 2025,
     notes: {
       top: ["Mirtilo", "Ozônio"],
@@ -3995,7 +3995,7 @@ export const perfumes: Perfume[] = [
     id: 290,
     name: "Rosa Encantada",
     designer: "Floraïs",
-    imageUrl: "https://imgur.com/LrAAowe.jpg",
+    imageUrl: "https://i.imgur.com/LrAAowe.jpg",
     year: 2024,
     notes: {
       top: ["Pimenta Rosa", "Framboesa"],
@@ -4009,7 +4009,7 @@ export const perfumes: Perfume[] = [
     id: 291,
     name: "Verde Profundo",
     designer: "Viridis",
-    imageUrl: "https://imgur.com/C3RpPil.jpg",
+    imageUrl: "https://i.imgur.com/C3RpPil.jpg",
     year: 2023,
     notes: {
       top: ["Manjericão", "Lima"],
@@ -4023,7 +4023,7 @@ export const perfumes: Perfume[] = [
     id: 292,
     name: "Coroa de Ouro",
     designer: "Imperiale Scents",
-    imageUrl: "https://imgur.com/7bqi0Vd.jpg",
+    imageUrl: "https://i.imgur.com/7bqi0Vd.jpg",
     year: 2025,
     notes: {
       top: ["Açafrão", "Mel"],
@@ -4037,7 +4037,7 @@ export const perfumes: Perfume[] = [
     id: 293,
     name: "Rubi Flamejante",
     designer: "Ignis Scents",
-    imageUrl: "https://imgur.com/wB0mCEt.jpg",
+    imageUrl: "https://i.imgur.com/wB0mCEt.jpg",
     year: 2024,
     notes: {
       top: ["Cereja", "Canela"],
@@ -4051,7 +4051,7 @@ export const perfumes: Perfume[] = [
     id: 294,
     name: "Noite Eterna",
     designer: "Nocturne Parfums",
-    imageUrl: "https://imgur.com/kLaelSO.jpg",
+    imageUrl: "https://i.imgur.com/kLaelSO.jpg",
     year: 2023,
     notes: {
       top: ["Ameixa", "Groselha"],
@@ -4065,7 +4065,7 @@ export const perfumes: Perfume[] = [
     id: 295,
     name: "Cristal Puro",
     designer: "Lapidari",
-    imageUrl: "https://imgur.com/6dfc8hj.jpg",
+    imageUrl: "https://i.imgur.com/6dfc8hj.jpg",
     year: 2025,
     notes: {
       top: ["Pera", "Aldeídos"],
@@ -4079,7 +4079,7 @@ export const perfumes: Perfume[] = [
     id: 296,
     name: "Sol Poente",
     designer: "Helios Fragrances",
-    imageUrl: "https://imgur.com/mVoZxBd.jpg",
+    imageUrl: "https://i.imgur.com/mVoZxBd.jpg",
     year: 2024,
     notes: {
       top: ["Laranja", "Gengibre"],
@@ -4158,20 +4158,6 @@ export const perfumes: Perfume[] = [
     },
     story: "Um coração de cristal lapidado a partir da safira mais pura. Amor de Safira celebra a devoção eterna com um floral azul etéreo e reconfortante.",
     categories: ["Floral", "Fresco"]
-  },
-  {
-    id: 302,
-    name: "Espectro de Aço",
-    designer: "GeoMetric Creations",
-    imageUrl: "https://i.imgur.com/SjCvXiy.jpg",
-    year: 2025,
-    notes: {
-      top: ["Aldeídos", "Pimenta Branca"],
-      heart: ["Notas Metálicas", "Violeta"],
-      base: ["Iso E Super", "Almíscar", "Cedro Branco"]
-    },
-    story: "Inspirado na precisão da arquitetura moderna e no brilho das cidades futuristas. Espectro de Aço é uma fragrância limpa, cortante e imponente.",
-    categories: ["Fresco", "Aromático"]
   },
   {
     id: 303,
