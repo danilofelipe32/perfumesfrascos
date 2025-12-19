@@ -782,7 +782,7 @@ export const perfumes: Perfume[] = [
         heart: ["Ameixa Preta", "Rum", "Jasmim"],
         base: ["Tabaco", "Baunilha", "Patchouli"],
     },
-    story: "Irresistivelmente tentador e deliciosamente perigoso. Fruto Proibido é um gourmand picante e boêmio, uma ode à indulgência e à quebra de regras.",
+    story: "Irresistivelmente tentador e deliciosamente perigoso. Fruto Proibido é um gourmand picante e boêmio, uma ode à ignorância e à quebra de regras.",
     categories: ["Gourmand", "Oriental"],
   },
   {
@@ -2504,7 +2504,7 @@ export const perfumes: Perfume[] = [
       heart: ["Incenso", "Violeta Negra", "Couro"],
       base: ["Madeira de Ébano", "Ládano", "Âmbar Negro"],
     },
-    story: "Escuro, misterioso e impenetrável. Obsidiana Polida é uma fragrância para a noite, guardada em um frasco de vidro negro que reflete apenas o essencial. Um perfume enigmático para quem domina as sombras.",
+    story: "Escuro, misterioso e impenetrável. Obsidiana Polida é uma fragrância para the noite, guardada em um frasco de vidro negro que reflete apenas o essencial. Um perfume enigmático para quem domina as sombras.",
     categories: ["Oriental", "Couro"],
   },
   {
@@ -4439,4 +4439,46 @@ export const perfumes: Perfume[] = [
     story: "O encontro perfeito entre a joalheria e a perfumaria. Vértice de Ametista é um perfume atalcado e místico, abrigado em um cristal que reflete a alma.",
     categories: ["Floral", "Oriental"],
   },
+  {
+    id: 326,
+    name: "Esplendor de Âmbar",
+    designer: "Artisan Atelier",
+    imageUrl: "https://i.imgur.com/IY5t43H.jpg",
+    year: 2025,
+    notes: {
+      top: ["Bergamota", "Canela"],
+      heart: ["Âmbar", "Ládano"],
+      base: ["Baunilha", "Sândalo"]
+    },
+    story: "Um frasco que captura a luz do sol poente em resina petrificada. Esplendor de Âmbar é um abraço quente e resinoso, uma joia líquida para a alma.",
+    categories: ["Oriental", "Amadeirado"]
+  },
+  {
+    id: 327,
+    name: "Noite Estelar",
+    designer: "Cosmos Scents",
+    imageUrl: "https://i.imgur.com/n8oUuIf.jpg",
+    year: 2025,
+    notes: {
+      top: ["Pimenta Preta", "Cassis"],
+      heart: ["Orquídea Negra", "Jasmim Noturno"],
+      base: ["Patchouli", "Almíscar Negro"]
+    },
+    story: "Capturando a vastidão do céu noturno em um cristal azul profundo. Noite Estelar é uma fragrância misteriosa e etérea que evoca o brilho das estrelas.",
+    categories: ["Floral", "Oriental"]
+  },
+  {
+    id: 328,
+    name: "Coração de Rubi",
+    designer: "Atelier Rouge",
+    imageUrl: "https://i.imgur.com/kYxyFg7.jpg",
+    year: 2024,
+    notes: {
+      top: ["Cereja", "Açafrão"],
+      heart: ["Rosa Búlgara", "Vinho Tinto"],
+      base: ["Âmbar", "Couro"]
+    },
+    story: "A paixão em sua forma mais pura, esculpida em um cristal carmesim. Coração de Rubi é um elixir intenso e sedutor que pulsa com energia vital.",
+    categories: ["Oriental", "Gourmand"]
+  }
 ];
