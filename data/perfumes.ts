@@ -194,7 +194,7 @@ export const perfumes: Perfume[] = [
         heart: ["Flor de Laranjeira", "Tuberosa", "Ylang-Ylang"],
         base: ["Baunilha", "Sândalo", "Âmbar"],
     },
-    story: "Aquecido pelo sol do deserto, o frasco Pedra do Sol brilha por dentro. A fragrância é um floral picante e radiante que se sente como luz do sol líquida, cheia de otimismo e energia vibrante.",
+    story: "Aquecido pelo sol do deserto, o frasco Pedra do Sol brilha por dentro. A fragrância é un floral picante e radiante que se sente como luz do sol líquida, cheia de otimismo e energia vibrante.",
     categories: ["Oriental", "Floral"],
   },
   {
@@ -348,7 +348,7 @@ export const perfumes: Perfume[] = [
         heart: ["Cravo", "Gerânio", "Flor de Laranjeira"],
         base: ["Musgo de Carvalho", "Fava Tonka", "Couro"],
     },
-    story: "Um perfume clássico e atemporal, evocando a elegância e o poder de antigos impérios. Herança Imperial é um fougère nobre e sofisticado, para o cavalheiro moderno.",
+    story: "Um perfume clássico e atemporal, evocando a elegância e o power de antigos impérios. Herança Imperial é um fougère nobre e sofisticado, para o cavalheiro moderno.",
     categories: ["Aromático", "Couro"],
   },
   {
@@ -1034,7 +1034,7 @@ export const perfumes: Perfume[] = [
         heart: ["Ylang-Ylang", "Tuberosa", "Flor de Laranjeira"],
         base: ["Âmbar", "Sândalo", "Baunilha"],
     },
-    story: "Puro brilho solar engarrafado. Ouro Líquido é um floral ambarado radiante, que irradia calor, felicidade e uma energia dourada contagiante.",
+    story: "Puro brilho solar engarrafado. Ouro Líquido é un floral ambarado radiante, que irradia calor, felicidade e uma energia dourada contagiante.",
     categories: ["Oriental", "Floral"],
   },
   {
@@ -1060,7 +1060,7 @@ export const perfumes: Perfume[] = [
     notes: {
         top: ["Algodão Doce", "Framboesa"],
         heart: ["Morango", "Flor de Baunilha", "Caramelo"],
-        base: ["Almíscar Doce", "Sândalo"],
+        base: ["Almíscar Docel", "Sândalo"],
     },
     story: "Doce, divertido e descaradamente feminino. Beijo de Açúcar é um perfume gourmand frutado, que celebra a alegria, a juventude e os prazeres simples da vida.",
     categories: ["Gourmand"],
@@ -1090,7 +1090,7 @@ export const perfumes: Perfume[] = [
         heart: ["Flor de Algodão", "Íris Branca", "Lírio-do-vale"],
         base: ["Almíscar Branco", "Sândalo", "Baunilha"],
     },
-    story: "A quietude e a pureza mágica da primeira neve caindo. Uma fragrância almiscarada e atalcada, limpa, fria e que transmite uma paz profunda.",
+    story: "A quietude e a pureza mágica da primeira neve caindo. Uma fragrância almiscarada e atalcado, limpa, fria e que transmite uma paz profunda.",
     categories: ["Fresco", "Floral"],
   },
   {
@@ -1132,7 +1132,7 @@ export const perfumes: Perfume[] = [
         heart: ["Incenso", "Mirra", "Mel"],
         base: ["Oud", "Sândalo", "Benjoim"],
     },
-    story: "Inspirado em antigos santuários e domos dourados, este frasco é um monumento à opulência. A fragrância é uma prece resinosa e sagrada, um aroma rico que preenche o ar com reverência e poder.",
+    story: "Inspirado em antigos santuários e domos dourados, este frasco é um monumento à opulência. A fragrância é uma prece resinosa e sagrada, un aroma rico que preenche o ar com reverência e power.",
     categories: ["Oriental", "Amadeirado"],
   },
   {
@@ -1160,7 +1160,7 @@ export const perfumes: Perfume[] = [
         heart: ["Mel", "Ládano", "Ylang-Ylang"],
         base: ["Âmbar", "Benjoim", "Oud"],
     },
-    story: "Dizem que este frasco guarda o coração de uma estrela caída, lapidado por artesãos reais e cravejado com as joias do reino. Coração Solar não é apenas um perfume, mas um talismã de poder e carisma. Sua fragrância é um elixir dourado e especiado, uma aura de âmbar quente e mel que envolve quem o usa em um brilho majestoso e inesquecível.",
+    story: "Dizem que este frasco guarda o coração de uma estrela caída, lapidado por artesãos reais e cravejado com as joias do reino. Coração Solar não é apenas um perfume, mas um talismã de power e carisma. Sua fragrância é um elixir dourado e especiado, uma aura de âmbar quente e mel que envolve quem o usa em um brilho majestoso e inesquecível.",
     categories: ["Oriental", "Gourmand"],
   },
   {
@@ -2350,7 +2350,7 @@ export const perfumes: Perfume[] = [
       heart: ["Íris Azul", "Violeta", "Couro"],
       base: ["Baunilha", "Fava Tonka", "Sândalo"],
     },
-    story: "Inspirado no céu de uma noite estrelada. Noturno Safira é uma fragrância sonhadora e elegante, um foiugère atalcado que evoca a calma e o mistério do universo. O perfume da contemplação silenciosa.",
+    story: "Inspirado no céu de uma noite estrelada. Noturno Safira é uma fragrância sonhadora e elegante, um fougère atalcado que evoca a calma e o mistério do universo. O perfume da contemplação silenciosa.",
     categories: ["Aromático", "Couro"],
   },
   {
@@ -2490,7 +2490,7 @@ export const perfumes: Perfume[] = [
       heart: ["Magnólia", "Tuberosa", "Jasmim"],
       base: ["Madeira de Oliveira", "Vetiver", "Almíscar"],
     },
-    story: "A pureza e a tentação do paraíso original. Um frasco que parece crescer organicamente, envolvendo uma essência floral verde e exuberante. É o cheiro da inocência e da natureza em seu estado mais perfeito.",
+    story: "A pureza e a tentação do paraíso original. Um frasco que parece crescer organicamente, envolvendo uma essência floral verde e exuberante. É o cheiro da inocência e da natureza em seu state mais perfeito.",
     categories: ["Floral", "Aromático"],
   },
   {
@@ -4157,7 +4157,7 @@ export const perfumes: Perfume[] = [
       heart: ["Lótus Azul", "Néroli"],
       base: ["Ambregris", "Madeira Flutuante"]
     },
-    story: "Captura o azul infinito e a pureza do oceano em um cristal de safira lapidado pela força das ondas.",
+    story: "Captura o azul infinito e a pureza do oceano in um cristal de safira lapidado pela força das ondas.",
     categories: ["Fresco", "Aromático"]
   },
   {
@@ -4398,7 +4398,6 @@ export const perfumes: Perfume[] = [
     story: "Inspirado na suntuosidade dos salões reais, este frasco de filigrana e ouro protege uma fragrância de opulência incomparável. Um verdadeiro tributo ao luxo barroco.",
     categories: ["Oriental", "Amadeirado"]
   },
-  // FIXED: Completed truncated entry for Radiância Solar (ID 322)
   {
     id: 322,
     name: "Radiância Solar",
@@ -4412,5 +4411,47 @@ export const perfumes: Perfume[] = [
     },
     story: "A essência radiante de um dia de sol eterno, capturada em um frasco que brilha com a luz do Mediterrâneo.",
     categories: ["Fresco", "Floral"],
+  },
+  {
+    id: 323,
+    name: "Estrela de Obsidiana",
+    designer: "Atelier Noir",
+    imageUrl: "https://i.imgur.com/y20lEH0.jpg",
+    year: 2024,
+    notes: {
+      top: ["Pimenta Preta", "Cardamomo"],
+      heart: ["Couro Negro", "Oud", "Ládano"],
+      base: ["Âmbar Negro", "Vetiver", "Patchouli"],
+    },
+    story: "Uma geometria sombria e poderosa. Estrela de Obsidiana é um perfume que corta a noite com sua elegância mineral e profundidade amadeirada.",
+    categories: ["Oriental", "Amadeirado", "Couro"],
+  },
+  {
+    id: 324,
+    name: "Néctar de Coral",
+    designer: "Aura Maris",
+    imageUrl: "https://i.imgur.com/q7UJNqg.jpg",
+    year: 2025,
+    notes: {
+      top: ["Toranja Rosa", "Sal Marinho"],
+      heart: ["Ylang-Ylang", "Pétalas de Frangipani"],
+      base: ["Ambregris", "Sândalo", "Musk Branco"],
+    },
+    story: "Inspirado na vida vibrante sob as ondas. Néctar de Coral é um floral aquático que irradia a energia do oceano em um frasco de formas orgânicas e fluidas.",
+    categories: ["Floral", "Fresco"],
+  },
+  {
+    id: 325,
+    name: "Vértice de Ametista",
+    designer: "Lapidari",
+    imageUrl: "https://i.imgur.com/RmmHuO2.jpg",
+    year: 2024,
+    notes: {
+      top: ["Amora", "Mirtilo"],
+      heart: ["Violeta", "Íris", "Lavanda"],
+      base: ["Baunilha Negra", "Cashmeran", "Patchouli"],
+    },
+    story: "O encontro perfeito entre a joalheria e a perfumaria. Vértice de Ametista é um perfume atalcado e místico, abrigado em um cristal que reflete a alma.",
+    categories: ["Floral", "Oriental"],
   },
 ];
