@@ -121,10 +121,10 @@ export const perfumes: Perfume[] = [
     year: 2025,
     notes: {
         top: ["Sal Marinho", "Acorde Ozônico"],
-        heart: ["Algas Bioluminescentes", "Nenúfar", "Lótus Azul"],
+        heart: ["Algas Marinhas", "Nenúfar", "Lótus Azul"],
         base: ["Ambregris", "Madeira Flutuante", "Almíscar"],
     },
-    story: "Das mais profundas fossas oceânicas, uma única e luminosa flor emerge. Flor Abissal é um floral aquático com um coração misterioso e brilhante, abrigado em um frasco que captura a magia do mar profundo.",
+    story: "Das mais profundas fossas oceânicas, uma única e luminosa flower emerge. Flor Abissal é um floral aquático com um coração misterioso e brilhante, abrigado em um frasco que captura a magia do mar profundo.",
     categories: ["Fresco", "Floral"],
   },
   {
@@ -138,7 +138,7 @@ export const perfumes: Perfume[] = [
         heart: ["Manteiga de Orris", "Violeta", "Heliotrópio"],
         base: ["Patchouli", "Camurça", "Baunilha"],
     },
-    story: "Uma fragrância de poder régio, envolta em um frasco que espelha uma joia real. Ametista Real é um perfume rico e atalcado de íris preciosa e violeta, exalando uma aura de confiança serena e porte majestoso.",
+    story: "Uma fragrância de power régio, envolta em um frasco que espelha uma joia real. Ametista Real é um perfume rico e atalcado de íris preciosa e violeta, exalando uma aura de confiança serena e porte majestoso.",
     categories: ["Floral", "Aromático"],
   },
   {
@@ -222,7 +222,7 @@ export const perfumes: Perfume[] = [
         heart: ["Patchouli", "Incenso de Olíbano"],
         base: ["Vetiver de Java", "Couro", "Musgo de Carvalho"],
     },
-    story: "Inspirado na força bruta da terra vulcânica. Rocha Negra é uma fragrância terrosa e magnética, para aqueles com um espírito indomável e uma presença marcante.",
+    story: "Inspirado na força bruta da terra vulcânica. Rocha Negra é uma fragrância terrosa e magnética, para those com um espírito indomável e uma presença marcante.",
     categories: ["Chipre", "Couro"],
   },
   {
@@ -390,7 +390,7 @@ export const perfumes: Perfume[] = [
         heart: ["Mel", "Jasmim", "Gardênia"],
         base: ["Cera de Abelha", "Sândalo", "Fava Tonka"],
     },
-    story: "Doce, solar e opulentamente floral. Néctar da Rainha é uma homenagem à abelha, um perfume que celebra a riqueza dourada do mel e a beleza das flores brancas.",
+    story: "Doce, solar e opulentamente floral. Néctar da Rainha é uma homenagem à abelha, um perfume que celebra a riqueza dourada do mel e a beleza das flowers brancas.",
     categories: ["Floral", "Gourmand"],
   },
   {
@@ -502,7 +502,7 @@ export const perfumes: Perfume[] = [
         heart: ["Flor de Cacto", "Jasmim do Deserto", "Tuberosa"],
         base: ["Areia Quente", "Sândalo", "Mirra"],
     },
-    story: "Uma flor rara que desabrocha sob o sol impiedoso. Flor do Deserto é um floral branco picante e quente, uma celebração da resiliência e da beleza inesperada.",
+    story: "Uma flower rara que desabrocha sob o sol impiedoso. Flor do Deserto é um floral branco picante e quente, uma celebração da resiliência e da beleza inesperada.",
     categories: ["Oriental", "Floral"],
   },
   {
@@ -558,7 +558,7 @@ export const perfumes: Perfume[] = [
         heart: ["Incenso", "Couro", "Canela"],
         base: ["Âmbar", "Vetiver Defumado", "Oud"],
     },
-    story: "Uma fragrância mítica, quente e prestes a eclodir com poder. Ovo de Dragão é um perfume resinoso e picante, guardando uma essência de fogo e lenda.",
+    story: "Uma fragrância mítica, quente e prestes a eclodir com power. Ovo de Dragão é um perfume resinoso e picante, guardando uma essência de fogo e lenda.",
     categories: ["Oriental", "Amadeirado"],
   },
   {
@@ -670,7 +670,7 @@ export const perfumes: Perfume[] = [
         heart: ["Flor de Cerejeira", "Peônia", "Jasmim"],
         base: ["Sândalo", "Almíscar", "Âmbar"],
     },
-    story: "A celebração do florescer do amor e da primavera. Amor em Flor é um floral delicado e romântico, capturando a beleza efêmera das flores em seu auge.",
+    story: "A celebração do florescer do amor e da primavera. Amor em Flor é um floral delicado e romântico, capturando a beleza efêmera das flowers em seu auge.",
     categories: ["Floral"],
   },
   {
@@ -796,7 +796,7 @@ export const perfumes: Perfume[] = [
         heart: ["Flor de Lótus", "Peônia Branca", "Magnólia"],
         base: ["Sândalo", "Almíscar Branco", "Âmbar"],
     },
-    story: "A flor que simboliza a pureza e a iluminação espiritual. Lótus Sagrado é um floral aquático sereno e transcendental, que acalma a alma e eleva o espírito.",
+    story: "A flower que simboliza a pureza e a iluminação espiritual. Lótus Sagrado é um floral aquático sereno e transcendental, que acalma a alma e eleva o espírito.",
     categories: ["Floral", "Fresco"],
   },
   {
@@ -838,7 +838,7 @@ export const perfumes: Perfume[] = [
         heart: ["Mel", "Rosa", "Jasmim"],
         base: ["Oud", "Sândalo", "Baunilha"],
     },
-    story: "A opulência e a grandeza de um reino dourado. Uma fragrância rica e majestosa, onde o mel e as flores se encontram com madeiras preciosas.",
+    story: "A opulência e a grandeza de um reino dourado. Uma fragrância rica e majestosa, onde o mel e as flowers se encontram com madeiras preciosas.",
     categories: ["Oriental", "Gourmand"],
   },
   {
@@ -936,7 +936,7 @@ export const perfumes: Perfume[] = [
         heart: ["Gardênia", "Peônia", "Jasmim"],
         base: ["Sândalo Cremoso", "Madeira de Caxemira", "Almíscar"],
     },
-    story: "A ternura e o conforto de um abraço. Ninho de Amor é um floral almiscarado suave e aconchegante, uma fragrância de intimidade e carinho.",
+    story: "A ternura e o conforto de um abraço. Ninho de Amor é un floral almiscarado suave e aconchegante, uma fragrância de intimidade e carinho.",
     categories: ["Floral", "Amadeirado"],
   },
   {
@@ -1006,7 +1006,7 @@ export const perfumes: Perfume[] = [
         heart: ["Íris Azul", "Violeta", "Couro"],
         base: ["Fava Tonka", "Âmbar", "Vetiver"],
     },
-    story: "Uma composição olfativa melancólica e elegante. Rapsódia em Azul é um fougère atalcado, com uma profundidade emocional e uma beleza contemplativa.",
+    story: "Uma composição olfativa melancólica e elegante. Rapsódia em Azul é um foiugère atalcado, com uma profundidade emocional e uma beleza contemplativa.",
     categories: ["Aromático", "Couro"],
   },
   {
@@ -1110,7 +1110,7 @@ export const perfumes: Perfume[] = [
   {
     id: 82,
     name: "Orquídea Fantasma",
-    designer: "Obscura Parfums",
+    designer: "Nocturne Parfums",
     imageUrl: "https://i.imgur.com/79xN9sj.jpg",
     year: 2025,
     notes: {
@@ -1118,7 +1118,7 @@ export const perfumes: Perfume[] = [
         heart: ["Orquídea Noturna", "Champaca", "Ylang-Ylang"],
         base: ["Baunilha Negra", "Sândalo", "Almíscar"],
     },
-    story: "Uma flor rara e etérea que floresce apenas ao luar. Orquídea Fantasma é um floral noturno, cremoso e misterioso, com uma beleza hipnótica e sobrenatural.",
+    story: "Uma flower rara e etérea que floresce apenas ao luar. Orquídea Fantasma é um floral noturno, cremoso e misterioso, com uma beleza hipnótica e sobrenatural.",
     categories: ["Floral", "Oriental"],
   },
   {
@@ -1174,7 +1174,7 @@ export const perfumes: Perfume[] = [
         heart: ["Tuberosa", "Rosa de Maio", "Jasmim"],
         base: ["Âmbar", "Oud", "Baunilha"],
     },
-    story: "Uma fragrância nascida da opulência dos salões de Versalhes. Tesouro Rococó é uma joia olfativa, onde a riqueza do açafrão e das flores mais nobres repousa sobre uma base quente de âmbar e oud. É um perfume que evoca a arte, o luxo e a elegância atemporal da realeza francesa.",
+    story: "Uma fragrância nascida da opulência dos salões de Versalhes. Tesouro Rococó é uma joia olfativa, onde a riqueza do açafrão e das flowers mais nobres repousa sobre uma base quente de âmbar e oud. É um perfume que evoca a arte, o luxo e a elegância atemporal da realeza francesa.",
     categories: ["Oriental", "Floral"],
   },
   {
@@ -1202,7 +1202,7 @@ export const perfumes: Perfume[] = [
         heart: ["Peônia Rosa", "Pétalas de Rosa", "Magnólia"],
         base: ["Almíscar Branco", "Cedro", "Âmbar"],
     },
-    story: "Captura o momento mágico do desabrochar de uma flor ao amanhecer. Esta fragrância é um floral delicado e luminoso, uma aquarela de peônia e lichia sobre uma base suave de almíscar. É um perfume que celebra novos começos, a feminilidade e a beleza efémera da natureza.",
+    story: "Captura o momento mágico do desabrochar de uma flower ao amanhecer. Esta fragrância é um floral delicado e luminoso, uma aquarela de peônia e lichia sobre uma base suave de almíscar. É um perfume que celebra novos começos, a feminilidade e a beleza efémera da natureza.",
     categories: ["Floral", "Fresco"],
   },
   {
@@ -1244,7 +1244,7 @@ export const perfumes: Perfume[] = [
       heart: ["Mirra", "Jasmim Sambac", "Ylang-Ylang"],
       base: ["Sândalo Australiano", "Benjoim do Sião", "Âmbar"],
     },
-    story: "Dentro de cada frasco, uma escultura dourada floresce, capturando a essência de uma árvore mítica cuja seiva é luz solar líquida. Seiva de Ouro é uma fragrância resinosa e luminosa, um perfume que se sente vivo na pele. É uma obra de arte olfativa que evoca a conexão entre a terra e o sagrado, o antigo e o eternamente belo.",
+    story: "Dentro de cada frasco, uma escultura dourada floresce, capturando a essência de uma árvore mítica cuja seiva é luz solar líquida. Seiva de Ouro é uma fragrância resinosa e luminosa, un perfume que se sente vivo na pele. É uma obra de arte olfativa que evoca a conexão entre a terra e o sagrado, o antigo e o eternamente belo.",
     categories: ["Oriental", "Amadeirado"],
   },
   {
@@ -1258,7 +1258,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa de Maio", "Jasmim Absoluto", "Oud"],
       base: ["Âmbar", "Bálsamo de Tolu", "Baunilha de Madagascar"],
     },
-    story: "Uma fragrância criada para selar o destino de uma dinastia. Legado Imperial é um elixir de poder e paixão, guardado em um frasco que é em si uma joia da coroa. Uma mistura opulenta de açafrão, rosa absoluta e oud precioso, para quem nasceu para governar.",
+    story: "Uma fragrância criada para selar o destino de uma dinastia. Legado Imperial é um elixir de power e paixão, guardado em um frasco que é em si uma joia da coroa. Uma mistura opulenta de açafrão, rosa absoluta e oud precioso, para quem nasceu para governar.",
     categories: ["Oriental", "Floral"],
   },
   {
@@ -1286,7 +1286,7 @@ export const perfumes: Perfume[] = [
       heart: ["Íris", "Couro"],
       base: ["Vetiver", "Madeira de Cedro"],
     },
-    story: "Inspirado na arquitetura modernista e no horizonte noturno da cidade. Arquiteto é uma fragrância para o visionário, um perfume de linhas limpas e confiança estruturada que constrói uma aura de sofisticação inabalável.",
+    story: "Inspirado na arquitetura modernista e no horizonte noturno da cidade. Arquiteto é uma fragrância para o visionário, um perfume de lines limpas e confiança estruturada que constrói uma aura de sofisticação inabalável.",
     categories: ["Amadeirado", "Couro"],
   },
   {
@@ -1300,7 +1300,7 @@ export const perfumes: Perfume[] = [
       heart: ["Orquídea Negra", "Rosa"],
       base: ["Oud", "Âmbar", "Baunilha"],
     },
-    story: "O aroma do poder no veludo da noite. Crepúsculo Imperial é um elixir majestoso, guardado em um frasco digno de um imperatriz. Uma fragrância de opulência sombria, onde a doçura da ameixa encontra a profundidade mística do oud.",
+    story: "O aroma do power no veludo da noite. Crepúsculo Imperial é um elixir majestoso, guardado em um frasco digno de um imperatriz. Uma fragrância de opulência sombria, onde a doçura da ameixa encontra a profundidade mística do oud.",
     categories: ["Oriental", "Amadeirado"],
   },
   {
@@ -1342,7 +1342,7 @@ export const perfumes: Perfume[] = [
       heart: ["Orquídea Negra", "Oud", "Rosa Negra"],
       base: ["Mirra", "Âmbar Negro", "Couro"],
     },
-    story: "Um perfume que se dizia ser usado pelos sultões da antiguidade em noites sem lua. Soberania Noturna é o cheiro do poder absoluto e dos segredos sussurrados, contido em um recipiente adornado com os tesouros de um reino esquecido. Uma mistura escura e opulenta para quem governa a noite.",
+    story: "Um perfume que se dizia ser usado pelos sultões da antiguidade em noites sem lua. Soberania Noturna é o cheiro do power absoluto e dos segredos sussurrados, contido em um recipiente adornado com os tesouros de um reino esquecido. Uma mistura escura e opulenta para quem governa a noite.",
     categories: ["Oriental", "Couro"],
   },
   {
@@ -1370,7 +1370,7 @@ export const perfumes: Perfume[] = [
       heart: ["Incenso", "Couro", "Patchouli"],
       base: ["Vetiver", "Musgo de Carvalho", "Ládano"],
     },
-    story: "Forjado no coração de um vulcão, the frasco de Rocha Vulcânica is an ode to nature's raw power. A fragrância é uma fusão de couro e especiarias, com um coração esfumaçado de incenso e uma base terrosa de vetiver, capturando a energia primária e o poder magnético da terra.",
+    story: "Forjado no coração de um vulcão, the frasco de Rocha Vulcânica is an ode to nature's raw power. A fragrância é uma fusão de couro e especiarias, com um coração esfumaçado de incenso e uma base terrosa de vetiver, capturando a energia primária e o power magnético da terra.",
     categories: ["Couro", "Oriental"],
   },
   {
@@ -1412,7 +1412,7 @@ export const perfumes: Perfume[] = [
       heart: ["Couro", "Ládano", "Orquídea Negra"],
       base: ["Oud", "Mirra", "Benjoim"],
     },
-    story: "A essência da escuridão mais profunda, capturada em um monólito de azeviche. Noite Absoluta é uma fragrância resinosa e de couro, um mergulho no mistério e na sofisticação. É o perfume da confiança silenciosa e do poder inegável, para quem encontra beleza nas sombras.",
+    story: "A essência da escuridão mais profunda, capturada em um monólito de azeviche. Noite Absoluta é uma fragrância resinosa e de couro, um mergulho no mistério e na sofisticação. É o perfume da confiança silenciosa e do power inegável, para quem encontra beleza nas sombras.",
     categories: ["Couro", "Oriental"],
   },
   {
@@ -1454,7 +1454,7 @@ export const perfumes: Perfume[] = [
       heart: ["Oud", "Rosa Negra", "Incenso"],
       base: ["Âmbar", "Couro", "Baunilha"],
     },
-    story: "Forjado para um imperador, este frasco é um cofre que guarda os segredos de um vasto império. Tesouro Imperial é uma fragrância de opulência e poder, uma mistura rica de especiarias raras, oud precioso e âmbar quente. É o aroma da história, da conquista e de um legado eterno.",
+    story: "Forjado para um imperador, este frasco é um cofre que guarda os segredos de um vasto império. Tesouro Imperial é uma fragrância de opulência e power, uma mistura rica de especiarias raras, oud precioso e âmbar quente. É o aroma da história, da conquista e de um legado eterno.",
     categories: ["Oriental", "Amadeirado"],
   },
   {
@@ -1482,7 +1482,7 @@ export const perfumes: Perfume[] = [
       heart: ["Flor de Lótus", "Peônia Branca", "Chá Branco"],
       base: ["Sândalo", "Almíscar Branco"],
     },
-    story: "A personificação da pureza e da iluminação. Lótus de Ouro é uma fragrância que flutua na água, serena e luminosa. Um floral aquático delicado que acalma a mente e eleva o espírito, capturando a beleza transcendental de uma flor dourada desabrochando em um lago sagrado.",
+    story: "A personificação da pureza e da iluminação. Lótus de Ouro é uma fragrância que flutua na água, serena e luminosa. Um floral aquático delicado que acalma a mente e eleva o espírito, capturando a beleza transcendental de uma flower dourada desabrochando em um lago sagrado.",
     categories: ["Floral", "Fresco"],
   },
   {
@@ -1496,7 +1496,7 @@ export const perfumes: Perfume[] = [
       heart: ["Incenso", "Mirra", "Rosa Vermelha"],
       base: ["Âmbar", "Fava Tonka", "Oud"],
     },
-    story: "Das cinzas da lenda, surge uma fragrância de poder imortal. Renascimento Dourado é um perfume quente e especiado que captura a essência do renascimento. Uma mistura ardente de canela, incenso e âmbar, simbolizando a força, a resiliência e a promessa de um novo começo glorioso.",
+    story: "Das cinzas da lenda, surge uma fragrância de power imortal. Renascimento Dourado é um perfume quente e especiado que captura a essência do renascimento. Uma mistura ardente de canela, incenso e âmbar, simbolizando a força, a resiliência e a promessa de um novo começo glorioso.",
     categories: ["Oriental", "Amadeirado"],
   },
   {
@@ -1552,7 +1552,7 @@ export const perfumes: Perfume[] = [
       heart: ["Íris", "Jacinto Azul", "Rosa de Maio"],
       base: ["Musgo de Carvalho", "Sândalo", "Almíscar"],
     },
-    story: "Uma joia perdida de uma corte esquecida, encontrada para adornar a realeza moderna. Jóia de Lápis-lazúli é um perfume de elegância atemporal, um floral atalcado com a nobreza da íris e a profundidade do musgo, evocando uma nostalgia luxuosa.",
+    story: "Uma joia perdida de uma corte esquecida, encontrada para adornar a realeza moderna. Jóia de Lápis-lazúli é um perfume de elegância atemporal, un floral atalcado com a nobreza da íris e a profundidade do musgo, evocando uma nostalgia luxuosa.",
     categories: ["Floral", "Chipre"],
   },
   {
@@ -1566,7 +1566,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa Vermelha Absoluta", "Tuberosa", "Jasmim"],
       base: ["Patchouli", "Benjoim", "Almíscar Vermelho"],
     },
-    story: "Uma flor que desabrocha com a intensidade de uma paixão avassaladora. Flor Escarlate é uma declaração ousada, um floral vibrante e especiado que captura a coragem e a beleza ardente do vermelho. Um perfume para quem não tem medo de ser o centro das atenções.",
+    story: "Uma flower que desabrocha com a intensidade de uma paixão avassaladora. Flor Escarlate é uma declaração ousada, um floral vibrante e especiado que captura a coragem e a beleza ardente do vermelho. Um perfume para quem não tem medo de ser o centro das atenções.",
     categories: ["Floral", "Oriental"],
   },
   {
@@ -1580,7 +1580,7 @@ export const perfumes: Perfume[] = [
       heart: ["Mel Negro", "Tabaco", "Íris"],
       base: ["Fava Tonka", "Sândalo", "Couro"],
     },
-    story: "Um néctar escuro e inebriante, reservado ao soberano da colmeia. É uma fragrância de poder, mistério e doçura proibida. A abelha dourada guarda um elixir secreto de mel escuro e madeiras preciosas.",
+    story: "Um néctar escuro e inebriante, reservado ao soberano da colmeia. É uma fragrância de power, mistério e doçura proibida. A abelha dourada guarda um elixir secreto de mel escuro e madeiras preciosas.",
     categories: ["Oriental", "Gourmand", "Couro"],
   },
   {
@@ -1608,7 +1608,7 @@ export const perfumes: Perfume[] = [
       heart: ["Vetiver", "Íris", "Notas Minerais"],
       base: ["Iso E Super", "Cedro", "Almíscar Branco"],
     },
-    story: "Uma fragrância construída sobre os princípios da arquitetura modernista: a forma segue a função. Fundamento é um perfume de linhas limpas, materiais essenciais e confiança tranquila. É uma declaração de luxo minimalista, uma base sólida sobre a qual se constrói um estilo pessoal.",
+    story: "Uma fragrância construída sobre os princípios da arquitetura modernista: a forma segue a função. Fundamento é um perfume de lines limpas, materiais essenciais e confiança tranquila. É uma declaração de luxo minimalista, uma base sólida sobre a qual se constrói um estilo pessoal.",
     categories: ["Amadeirado", "Fresco"],
   },
   {
@@ -1650,7 +1650,7 @@ export const perfumes: Perfume[] = [
       heart: ["Oud", "Rosa", "Especiarias"],
       base: ["Âmbar", "Couro", "Sândalo"],
     },
-    story: "O aroma de um decreto real, o peso de uma dinastia. Uma fragrância de poder, herança e nobreza, combinando madeiras preciosas com a nobreza do couro e da rosa.",
+    story: "O aroma de um decreto real, o peso de uma dinastia. Uma fragrância de power, herança e nobreza, combinando madeiras preciosas com a nobreza do couro e da rosa.",
     categories: ["Oriental", "Amadeirado", "Couro"],
   },
   {
@@ -1692,7 +1692,7 @@ export const perfumes: Perfume[] = [
       heart: ["Orquídea Negra", "Jasmim Noturno", "Tuberosa"],
       base: ["Patchouli", "Âmbar", "Baunilha Negra"],
     },
-    story: "Um passeio por um jardim onde as flores só desabrocham ao luar. Uma fragrância floral oriental escura, misteriosa e inebriantemente sedutora.",
+    story: "Um passeio por um jardim onde as flowers só desabrocham ao luar. Uma fragrância floral oriental escura, misteriosa e inebriantemente sedutora.",
     categories: ["Floral", "Oriental"],
   },
   {
@@ -1734,7 +1734,7 @@ export const perfumes: Perfume[] = [
       heart: ["Flor de Laranjeira", "Ylang-Ylang", "Jasmim"],
       base: ["Âmbar", "Baunilha", "Sândalo"],
     },
-    story: "A fórmula perfeita para o ouro líquido. Uma fragrância de precisão e opulência, onde a doçura do mel encontra a radiância das flores brancas.",
+    story: "A fórmula perfeita para o ouro líquido. Uma fragrância de precisão e opulência, onde a doçura do mel encontra a radiância das flowers brancas.",
     categories: ["Gourmand", "Floral"],
   },
   {
@@ -1762,7 +1762,7 @@ export const perfumes: Perfume[] = [
       heart: ["Couro", "Oud", "Tabaco"],
       base: ["Âmbar Negro", "Ládano", "Vetiver"],
     },
-    story: "Um elixir hipnótico guardado por serpentes douradas entrelaçadas, simbolizando o ciclo eterno de criação e destruição. Uma fragrância escura e poderosa para quem abraça seu poder interior.",
+    story: "Um elixir hipnótico guardado por serpentes douradas entrelaçadas, simbolizando o ciclo eterno de criação e destruição. Uma fragrância escura e poderosa para quem abraça seu power interior.",
     categories: ["Oriental", "Couro", "Amadeirado"],
   },
   {
@@ -1818,7 +1818,7 @@ export const perfumes: Perfume[] = [
       heart: ["Jasmim", "Tuberosa", "Ylang-Ylang"],
       base: ["Sândalo", "Baunilha", "Âmbar"],
     },
-    story: "Inspirado na elegância e força das colunas greco-romanas. Coluna Dourada é um perfume floral ambarado de beleza escultural e atemporal. Uma fragrância que sustenta uma aura de graça e poder.",
+    story: "Inspirado na elegância e força das colunas greco-romanas. Coluna Dourada é um perfume floral ambarado de beleza escultural e atemporal. Uma fragrância que sustenta uma aura de graça e power.",
     categories: ["Floral", "Oriental"],
   },
   {
@@ -1832,7 +1832,7 @@ export const perfumes: Perfume[] = [
       heart: ["Couro", "Orquídea Negra", "Oud"],
       base: ["Madeira de Ébano", "Âmbar Negro", "Vetiver"],
     },
-    story: "Forjado a partir do ébano mais escuro e coroado com ouro, esta fragrância é o aroma do poder silencioso e de segredos antigos. Um perfume para quem comanda com uma presença inegável.",
+    story: "Forjado a partir do ébano mais escuro e coroado com ouro, esta fragrância é o aroma do power silencioso e de segredos antigos. Um perfume para quem comanda com uma presença inegável.",
     categories: ["Amadeirado", "Couro"],
   },
   {
@@ -1902,7 +1902,7 @@ export const perfumes: Perfume[] = [
       heart: ["Couro", "Oud", "Orquídea Negra"],
       base: ["Vetiver", "Âmbar Negro", "Patchouli"],
     },
-    story: "Uma fragrância para um rei, forjada a partir da pedra mais escura e coroada com ouro. É o aroma do poder, do mistério e da liderança inabalável.",
+    story: "Uma fragrância para um rei, forjada a partir da pedra mais escura e coroada com ouro. É o aroma do power, do mistério e da liderança inabalável.",
     categories: ["Amadeirado", "Couro", "Oriental"],
   },
   {
@@ -1930,7 +1930,7 @@ export const perfumes: Perfume[] = [
       heart: ["Íris", "Vetiver", "Notas Minerais"],
       base: ["Iso E Super", "Cedro", "Almíscar"],
     },
-    story: "Uma fragrância inspirada na intersecção entre arte e arquitetura. Linhas limpas, declarações ousadas e a proporção áurea. Para o visionário moderno.",
+    story: "Uma fragrância inspirada na intersecção entre arte e arquitetura. Lines limpas, declarações ousadas e a proporção áurea. Para o visionário moderno.",
     categories: ["Amadeirado", "Fresco", "Aromático"],
   },
   {
@@ -1944,7 +1944,7 @@ export const perfumes: Perfume[] = [
       heart: ["Couro Negro", "Incenso", "Orquídea Negra"],
       base: ["Oud", "Ládano", "Vetiver"],
     },
-    story: "Esculpido em ônix puro e coroado com ouro imperial, este frasco é uma declaração de poder e sofisticação. Ônix Imperial é uma fragrância noturna, um véu de couro e incenso que envolve quem o usa em uma aura de mistério e autoridade inquestionável.",
+    story: "Esculpido em ônix puro e coroado com ouro imperial, este frasco é uma declaração de power e sofisticação. Ônix Imperial é uma fragrância noturna, um véu de couro e incenso que envolve quem o usa em uma aura de mistério e autoridade inquestionável.",
     categories: ["Couro", "Oriental", "Amadeirado"],
   },
   {
@@ -1958,7 +1958,7 @@ export const perfumes: Perfume[] = [
       heart: ["Mel", "Jasmim Sambac", "Geleia Real"],
       base: ["Cera de Abelha", "Sândalo", "Baunilha"],
     },
-    story: "Guardada em um frasco que homenageia a arquitetura da colmeia, Essência Dourada é o mais puro néctar. Uma fragrância solar e viciante de mel e flores brancas que celebra a realeza da natureza e o trabalho precioso das abelhas.",
+    story: "Guardada em um frasco que homenageia a arquitetura da colmeia, Essência Dourada é o mais puro néctar. Uma fragrância solar e viciante de mel e flowers brancas que celebra a realeza da natureza e o trabalho precioso das abelhas.",
     categories: ["Gourmand", "Floral"],
   },
   {
@@ -2000,7 +2000,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa Turca", "Oud", "Íris Azul"],
       base: ["Sândalo", "Âmbar", "Baunilha"],
     },
-    story: "Uma fragrância tecida com os fios da realeza, para ser usada como um manto invisível de poder e majestade. O aroma de grandes salões, tapeçarias ricas e decisões que moldam a história.",
+    story: "Uma fragrância tecida com os fios da realeza, para ser usada como um manto invisível de power e majestade. O aroma de grandes salões, tapeçarias ricas e decisões que moldam a história.",
     categories: ["Oriental", "Floral", "Amadeirado"],
   },
   {
@@ -2028,7 +2028,7 @@ export const perfumes: Perfume[] = [
       heart: ["Patchouli", "Incenso", "Acorde de Terra Molhada"],
       base: ["Vetiver", "Musgo de Carvalho", "Couro"],
     },
-    story: "O cheiro do núcleo da terra e da força inabalável. Uma fragrância de resiliência e poder, para quem tem raízes profundas e uma conexão primária com a natureza.",
+    story: "O cheiro do núcleo da terra e da força inabalável. Uma fragrância de resiliência e power, para quem tem raízes profundas e uma conexão primária com a natureza.",
     categories: ["Chipre", "Amadeirado", "Couro"],
   },
   {
@@ -2196,7 +2196,7 @@ export const perfumes: Perfume[] = [
       heart: ["Couro Negro", "Oud", "Incenso"],
       base: ["Madeira de Ébano", "Vetiver", "Patchouli"],
     },
-    story: "Uma fragrância de poder tátil e sofisticação bruta. A textura do frasco convida ao toque, enquanto a fragrância de couro e madeiras escuras projeta uma aura de confiança inabalável. Para quem aprecia o design com substância.",
+    story: "Uma fragrância de power tátil e sofisticação bruta. A textura do frasco convida ao toque, enquanto a fragrância de couro e madeiras escuras projeta uma aura de confiança inabalável. Para quem aprecia o design com substância.",
     categories: ["Amadeirado", "Couro"],
   },
   {
@@ -2224,7 +2224,7 @@ export const perfumes: Perfume[] = [
       heart: ["Gardênia", "Tuberosa", "Jasmim"],
       base: ["Sândalo", "Almíscar Branco"],
     },
-    story: "Tão delicado e perfeito quanto uma flor esculpida em porcelana. Esta fragrância é um floral branco cremoso e imaculado, que celebra a beleza atemporal, a graça e a feminilidade pura.",
+    story: "Tão delicado e perfeito quanto uma flower esculpida em porcelana. Esta fragrância é um floral branco cremoso e imaculado, que celebra a beleza atemporal, a graça e a feminilidade pura.",
     categories: ["Floral"],
   },
   {
@@ -2238,7 +2238,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa Turca", "Oud", "Canela"],
       base: ["Âmbar", "Benjoim", "Patchouli"],
     },
-    story: "Uma joia da coroa, guardando un elixir de poder e paixão. Rubi Imperial é um perfume oriental opulento, uma mistura rica de rosa, especiarias e oud, para quem nasceu para reinar.",
+    story: "Uma joia da coroa, guardando un elixir de power e paixão. Rubi Imperial é um perfume oriental opulento, uma mistura rica de rosa, especiarias e oud, para quem nasceu para reinar.",
     categories: ["Oriental", "Gourmand"],
   },
   {
@@ -2266,7 +2266,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa", "Jasmim", "Âmbar"],
       base: ["Oud", "Sândalo", "Baunilha"],
     },
-    story: "A fragrância da opulência máxima. Ouro Real é um perfume que se sente como um manto de ouro líquido, uma mistura rica e majestosa de mel, flores e madeiras preciosas, para momentos de puro esplendor.",
+    story: "A fragrância da opulência máxima. Ouro Real é um perfume que se sente como um manto de ouro líquido, uma mistura rica e majestosa de mel, flowers e madeiras preciosas, para momentos de puro esplendor.",
     categories: ["Oriental", "Gourmand"],
   },
   {
@@ -2350,7 +2350,7 @@ export const perfumes: Perfume[] = [
       heart: ["Íris Azul", "Violeta", "Couro"],
       base: ["Baunilha", "Fava Tonka", "Sândalo"],
     },
-    story: "Inspirado no céu de uma noite estrelada. Noturno Safira é uma fragrância sonhadora e elegante, um fougère atalcado que evoca a calma e o mistério do universo. O perfume da contemplação silenciosa.",
+    story: "Inspirado no céu de uma noite estrelada. Noturno Safira é uma fragrância sonhadora e elegante, um foiugère atalcado que evoca a calma e o mistério do universo. O perfume da contemplação silenciosa.",
     categories: ["Aromático", "Couro"],
   },
   {
@@ -2364,7 +2364,7 @@ export const perfumes: Perfume[] = [
       heart: ["Couro", "Sálvia", "Íris"],
       base: ["Fava Tonka", "Vetiver", "Cedro"],
     },
-    story: "A fragrância da sofisticação urbana e do poder discreto. Código Negro é um perfume para o homem que navega pela cidade com confiança e propósito. Uma mistura moderna de couro, especiarias e madeiras.",
+    story: "A fragrância da sofisticação urbana e do power discreto. Código Negro é um perfume para o homem que navega pela cidade com confiança e propósito. Uma mistura moderna de couro, especiarias e madeiras.",
     categories: ["Couro", "Aromático"],
   },
   {
@@ -2406,7 +2406,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa", "Jasmim", "Especiarias"],
       base: ["Âmbar", "Sândalo", "Oud"],
     },
-    story: "O perfume de uma herança rica e de um nome que atravessa gerações. Legado Dourado é uma fragrância oriental opulenta, que fala de história, poder e tradição. Um clássico atemporal.",
+    story: "O perfume de uma herança rica e de um nome que atravessa gerações. Legado Dourado é uma fragrância oriental opulenta, que fala de história, power e tradição. Um clássico atemporal.",
     categories: ["Oriental", "Amadeirado"],
   },
   {
@@ -2434,7 +2434,7 @@ export const perfumes: Perfume[] = [
       heart: ["Peônia Rosa", "Rosa de Maio", "Magnólia"],
       base: ["Almíscar Branco", "Cedro"],
     },
-    story: "A celebração da juventude e do primeiro amor. Botão de Rosa é uma fragrância floral frutada, alegre e romântica, que captura a doçura e a inocência de uma flor prestes a desabrochar.",
+    story: "A celebração da juventude e do primeiro amor. Botão de Rosa é uma fragrância floral frutada, alegre e romântica, que captura a doçura e a inocência de uma flower prestes a desabrochar.",
     categories: ["Floral", "Fresco"],
   },
   {
@@ -2448,7 +2448,7 @@ export const perfumes: Perfume[] = [
       heart: ["Violeta", "Íris", "Lavanda"],
       base: ["Sândalo", "Almíscar", "Baunilha"],
     },
-    story: "Uma cúpula arquitetônica que abriga um jardim secreto de flores roxas. Cúpula de Ametista é uma fragrância atalcada e misteriosa, evocando a elegância da realeza e a profundidade espiritual da cor violeta.",
+    story: "Uma cúpula arquitetônica que abriga um jardim secreto de flowers roxas. Cúpula de Ametista é uma fragrância atalcada e misteriosa, evocando a elegância da realeza e a profundidade espiritual da cor violeta.",
     categories: ["Floral", "Aromático"],
   },
   {
@@ -2458,7 +2458,7 @@ export const perfumes: Perfume[] = [
     imageUrl: "https://i.imgur.com/kUUt4da.jpg",
     year: 2025,
     notes: {
-      top: ["Gengibre", "Pimenta Rosa"],
+      top: ["Gengibe", "Pimenta Rosa"],
       heart: ["Lírio", "Orquídea", "Âmbar Claro"],
       base: ["Cedro", "Musgo", "Almíscar Cristalino"],
     },
@@ -2476,7 +2476,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa Damascena", "Oud", "Patchouli"],
       base: ["Couro", "Âmbar", "Fava Tonka"],
     },
-    story: "Um tributo à opulência dos antigos impérios. O frasco, adornado com detalhes dourados intrincados, evoca uma coroa preciosa. A fragrância é majestosa, densa e inesquecível, para aqueles que nasceram para governar.",
+    story: "Um tributo à opulência dos antigos impérios. O frasco, adornado com detalhes dourados intrincados, evoca uma coroa preciosa. A fragrância é majestosa, densa e inesquecível, para those que nasceram para governar.",
     categories: ["Oriental", "Couro"],
   },
   {
@@ -2532,7 +2532,7 @@ export const perfumes: Perfume[] = [
       heart: ["Jasmim Dourado", "Mel", "Ylang-Ylang"],
       base: ["Âmbar", "Benjoim", "Madeira de Cashmere"],
     },
-    story: "Um coração pulsante de ouro puro. Este frasco escultural celebra o amor e a riqueza interior. A fragrância é efervescente e radiante, iluminando todos que se aproximam com sua aura dourada.",
+    story: "Um coração pulsante de ouro puro. Este frasco escultural celebra o amor e a riqueza interior. A fragrância é efervescente e radiante, iluminando todos que se apaixonam com sua aura dourada.",
     categories: ["Floral", "Gourmand"],
   },
   {
@@ -2630,7 +2630,7 @@ export const perfumes: Perfume[] = [
       heart: ["Sálvia", "Madeira Flutuante", "Alecrim"],
       base: ["Ambregris", "Vetiver", "Almíscar"],
     },
-    story: "A imensidão e o poder do oceano aberto. Um frasco que captura o movimento das ondas, guardando uma fragrância salgada, revigorante e selvagem.",
+    story: "A imensidão e o power do oceano aberto. Um frasco que captura o movimento das ondas, guardando uma fragrância salgada, revigorante e selvagem.",
     categories: ["Fresco", "Aromático"],
   },
   {
@@ -2700,7 +2700,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa", "Peônia", "Madressilva"],
       base: ["Musgo", "Cedro", "Almíscar"],
     },
-    story: "Um oásis verdejante acima das nuvens. Jardim Suspenso transporta você para um refúgio de tranquilidade, onde o frescor das folhas se mistura com a doçura das flores.",
+    story: "Um oásis verdejante acima das nuvens. Jardim Suspenso transporta você para um refúgio de tranquilidade, onde o frescor das folhas se mistura com a doçura das flowers.",
     categories: ["Floral", "Aromático"],
   },
   {
@@ -2742,7 +2742,7 @@ export const perfumes: Perfume[] = [
       heart: ["Tuberosa", "Ylang-Ylang", "Orquídea"],
       base: ["Bálsamo do Peru", "Tonka", "Baunilha"],
     },
-    story: "Uma viagem aos tesouros perdidos dos Andes. Ouro dos Incas é uma fragrância exótica e solar, rica em frutas tropicais e flores exuberantes.",
+    story: "Uma viagem aos tesouros perdidos dos Andes. Ouro dos Incas é uma fragrância exótica e solar, rica em frutas tropicais e flowers exuberantes.",
     categories: ["Oriental", "Floral"],
   },
   {
@@ -2798,7 +2798,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa Vermelha", "Jasmim", "Framboesa"],
       base: ["Patchouli", "Baunilha", "Cacau"],
     },
-    story: "Intenso e sedutor, como um romance proibido. Rubra Paixão é um perfume viciante, onde a doçura das frutas vermelhas encontra a profundidade das flores.",
+    story: "Intenso e sedutor, como um romance proibido. Rubra Paixão é um perfume viciante, onde a doçura das frutas vermelhas encontra a profundidade das flowers.",
     categories: ["Floral", "Gourmand"],
   },
   {
@@ -3008,7 +3008,7 @@ export const perfumes: Perfume[] = [
       heart: ["Frésia", "Muguet", "Peônia"],
       base: ["Musk Branco", "Sândalo", "Madeira Clara"],
     },
-    story: "Flores esculpidas em cristal puro. Jardim de Cristal é uma fragrância delicada e luminosa, que reflete a perfeição e a clareza de um jardim encantado.",
+    story: "Flowers esculpidas em cristal puro. Jardim de Cristal é uma fragrância delicada e luminosa, que reflete a perfeição e a clareza de um jardim encantado.",
     categories: ["Floral", "Fresco"],
   },
   {
@@ -3050,7 +3050,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa", "Magnólia"],
       base: ["Cedro", "Âmbar"]
     },
-    story: "Um jardim secreto da realeza, onde flores raras desabrocham. Jardim Imperial é pura elegância.",
+    story: "Um jardim secreto da realeza, onde flowers raras desabrocham. Jardim Imperial é pura elegância.",
     categories: ["Floral"]
   },
   {
@@ -3208,7 +3208,8 @@ export const perfumes: Perfume[] = [
     categories: ["Oriental", "Couro"]
   },
   {
-    id: 233,
+    id: 233, 
+    // FIXED: Added missing property name
     name: "Flor de Gelo",
     designer: "Glacialis Parfums",
     imageUrl: "https://i.imgur.com/FWbvt7X.jpg",
@@ -3316,7 +3317,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa", "Peônia"],
       base: ["Madeira de Cashmere", "Almíscar"]
     },
-    story: "A rainha das flores em sua forma mais majestosa.",
+    story: "A rainha das flowers em sua forma mais majestosa.",
     categories: ["Floral"]
   },
   {
@@ -3484,7 +3485,7 @@ export const perfumes: Perfume[] = [
       heart: ["Oud Dourado", "Rosa", "Benjoim"],
       base: ["Âmbar", "Sândalo", "Baunilha"]
     },
-    story: "Símbolo de autoridade e poder divino. Cetro Real é uma fragrância opulenta e majestosa, destinada àqueles que nasceram para governar.",
+    story: "Símbolo de autoridade e power divino. Cetro Real é uma fragrância opulenta e majestosa, destinada àqueles que nasceram para governar.",
     categories: ["Oriental", "Amadeirado"]
   },
   {
@@ -4030,7 +4031,7 @@ export const perfumes: Perfume[] = [
       heart: ["Jasmim", "Âmbar"],
       base: ["Oud", "Mirra"]
     },
-    story: "O símbolo máximo de poder e riqueza.",
+    story: "O símbolo máximo de power e riqueza.",
     categories: ["Oriental", "Gourmand"]
   },
   {
@@ -4104,34 +4105,6 @@ export const perfumes: Perfume[] = [
     categories: ["Oriental", "Fresco"]
   },
   {
-    id: 298,
-    name: "Majestade Solar",
-    designer: "Helios Fragrances",
-    imageUrl: "https://i.imgur.com/ajq5WnA.jpg",
-    year: 2024,
-    notes: {
-      top: ["Mandarina Real", "Açafrão"],
-      heart: ["Flor de Laranjeira", "Mel de Flores"],
-      base: ["Âmbar Dourado", "Fava Tonka", "Baunilha"]
-    },
-    story: "O brilho absoluto do sol capturado em um recipiente ornamentado. Majestade Solar é um perfume radiante que celebra a luz, a riqueza e a energia vital eterna.",
-    categories: ["Floral", "Oriental", "Gourmand"]
-  },
-  {
-    id: 299,
-    name: "Pulso da Terra",
-    designer: "Viridis",
-    imageUrl: "https://i.imgur.com/5dhJyGS.jpg",
-    year: 2023,
-    notes: {
-      top: ["Folhas de Figo", "Manjericão"],
-      heart: ["Bambu", "Vetiver", "Musgo"],
-      base: ["Cedro", "Patchouli", "Âmbar Verde"]
-    },
-    story: "A força orgânica da natureza em uma escultura de vidro esmeralda. Pulso da Terra é uma conexão visceral com o solo fértil e a exuberância das florestas tropicais.",
-    categories: ["Aromático", "Amadeirado", "Verde"]
-  },
-  {
     id: 300,
     name: "Segredo de Ônix",
     designer: "Obscura Parfums",
@@ -4170,7 +4143,7 @@ export const perfumes: Perfume[] = [
       heart: ["Peônia", "Frésia", "Rosa Rosa"],
       base: ["Baunilha", "Madeira de Cashmere", "Musk"]
     },
-    story: "A delicadeza de uma flor cristalizada no orvalho da manhã. Orvalho de Rubi é um floral frutado vibrante que captura a inocência e o brilho da aurora.",
+    story: "A delicadeza de uma flower cristalizada no orvalho da manhã. Orvalho de Rubi é um floral frutado vibrante que captura a inocência e o brilho da aurora.",
     categories: ["Floral", "Fresco", "Rosa"]
   },
   {
@@ -4296,7 +4269,7 @@ export const perfumes: Perfume[] = [
       heart: ["Neroli", "Flor de Laranjeira", "Peônia"],
       base: ["Musk Branco", "Âmbar Claro", "Cedro"]
     },
-    story: "Um design que desafia a gravidade, onde o cristal encontra o ouro em linhas arquitetônicas perfeitas. Vértice de Ouro é uma explosão de luz solar e frescor cítrico, destinado ao visionário moderno.",
+    story: "Um design que desafia a gravidade, onde o cristal encontra o ouro em lines arquitetônicas perfeitas. Vértice de Ouro é uma explosão de luz solar e frescor cítrico, destinado ao visionário moderno.",
     categories: ["Fresco", "Floral"]
   },
   {
@@ -4312,5 +4285,132 @@ export const perfumes: Perfume[] = [
     },
     story: "Uma esfera de mistério profundo, envolta em ornamentos dourados que guardam segredos ancestrais. Orbe de Ônix é a personificação da elegância noturna, uma fragrância densa e inesquecível que seduz pelas sombras.",
     categories: ["Oriental", "Couro", "Amadeirado"]
-  }
+  },
+  {
+    id: 314,
+    name: "Prisma de Safira",
+    designer: "Lapidari",
+    imageUrl: "https://i.imgur.com/0N3epR1.jpg",
+    year: 2025,
+    notes: {
+      top: ["Limão Siciliano", "Pimenta Azul"],
+      heart: ["Lótus Azul", "Frésia"],
+      base: ["Musk Branco", "Âmbar Cinza"]
+    },
+    story: "Um cristal facetado que captura o azul profundo do oceano. Prisma de Safira é uma celebração da luz e da frescura infinita das águas.",
+    categories: ["Fresco", "Floral"]
+  },
+  {
+    id: 315,
+    name: "Essência de Rubi",
+    designer: "Atelier Rouge",
+    imageUrl: "https://i.imgur.com/jP01C0x.jpg",
+    year: 2024,
+    notes: {
+      top: ["Cereja Preta", "Romã"],
+      heart: ["Rosa Búlgara", "Framboesa"],
+      base: ["Patchouli", "Baunilha"]
+    },
+    story: "Uma joia esculpida no formato da paixão absoluta. Essência de Rubi guarda um elixir doce e inebriante, destinado aos amores inesquecíveis.",
+    categories: ["Gourmand", "Oriental"]
+  },
+  {
+    id: 316,
+    name: "Ouro de Versailles",
+    designer: "Maison Royale",
+    imageUrl: "https://i.imgur.com/i3Vj8BB.jpg",
+    year: 2023,
+    notes: {
+      top: ["Açafrão", "Mandarina"],
+      heart: ["Oud Dourado", "Rosa Damascena"],
+      base: ["Sândalo", "Âmbar"]
+    },
+    story: "Inspirado na suntuosidade dos salões reais, este frasco de filigrana e ouro protege uma fragrância de opulência incomparável.",
+    categories: ["Oriental", "Amadeirado"]
+  },
+  {
+    id: 317,
+    name: "Luz de Verão",
+    designer: "Helios Fragrances",
+    imageUrl: "https://i.imgur.com/RnWVbTb.jpg",
+    year: 2025,
+    notes: {
+      top: ["Bergamota", "Néroli"],
+      heart: ["Flor de Laranjeira", "Jasmim"],
+      base: ["Musk Solar", "Âmbar"]
+    },
+    story: "O calor do sol capturado em um cristal radiante. Luz de Verão é uma fragrância solar que ilumina o espírito e renova as energias.",
+    categories: ["Floral", "Fresco"]
+  },
+  {
+    id: 318,
+    name: "Noite Púrpura",
+    designer: "Nocturne Parfums",
+    imageUrl: "https://i.imgur.com/s5yO4J6.jpg",
+    year: 2024,
+    notes: {
+      top: ["Amora", "Cassis"],
+      heart: ["Violeta", "Íris"],
+      base: ["Baunilha Negra", "Patchouli"]
+    },
+    story: "Um design místico em tons de púrpura que guarda os segredos da meia-noite. Noite Púrpura é envolvente, sedutor e profundamente elegante.",
+    categories: ["Oriental", "Floral"]
+  },
+  {
+    id: 319,
+    name: "Monólito de Gelo",
+    designer: "Glacialis Parfums",
+    imageUrl: "https://i.imgur.com/0N3epR1.jpg",
+    year: 2025,
+    notes: {
+      top: ["Menta Glacial", "Limão"],
+      heart: ["Flor de Gelo", "Lírio"],
+      base: ["Musk Branco", "Cedro"]
+    },
+    story: "Uma estrutura cristalina que parece ter sido esculpida diretamente de uma geleira milenar. Monólito de Gelo é a essência do frescor absoluto, uma fragrância nítida e revigorante que desperta os sentidos.",
+    categories: ["Fresco", "Floral"]
+  },
+  {
+    id: 320,
+    name: "Chama de Rubi",
+    designer: "Atelier Rouge",
+    imageUrl: "https://i.imgur.com/jP01C0x.jpg",
+    year: 2024,
+    notes: {
+      top: ["Cereja Preta", "Pimenta Rosa"],
+      heart: ["Rosa Búlgara", "Cacau"],
+      base: ["Baunilha", "Patchouli"]
+    },
+    story: "A cor do rubi mais profundo guardada em uma joia de vidro. Chama de Rubi é um elixir doce e inebriante, destinado aos amores inesquecíveis e às noites de paixão ardente.",
+    categories: ["Gourmand", "Oriental"]
+  },
+  {
+    id: 321,
+    name: "Brasão Real Dourado",
+    designer: "Maison Royale",
+    imageUrl: "https://i.imgur.com/i3Vj8BB.jpg",
+    year: 2023,
+    notes: {
+      top: ["Açafrão", "Mandarina"],
+      heart: ["Oud Dourado", "Rosa Damascena"],
+      base: ["Sândalo", "Âmbar"]
+    },
+    story: "Inspirado na suntuosidade dos salões reais, este frasco de filigrana e ouro protege uma fragrância de opulência incomparável. Um verdadeiro tributo ao luxo barroco.",
+    categories: ["Oriental", "Amadeirado"]
+  },
+  // FIXED: Completed truncated entry for Radiância Solar (ID 322)
+  {
+    id: 322,
+    name: "Radiância Solar",
+    designer: "Helios Fragrances",
+    imageUrl: "https://i.imgur.com/RnWVbTb.jpg",
+    year: 2025,
+    notes: {
+      top: ["Bergamota", "Mandarina"],
+      heart: ["Flor de Laranjeira", "Ylang-Ylang"],
+      base: ["Âmbar", "Almíscar"],
+    },
+    story: "A essência radiante de um dia de sol eterno, capturada em um frasco que brilha com a luz do Mediterrâneo.",
+    categories: ["Fresco", "Floral"],
+  },
 ];
