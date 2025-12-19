@@ -362,7 +362,7 @@ export const perfumes: Perfume[] = [
         heart: ["Jasmim Sambac", "Tuberosa", "Raiz de Orris"],
         base: ["Baunilha Negra", "Patchouli", "Alcaçuz"],
     },
-    story: "Uma mistura mágica que cativa os sentidos. Poção Encantada é um floral gourmand misterioso e enfeitiçante, guardado em um frasco que parece saído de um conto de fadas.",
+    story: "Uma mistura mágica que cativa os sentidos. Poção Encantada é um floral gourmand misterioso e enfeitiçante, guardando um frasco que parece saído de um conto de fadas.",
     categories: ["Gourmand", "Floral"],
   },
   {
@@ -698,7 +698,7 @@ export const perfumes: Perfume[] = [
         heart: ["Ylang-Ylang", "Jasmim", "Flor de Laranjeira"],
         base: ["Âmbar", "Benjoim", "Baunilha"],
     },
-    story: "As cores quentes e a sensação reconfortante de um pôr do sol. Ocaso Dourado é un floral ambarado, radiante e sensual, como os últimos raios de sol do dia.",
+    story: "As cores quentes e a sensação reconfortante de um pôr do sol. Ocaso Dourado é um floral ambarado, radiante e sensual, como os últimos raios de sol do dia.",
     categories: ["Oriental", "Floral"],
   },
   {
@@ -1356,7 +1356,7 @@ export const perfumes: Perfume[] = [
       heart: ["Íris", "Folha de Violeta", "Notas Metálicas"],
       base: ["Vetiver", "Iso E Super", "Almíscar Branco"],
     },
-    story: "Um perfume que captura a essência do luxo moderno em sua forma mais pura. Linha Dourada é uma fragrância limpa e estruturada com um caráter ousado, assim como as linhas arquitetônicas de um arranha-céu. Representa precisão, ambição e a confiança silenciosa do design contemporâneo.",
+    story: "Um perfume que captura a essência do luxo moderno em sua forma mais pura. Linha Dourada é uma fragrância limpa e estruturada com um caráter ousado, assim como as lines arquitetônicas de um arranha-céu. Representa precisão, ambição e a confiança silenciosa do design contemporâneo.",
     categories: ["Fresco", "Amadeirado"],
   },
   {
@@ -2098,7 +2098,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa Vermelha", "Gerânio", "Couro"],
       base: ["Patchouli", "Âmbar", "Vetiver"],
     },
-    story: "Uma fragrância construída com a precisão da arquitetura, onde cada ângulo reflete uma faceta da paixão. Geometria Rubra é um perfume de declarações ousadas e linhas definidas, para quem vê a beleza na estrutura e a força na forma.",
+    story: "Uma fragrância construída com a precisão da arquitetura, onde cada ângulo reflete uma faceta da paixão. Geometria Rubra é um perfume de declarações ousadas e lines definidas, para quem vê a beleza na estrutura e a força na forma.",
     categories: ["Oriental", "Couro"],
   },
   {
@@ -2109,7 +2109,7 @@ export const perfumes: Perfume[] = [
     year: 2023,
     notes: {
       top: ["Pimenta Preta", "Incenso"],
-      heart: ["Couro Esfumaçado", "Incenso", "Madeira de Cedro"],
+      heart: ["Couro Esfumaçado", "Ládano", "Oud"],
       base: ["Vetiver de Java", "Musgo de Carvalho", "Âmbar Negro"],
     },
     story: "Nascido do fogo e da pressão, este frasco captura a beleza bruta da rocha vulcânica. Noite Vulcânica é uma fragrância magnética e poderosa, que evoca a energia primária da terra e a elegância sombria da noite.",
@@ -2294,7 +2294,7 @@ export const perfumes: Perfume[] = [
       heart: ["Vetiver", "Íris", "Couro"],
       base: ["Cedro", "Patchouli", "Fava Tonka"],
     },
-    story: "Inspirado na beleza funcional do design brutalista. Estrutura Negra é um perfume de linhas ousadas e materiais crus, uma declaração de força e confiança para o indivíduo moderno.",
+    story: "Inspirado na beleza funcional do design brutalista. Estrutura Negra é um perfume de lines ousadas e materiais crus, uma declaração de força e confiança para o indivíduo moderno.",
     categories: ["Amadeirado", "Couro"],
   },
   {
@@ -4270,5 +4270,47 @@ export const perfumes: Perfume[] = [
     },
     story: "Um frasco de cristal vermelho profundo que guarda os segredos de uma noite de paixão inesquecível.",
     categories: ["Oriental", "Gourmand"]
+  },
+  {
+    id: 311,
+    name: "Âmbar de Alexandria",
+    designer: "Maison Royale",
+    imageUrl: "https://i.imgur.com/kjjfhP5.jpg",
+    year: 2024,
+    notes: {
+      top: ["Açafrão", "Bergamota"],
+      heart: ["Âmbar", "Incenso", "Rosa"],
+      base: ["Oud", "Sândalo", "Baunilha"]
+    },
+    story: "Inspirado na majestade das antigas cidades imperiais, este frasco ricamente ornamentado guarda um elixir de puro ouro e resina. Uma fragrância que celebra o luxo atemporal e o mistério das rotas da seda.",
+    categories: ["Oriental", "Amadeirado"]
+  },
+  {
+    id: 312,
+    name: "Vértice de Ouro",
+    designer: "Lumina Parfum",
+    imageUrl: "https://i.imgur.com/RyP7HLS.jpg",
+    year: 2025,
+    notes: {
+      top: ["Grapefruit", "Gengibre"],
+      heart: ["Neroli", "Flor de Laranjeira", "Peônia"],
+      base: ["Musk Branco", "Âmbar Claro", "Cedro"]
+    },
+    story: "Um design que desafia a gravidade, onde o cristal encontra o ouro em linhas arquitetônicas perfeitas. Vértice de Ouro é uma explosão de luz solar e frescor cítrico, destinado ao visionário moderno.",
+    categories: ["Fresco", "Floral"]
+  },
+  {
+    id: 313,
+    name: "Orbe de Ônix",
+    designer: "Atelier Noir",
+    imageUrl: "https://i.imgur.com/kD168oM.jpg",
+    year: 2024,
+    notes: {
+      top: ["Pimenta Preta", "Cassis"],
+      heart: ["Orquídea Negra", "Ládano", "Violeta"],
+      base: ["Patchouli", "Couro", "Âmbar Negro"]
+    },
+    story: "Uma esfera de mistério profundo, envolta em ornamentos dourados que guardam segredos ancestrais. Orbe de Ônix é a personificação da elegância noturna, uma fragrância densa e inesquecível que seduz pelas sombras.",
+    categories: ["Oriental", "Couro", "Amadeirado"]
   }
 ];
