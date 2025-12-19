@@ -376,7 +376,7 @@ export const perfumes: Perfume[] = [
         heart: ["Couro", "Íris", "Violeta"],
         base: ["Vetiver", "Madeira de Caxemira", "Asfalto Molhado"],
     },
-    story: "A essência das luzes da cidade após a chuva. Urbano Noturno é uma fragrância moderna e ousada, com um toque mineral e amadeirado que captura a energia da metrópole.",
+    story: "A essência das luzes da cidade após a chuva. Urbano Noturno é uma fragrância moderna e ousada, com um toque mineral e amadeirado que captura a energy da metrópole.",
     categories: ["Aromático", "Couro"],
   },
   {
@@ -404,7 +404,7 @@ export const perfumes: Perfume[] = [
         heart: ["Cravo-da-índia", "Canela", "Rosa Vermelha"],
         base: ["Tabaco", "Âmbar", "Couro"],
     },
-    story: "Uma explosão de especiarias quentes e energia vibrante. Fúria Vermelha é um perfume intenso e apaixonado, para quem não tem medo de deixar uma marca inesquecível.",
+    story: "Uma explosão de especiarias quentes e energy vibrante. Fúria Vermelha é um perfume intenso e apaixonado, para quem não tem medo de deixar uma marca inesquecível.",
     categories: ["Oriental", "Couro"],
   },
   {
@@ -544,7 +544,7 @@ export const perfumes: Perfume[] = [
         heart: ["Algas Marinhas", "Gengibre", "Folha de Violeta"],
         base: ["Ambregris", "Madeira Flutuante", "Patchouli"],
     },
-    story: "A força dramática e a energia de uma tempestade oceânica. Tempestade no Mar é um aquático aromático, poderoso e eletrizante, com um coração mineral e salgado.",
+    story: "A força dramática e a energy de uma tempestade oceânica. Tempestade no Mar é um aquático aromático, poderoso e eletrizante, com um coração mineral e salgado.",
     categories: ["Fresco", "Aromático"],
   },
   {
@@ -628,7 +628,7 @@ export const perfumes: Perfume[] = [
         heart: ["Geosmina (Cheiro de Terra Molhada)", "Patchouli"],
         base: ["Vetiver", "Musgo de Carvalho", "Cedro do Atlas"],
     },
-    story: "Conecte-se com a energia primária da terra. Força da Terra é uma fragrância terrosa e amadeirada, que evoca a sensação de estar descalço na terra úmida após a chuva.",
+    story: "Conecte-se com a energy primária da terra. Força da Terra é uma fragrância terrosa e amadeirada, que evoca a sensação de estar descalço na terra úmida após a chuva.",
     categories: ["Chipre", "Amadeirado"],
   },
   {
@@ -1034,7 +1034,7 @@ export const perfumes: Perfume[] = [
         heart: ["Ylang-Ylang", "Tuberosa", "Flor de Laranjeira"],
         base: ["Âmbar", "Sândalo", "Baunilha"],
     },
-    story: "Puro brilho solar engarrafado. Ouro Líquido é un floral ambarado radiante, que irradia calor, felicidade e uma energia dourada contagiante.",
+    story: "Puro brilho solar engarrafado. Ouro Líquido é un floral ambarado radiante, que irradia calor, felicidade e uma energy dourada contagiante.",
     categories: ["Oriental", "Floral"],
   },
   {
@@ -1146,7 +1146,7 @@ export const perfumes: Perfume[] = [
         heart: ["Couro", "Incenso", "Patchouli"],
         base: ["Vetiver de Java", "Ládano", "Fava Tonka"],
     },
-    story: "Captura a força bruta de um vulcão adormecido. A textura rochosa e o contraste com o ouro derretido evocam uma energia primária. Uma fragrância de couro e especiarias, para quem possui um fogo interior.",
+    story: "Captura a força bruta de um vulcão adormecido. A textura rochosa e o contraste com o ouro derretido evocam uma energy primária. Uma fragrância de couro e especiarias, para quem possui um fogo interior.",
     categories: ["Couro", "Oriental"],
   },
   {
@@ -1370,7 +1370,7 @@ export const perfumes: Perfume[] = [
       heart: ["Incenso", "Couro", "Patchouli"],
       base: ["Vetiver", "Musgo de Carvalho", "Ládano"],
     },
-    story: "Forjado no coração de um vulcão, the frasco de Rocha Vulcânica is an ode to nature's raw power. A fragrância é uma fusão de couro e especiarias, com um coração esfumaçado de incenso e uma base terrosa de vetiver, capturando a energia primária e o power magnético da terra.",
+    story: "Forjado no coração de um vulcão, the frasco de Rocha Vulcânica is an ode to nature's raw power. A fragrância é uma fusão de couro e especiarias, com um coração esfumaçado de incenso e uma base terrosa de vetiver, capturando a energy primária e o power magnético da terra.",
     categories: ["Couro", "Oriental"],
   },
   {
@@ -1468,7 +1468,7 @@ export const perfumes: Perfume[] = [
       heart: ["Couro", "Íris", "Vetiver"],
       base: ["Madeira de Cedro", "Fava Tonka", "Almíscar"],
     },
-    story: "A essência da arquitetura moderna e da noite na cidade. Monólito Urbano é uma fragrância de lines limpas e confiança silenciosa. Um perfume amadeirado e de couro que captura a sofisticação e a energia pulsante da metrópole.",
+    story: "A essência da arquitetura moderna e da noite na cidade. Monólito Urbano é uma fragrância de lines limpas e confiança silenciosa. Um perfume amadeirado e de couro que captura a sofisticação e a energy pulsante da metrópole.",
     categories: ["Amadeirado", "Aromático"],
   },
   {
@@ -1622,7 +1622,7 @@ export const perfumes: Perfume[] = [
       heart: ["Incenso", "Mirra", "Âmbar Líquido"],
       base: ["Oud", "Vetiver", "Benjoim"],
     },
-    story: "Captura o momento da criação, uma imensa energia contida. O choque entre a rocha negra e o ouro fluido resulta em uma fragrância oriental amadeirada, potente e inesquecível.",
+    story: "Captura o momento da criação, uma imensa energy contida. O choque entre a rocha negra e o ouro fluido resulta em uma fragrância oriental amadeirada, potente e inesquecível.",
     categories: ["Oriental", "Amadeirado"],
   },
   {
@@ -1720,7 +1720,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa", "Tabaco", "Cravo"],
       base: ["Âmbar", "Fava Tonka", "Benjoim"],
     },
-    story: "A adrenalina da paixão e da força imparável. Uma fragrância oriental gourmand, ousada e confiante, que pulsa com energia vibrante.",
+    story: "A adrenalina da paixão e da força imparável. Uma fragrância oriental gourmand, ousada e confiante, que pulsa com energy vibrante.",
     categories: ["Oriental", "Gourmand"],
   },
   {
@@ -1748,7 +1748,7 @@ export const perfumes: Perfume[] = [
       heart: ["Chá Verde", "Musgo", "Pinheiro"],
       base: ["Vetiver", "Patchouli", "Madeira de Cedro"],
     },
-    story: "A energia profunda e curativa da floresta e das suas gemas escondidas. Uma fragrância amadeirada e aromática, verde e terrosa, que conecta com a alma da natureza.",
+    story: "A energy profunda e curativa da floresta e das suas gemas escondidas. Uma fragrância amadeirada e aromática, verde e terrosa, que conecta com a alma da natureza.",
     categories: ["Amadeirado", "Aromático"],
   },
   {
@@ -2112,7 +2112,7 @@ export const perfumes: Perfume[] = [
       heart: ["Couro Esfumaçado", "Ládano", "Oud"],
       base: ["Vetiver de Java", "Musgo de Carvalho", "Âmbar Negro"],
     },
-    story: "Nascido do fogo e da pressão, este frasco captura a beleza bruta da rocha vulcânica. Noite Vulcânica é uma fragrância magnética e poderosa, que evoca a energia primária da terra e a elegância sombria da noite.",
+    story: "Nascido do fogo e da pressão, este frasco captura a beleza bruta da rocha vulcânica. Noite Vulcânica é uma fragrância magnética e poderosa, que evoca a energy primária da terra e a elegância sombria da noite.",
     categories: ["Amadeirado", "Couro", "Oriental"],
   },
   {
@@ -2168,7 +2168,7 @@ export const perfumes: Perfume[] = [
       heart: ["Pinheiro", "Cedro", "Patchouli"],
       base: ["Vetiver", "Musgo de Carvalho", "Ládano"],
     },
-    story: "Uma joia nascida no coração de uma floresta antiga e intocada. Coração da Floresta é uma fragrância verde e terrosa, que captura a seiva das árvores, a umidade do solo e a energia vital da natureza.",
+    story: "Uma joia nascida no coração de uma floresta antiga e intocada. Coração da Floresta é uma fragrância verde e terrosa, que captura a seiva das árvores, a umidade do solo e a energy vital da natureza.",
     categories: ["Amadeirado", "Aromático", "Chipre"],
   },
   {
@@ -2658,7 +2658,7 @@ export const perfumes: Perfume[] = [
       heart: ["Néroli", "Jasmim", "Flor de Laranjeira"],
       base: ["Âmbar", "Musk", "Benjoim"],
     },
-    story: "Um tributo à luz e energia do sol. Prisma Solar é uma fragrância radiante que ilumina o ambiente com seu calor cítrico e floral, guardada em um frasco que refrata a luz em mil cores.",
+    story: "Um tributo à luz e energy do sol. Prisma Solar é uma fragrância radiante que ilumina o ambiente com seu calor cítrico e floral, guardada em um frasco que refrata a luz em mil cores.",
     categories: ["Floral", "Oriental"],
   },
   {
@@ -2938,7 +2938,7 @@ export const perfumes: Perfume[] = [
       heart: ["Chá Verde", "Figo", "Hortelã"],
       base: ["Vetiver", "Musgo", "Cedro"],
     },
-    story: "A vitalidade da natureza em sua forma mais exuberante. Esplendor Verde é uma explosão de frescor aromático, celebrando a vida e a energia das plantas.",
+    story: "A vitalidade da natureza em sua forma mais exuberante. Esplendor Verde é uma explosão de frescor aromático, celebrando a vida e a energy das plantas.",
     categories: ["Aromático", "Aromático"],
   },
   {
@@ -4350,7 +4350,7 @@ export const perfumes: Perfume[] = [
     notes: {
       top: ["Menta Glacial", "Limão"],
       heart: ["Flor de Gelo", "Lírio"],
-      base: ["Musk Branco", "Cedro"]
+      base: ["Almíscar Branco", "Cedro"]
     },
     story: "Uma estrutura cristalina que parece ter sido esculpida diretamente de uma geleira milenar. Monólito de Gelo é a essência do frescor absoluto, uma fragrância nítida e revigorante que desperta os sentidos.",
     categories: ["Fresco", "Floral"]
@@ -4422,7 +4422,7 @@ export const perfumes: Perfume[] = [
       heart: ["Ylang-Ylang", "Pétalas de Frangipani"],
       base: ["Ambregris", "Sândalo", "Musk Branco"],
     },
-    story: "Inspirado na vida vibrante sob as ondas. Néctar de Coral é um floral aquático que irradia a energia do oceano em um frasco de formas orgânicas e fluidas.",
+    story: "Inspirado na vida vibrante sob as ondas. Néctar de Coral é um floral aquático que irradia a energy do oceano em um frasco de formas orgânicas e fluidas.",
     categories: ["Floral", "Fresco"],
   },
   {
@@ -4478,7 +4478,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa Búlgara", "Vinho Tinto"],
       base: ["Âmbar", "Couro"]
     },
-    story: "A paixão em sua forma mais pura, esculpida em um cristal carmesim. Coração de Rubi é um elixir intenso e sedutor que pulsa com energia vital.",
+    story: "A paixão em sua forma mais pura, esculpida em um cristal carmesim. Coração de Rubi é um elixir intenso e sedutor que pulsa com energy vital.",
     categories: ["Oriental", "Gourmand"]
   },
   {
@@ -4536,5 +4536,75 @@ export const perfumes: Perfume[] = [
     },
     story: "A pureza das águas mais profundas capturada em um domo de safira. Coração de Cobalto é uma fragrância aquática serena que evoca a imensidão do horizonte.",
     categories: ["Fresco", "Oriental"]
+  },
+  {
+    id: 333,
+    name: "Essência de Glaciar",
+    designer: "Glacialis Parfums",
+    imageUrl: "https://i.imgur.com/0N3epR1.jpg",
+    year: 2025,
+    notes: {
+      top: ["Menta Glacial", "Lima"],
+      heart: ["Lírio do Vale", "Gelo"],
+      base: ["Almíscar Branco", "Cedro"]
+    },
+    story: "Inspirado na pureza das geleiras ancestrais, este frasco de cristal azul guarda um frescor eterno e cristalino, como o ar puro de uma montanha sagrada.",
+    categories: ["Fresco", "Floral"]
+  },
+  {
+    id: 334,
+    name: "Chama de Magma",
+    designer: "Ignis Scents",
+    imageUrl: "https://i.imgur.com/jP01C0x.jpg",
+    year: 2025,
+    notes: {
+      top: ["Pimenta Rosa", "Cereja"],
+      heart: ["Canela", "Incenso"],
+      base: ["Âmbar", "Patchouli"]
+    },
+    story: "Um cristal esculpido para parecer fogo sólido, guardando uma fragrância de paixão ardente e especiarias raras que aquecem a alma.",
+    categories: ["Oriental", "Gourmand"]
+  },
+  {
+    id: 335,
+    name: "Legado de Ouro",
+    designer: "Maison Royale",
+    imageUrl: "https://i.imgur.com/i3Vj8BB.jpg",
+    year: 2024,
+    notes: {
+      top: ["Açafrão", "Mandarina"],
+      heart: ["Oud", "Rosa Damascena"],
+      base: ["Sândalo", "Âmbar"]
+    },
+    story: "Um frasco que é uma joia da coroa, com ornamentos dourados que protegem um perfume de luxo absoluto e tradição real.",
+    categories: ["Oriental", "Amadeirado"]
+  },
+  {
+    id: 336,
+    name: "Fulgor Solar",
+    designer: "Helios Fragrances",
+    imageUrl: "https://i.imgur.com/RnWVbTb.jpg",
+    year: 2025,
+    notes: {
+      top: ["Bergamota", "Néroli"],
+      heart: ["Flor de Laranjeira", "Ylang-Ylang"],
+      base: ["Musk", "Âmbar"]
+    },
+    story: "A energy do sol ao meio-dia capturada em uma escultura vítrea radiante. Uma explosão de luz e vitalidade para os sentidos.",
+    categories: ["Floral", "Fresco"]
+  },
+  {
+    id: 337,
+    name: "Estrela do Crepúsculo",
+    designer: "Nocturne Parfums",
+    imageUrl: "https://i.imgur.com/s5yO4J6.jpg",
+    year: 2025,
+    notes: {
+      top: ["Amora", "Cassis"],
+      heart: ["Violeta", "Orquídea Negra"],
+      base: ["Patchouli", "Baunilha Negra"]
+    },
+    story: "Um frasco místico que espelha as cores do céu após o pôr do sol, guardando o mistério da noite profunda e a elegância do silêncio.",
+    categories: ["Oriental", "Floral"]
   }
 ];
