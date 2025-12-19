@@ -698,7 +698,7 @@ export const perfumes: Perfume[] = [
         heart: ["Ylang-Ylang", "Jasmim", "Flor de Laranjeira"],
         base: ["Âmbar", "Benjoim", "Baunilha"],
     },
-    story: "As cores quentes e a sensação reconfortante de um pôr do sol. Ocaso Dourado é um floral ambarado, radiante e sensual, como os últimos raios de sol do dia.",
+    story: "As cores quentes e a sensação reconfortante de um pôr do sol. Ocaso Dourado é un floral ambarado, radiante e sensual, como os últimos raios de sol do dia.",
     categories: ["Oriental", "Floral"],
   },
   {
@@ -1468,7 +1468,7 @@ export const perfumes: Perfume[] = [
       heart: ["Couro", "Íris", "Vetiver"],
       base: ["Madeira de Cedro", "Fava Tonka", "Almíscar"],
     },
-    story: "A essência da arquitetura moderna e da noite na cidade. Monólito Urbano é uma fragrância de linhas limpas e confiança silenciosa. Um perfume amadeirado e de couro que captura a sofisticação e a energia pulsante da metrópole.",
+    story: "A essência da arquitetura moderna e da noite na cidade. Monólito Urbano é uma fragrância de lines limpas e confiança silenciosa. Um perfume amadeirado e de couro que captura a sofisticação e a energia pulsante da metrópole.",
     categories: ["Amadeirado", "Aromático"],
   },
   {
@@ -4223,10 +4223,52 @@ export const perfumes: Perfume[] = [
     year: 2025,
     notes: {
       top: ["Folhas Verdes", "Menta Fresca"],
-      heart: ["Chá Branco", "Flor de Lótus"],
+      heart: ["Chá Branco", "Flor de Laranjeira"],
       base: ["Vetiver", "Musgo", "Cedro"]
     },
     story: "Inspirado na tranquilidade dos jardins zen, o frasco de jade protege um elixir botânico de pureza inigualável.",
     categories: ["Fresco", "Aromático"]
+  },
+  {
+    id: 308,
+    name: "Geometria Argêntea",
+    designer: "Lumina Parfum",
+    imageUrl: "https://i.imgur.com/n8hIMM5.jpg",
+    year: 2025,
+    notes: {
+      top: ["Aldeídos", "Bergamota"],
+      heart: ["Muguet", "Íris Metálica"],
+      base: ["Almíscar Branco", "Cedro"]
+    },
+    story: "Um frasco que espelha a luz do luar em uma superfície de prata polida, guardando uma essência futurista e etérea.",
+    categories: ["Fresco", "Aromático"]
+  },
+  {
+    id: 309,
+    name: "Aura de Ouro",
+    designer: "Imperiale Scents",
+    imageUrl: "https://i.imgur.com/NBETr3Z.jpg",
+    year: 2024,
+    notes: {
+      top: ["Açafrão", "Mandarina"],
+      heart: ["Jasmim Sambac", "Mel"],
+      base: ["Oud Dourado", "Baunilha", "Sândalo"]
+    },
+    story: "A celebração da opulência em um design que funde o clássico e o contemporâneo em ouro puro.",
+    categories: ["Oriental", "Floral"]
+  },
+  {
+    id: 310,
+    name: "Mistério Escarlate",
+    designer: "Atelier Rouge",
+    imageUrl: "https://i.imgur.com/8cFMrc4.jpg",
+    year: 2025,
+    notes: {
+      top: ["Pimenta Rosa", "Cereja"],
+      heart: ["Rosa Negra", "Vinho Tinto"],
+      base: ["Patchouli", "Couro", "Âmbar"]
+    },
+    story: "Um frasco de cristal vermelho profundo que guarda os segredos de uma noite de paixão inesquecível.",
+    categories: ["Oriental", "Gourmand"]
   }
 ];
