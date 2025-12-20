@@ -3064,7 +3064,7 @@ export const perfumes: Perfume[] = [
       heart: ["Lírio do Vale", "Jacinto"],
       base: ["Vetiver", "Musgo"]
     },
-    story: "O frescor revigorante do amanhecer. Orvalho da Manhã desperta os sentidos com sua pureza verde.",
+    story: "O frescor revigorante do amanhecer. Orvalho da Manhã desperta os sentidos with sua pureza verde.",
     categories: ["Fresco", "Aromático"]
   },
   {
@@ -4452,20 +4452,6 @@ export const perfumes: Perfume[] = [
     },
     story: "Inspirado na harmonia geométrica de domos ancestrais. Cúpula de Safira é uma fragrância aquática and majestosa, guardada em um cristal azul de rara beleza.",
     categories: ["Fresco", "Floral"]
-  },
-  {
-    id: 335,
-    name: "Legado de Ouro",
-    designer: "Maison Royale",
-    imageUrl: "https://i.imgur.com/i3Vj8BB.jpg",
-    year: 2024,
-    notes: {
-      top: ["Açafrão", "Mandarina"],
-      heart: ["Oud", "Rosa Damascena"],
-      base: ["Sândalo", "Âmbar"]
-    },
-    story: "Um frasco que é uma joia da coroa, with ornamentos dourados que protegem um perfume de luxo absoluto and tradição real.",
-    categories: ["Oriental", "Amadeirado"]
   },
   {
     id: 336,
