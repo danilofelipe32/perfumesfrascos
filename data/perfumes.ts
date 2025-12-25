@@ -460,7 +460,7 @@ export const perfumes: Perfume[] = [
         heart: ["Rosa", "Tuberosa", "Acorde de Veludo"],
         base: ["Âmbar", "Patchouli", "Fava Tonka"],
     },
-    story: "Inspirado na suntuosidade dos palácios venezianos. Veneza Dourada é um perfume opulento e festivo, que evoca bailes de máscaras e o brilho do ouro.",
+    story: "Inspirado na suntuosidade dos palácios venezianos. Veneza Dourada é um perfume opulento e festivo, que evoca baile de máscaras e o brilho do ouro.",
     categories: ["Oriental", "Floral"],
   },
   {
@@ -1972,7 +1972,7 @@ export const perfumes: Perfume[] = [
       heart: ["Íris Azul", "Jacinto", "Rosa"],
       base: ["Musgo de Carvalho", "Sândalo", "Âmbar"],
     },
-    story: "Uma joia olfativa digna de um tesouro real. O frasco, adornado com uma safira imperial, contém um perfume de elegância atemporal. Safira Real é un floral atalcado majestoso, evocando bailes em palácios e a nobreza de uma era dourada.",
+    story: "Uma joia olfativa digna de um tesouro real. O frasco, adornado com uma safira imperial, contém um perfume de elegância atemporal. Safira Real é un floral atalcado majestoso, evocando baile em palácios e a nobreza de uma era dourada.",
     categories: ["Floral", "Chipre"],
   },
   {
@@ -3650,7 +3650,7 @@ export const perfumes: Perfume[] = [
     notes: {
       top: ["Pera", "Notas Oceânicas"],
       heart: ["Nenúfar", "Frésia", "Jasmim"],
-      base: ["Musk Branco", "Sândalo", "Ambreta"]
+      base: ["Almíscar Branco", "Sândalo", "Ambreta"]
     },
     story: "Um tesouro escondido nas profundezas. Pérola do Mar brilha with a luz suave and iridescente.",
     categories: ["Floral", "Fresco"]
@@ -4465,6 +4465,132 @@ export const perfumes: Perfume[] = [
       base: ["Musk", "Âmbar"]
     },
     story: "A energy do sol ao meio-dia capturada em uma escultura vítrea radiante. Uma explosão de luz and vitalidade para os sentidos.",
+    categories: ["Floral", "Fresco"]
+  },
+  {
+    id: 338,
+    name: "Vento de Obsidian",
+    designer: "Atelier Noir",
+    imageUrl: "https://i.imgur.com/8q3OIBn.jpg",
+    year: 2025,
+    notes: {
+      top: ["Pimenta Preta", "Cardamomo"],
+      heart: ["Couro", "Incenso", "Mirra"],
+      base: ["Oud", "Patchouli", "Âmbar Cinza"]
+    },
+    story: "Um frasco de vidro negro polido que evoca a força do vento sobre as rochas vulcânicas. Uma fragrância densa e misteriosa que celebra o poder oculto da terra.",
+    categories: ["Oriental", "Couro"]
+  },
+  {
+    id: 339,
+    name: "Aura de Platina",
+    designer: "Lumina Parfum",
+    imageUrl: "https://i.imgur.com/Kijwqwk.jpg",
+    year: 2024,
+    notes: {
+      top: ["Aldeídos", "Bergamota"],
+      heart: ["Chá Branco", "Néroli", "Lavanda"],
+      base: ["Almíscar Branco", "Cedro", "Ambreta"]
+    },
+    story: "Inspirado na pureza e brilho dos metais nobres, este frasco geométrico guarda uma essência nítida e futurista. É o aroma da clareza e da sofisticação moderna.",
+    categories: ["Fresco", "Aromático"]
+  },
+  {
+    id: 340,
+    name: "Coração de Âmbar Profundo",
+    designer: "Artisan Atelier",
+    imageUrl: "https://i.imgur.com/E75rmM2.jpg",
+    year: 2023,
+    notes: {
+      top: ["Canela", "Laranja Doce"],
+      heart: ["Âmbar", "Benjoim", "Cera de Abelha"],
+      base: ["Baunilha", "Sândalo", "Fava Tonka"]
+    },
+    story: "Uma resina fossilizada esculpida como uma joia bruta. Esta fragrância é um abraço quente e resinoso que evoca séculos de história capturados em uma única gota.",
+    categories: ["Oriental", "Amadeirado"]
+  },
+  {
+    id: 341,
+    name: "Essência de Esmeralda",
+    designer: "Viridis",
+    imageUrl: "https://i.imgur.com/tkzDtd6.jpg",
+    year: 2025,
+    notes: {
+      top: ["Manjericão", "Folha de Figo"],
+      heart: ["Chá Verde", "Gálbano", "Peônia"],
+      base: ["Vetiver", "Musgo de Carvalho", "Cedro"]
+    },
+    story: "Um tributo à exuberância botânica da floresta tropical. O frasco de cristal verde esmeralda reflete a luz como as folhas sob o sol do meio-dia.",
+    categories: ["Aromático", "Verde"]
+  },
+  {
+    id: 342,
+    name: "Maré de Safira",
+    designer: "Aura Maris",
+    imageUrl: "https://i.imgur.com/75ClNLZ.jpg",
+    year: 2024,
+    notes: {
+      top: ["Sal Marinho", "Lima Siciliana"],
+      heart: ["Lótus Azul", "Algas Marinhas", "Nenúfar"],
+      base: ["Madeira Flutuante", "Âmbar Gris", "Almíscar"]
+    },
+    story: "A calmaria do oceano profundo em um momento de serenidade. O design orgânico do frasco imita as curvas de uma onda de cristal safira.",
+    categories: ["Fresco", "Aquático"]
+  },
+  {
+    id: 343,
+    name: "Fogo Esculpido em Rubi",
+    designer: "Ignis Scents",
+    imageUrl: "https://i.imgur.com/f0R5dz6.jpg",
+    year: 2025,
+    notes: {
+      top: ["Gengibre", "Pimenta Malagueta"],
+      heart: ["Rosa Vermelha", "Mel", "Açafrão"],
+      base: ["Âmbar", "Benjoim", "Madeira Queimada"]
+    },
+    story: "A intensidade das chamas capturada em uma joia carmesim facetada. Uma fragrância ardente para quem vive cada momento com paixão absoluta.",
+    categories: ["Oriental", "Gourmand"]
+  },
+  {
+    id: 344,
+    name: "Vértice Prateado",
+    designer: "GeoMetric Creations",
+    imageUrl: "https://i.imgur.com/FlSSUJ6.jpg",
+    year: 2025,
+    notes: {
+      top: ["Menta Gelada", "Pimenta Branca"],
+      heart: ["Notas Metálicas", "Gerânio", "Lavanda"],
+      base: ["Vetiver", "Iso E Super", "Madeira de Cedro"]
+    },
+    story: "A precisão matemática encontra a arte olfativa. Este frasco de ângulos agudos e brilho metálico guarda um perfume limpo e estruturado para o visionário.",
+    categories: ["Fresco", "Aromático"]
+  },
+  {
+    id: 345,
+    name: "Misticismo de Ametista",
+    designer: "Cosmos Scents",
+    imageUrl: "https://i.imgur.com/yRYkKLj.jpg",
+    year: 2024,
+    notes: {
+      top: ["Amora", "Groselha Preta"],
+      heart: ["Íris", "Violeta", "Manteiga de Orris"],
+      base: ["Sândalo", "Baunilha", "Almíscar Nebuloso"]
+    },
+    story: "O enigma do crepúsculo capturado em um cristal púrpura. Uma fragrância atalcada e sonhadora que inspira intuição e conexão com o cosmos.",
+    categories: ["Floral", "Oriental"]
+  },
+  {
+    id: 346,
+    name: "Pétala de Quartzo Rosa",
+    designer: "Floraïs",
+    imageUrl: "https://i.imgur.com/sKeZB2T.jpg",
+    year: 2025,
+    notes: {
+      top: ["Lichia", "Frésia"],
+      heart: ["Peônia Rosa", "Magnólia", "Rosa Damascena"],
+      base: ["Almíscar Transparente", "Sândalo Branco", "Cashmeran"]
+    },
+    story: "A suavidade de um primeiro amor e a delicadeza de uma flor ao amanhecer. O frasco translúcido em rosa blush irradia ternura e graça infinita.",
     categories: ["Floral", "Fresco"]
   }
 ];
