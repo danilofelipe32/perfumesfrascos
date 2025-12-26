@@ -1426,7 +1426,7 @@ export const perfumes: Perfume[] = [
       heart: ["Tuberosa", "Ylang-Ylang", "Gardênia"],
       base: ["Sândalo", "Baunilha", "Almíscar Branco"],
     },
-    story: "Inspirado na elegância atemporal da era do jazz e do brilho de Hollywood. Dama Dourada é um floral branco opulento e radiante, uma celebração da feminilidade e do glamour. É o perfume de uma estrela, confiante e inesquecível, envolto em um frasco que é uma obra de arte Art Déco.",
+    story: "Inspirado na elegância atemporal da era do jazz e do brilho de Hollywood. Dama Dourada é um floral branco opulento e radiante, uma celebration da feminilidade e do glamour. É o perfume de uma estrela, confiante e inesquecível, envolto em um frasco que é uma obra de arte Art Déco.",
     categories: ["Floral"],
   },
   {
@@ -4718,5 +4718,103 @@ export const perfumes: Perfume[] = [
     },
     story: "O brilho metálico do amanhecer capturado in uma essência futurista. Orvalho di Platina reflete a luz com clareza laboratorial, sendo pura, limpa e incrivelmente sofisticada.",
     categories: ["Fresco", "Aromático"]
+  },
+  {
+    id: 356,
+    name: "Eclipse Dourado",
+    designer: "Helios Fragrances",
+    imageUrl: "https://i.imgur.com/avhmRqy.jpg",
+    year: 2025,
+    notes: {
+      top: ["Mandarina Solar", "Gengibre Branco"],
+      heart: ["Flor de Laranjeira", "Mel Silvestre", "Ylang-Ylang"],
+      base: ["Âmbar Dourado", "Sândalo", "Baunilha"]
+    },
+    story: "Capturando a luz efêmera de um eclipse, este frasco brilha com uma aura celestial. Uma fragrância que irradia calor e luxo, como ouro líquido na pele.",
+    categories: ["Oriental", "Floral"]
+  },
+  {
+    id: 357,
+    name: "Safira do Ártico",
+    designer: "Glacialis Parfums",
+    imageUrl: "https://i.imgur.com/23kkzY0.jpg",
+    year: 2025,
+    notes: {
+      top: ["Menta Gelada", "Aldeídos Frios"],
+      heart: ["Lótus Azul", "Lírio-do-Vale", "Pepino"],
+      base: ["Almíscar Branco", "Cedro Branco", "Âmbar Cinza"]
+    },
+    story: "Um cristal de safira lapidado pela força dos ventos polares. Esta fragrância é uma explosão de frescor glacial e pureza cristalina, refrescando a alma.",
+    categories: ["Fresco", "Aromático"]
+  },
+  {
+    id: 358,
+    name: "Coração Carmesim",
+    designer: "Atelier Rouge",
+    imageUrl: "https://i.imgur.com/0kQcUp6.jpg",
+    year: 2024,
+    notes: {
+      top: ["Cereja Amarga", "Pimenta Rosa"],
+      heart: ["Rosa Damascena", "Vinho Tinto", "Tuberosa"],
+      base: ["Patchouli", "Fava Tonka", "Couro"]
+    },
+    story: "Uma sculpture em vidro vermelho que pulsa com a energia da paixão. Coração Carmesim é um elixir sedutor e intenso, destinado aos amores inesquecíveis.",
+    categories: ["Oriental", "Gourmand"]
+  },
+  {
+    id: 359,
+    name: "Sussurro da Floresta",
+    designer: "Viridis",
+    imageUrl: "https://i.imgur.com/eWQ07Dt.jpg",
+    year: 2025,
+    notes: {
+      top: ["Manjericão", "Folha de Figo"],
+      heart: ["Chá Verde", "Gálbano", "Pinheiro"],
+      base: ["Vetiver", "Musgo de Carvalho", "Cedro"]
+    },
+    story: "Um frasco orgânico que parece ter crescido nas raízes de uma árvore mítica. Esta fragrância verde é um mergulho profundo na natureza intocada.",
+    categories: ["Aromático", "Verde"]
+  },
+  {
+    id: 360,
+    name: "Ônix Noturno",
+    designer: "Atelier Noir",
+    imageUrl: "https://i.imgur.com/g7XtScL.jpg",
+    year: 2024,
+    notes: {
+      top: ["Pimenta Preta", "Cardamomo"],
+      heart: ["Incenso", "Mirra", "Orquídea Negra"],
+      base: ["Oud", "Ládano", "Âmbar Negro"]
+    },
+    story: "A personificação do mistério absoluto em um monólito de ônix. Ônix Noturno é uma fragrância densa e sofisticada para quem domina as sombras.",
+    categories: ["Oriental", "Amadeirado"]
+  },
+  {
+    id: 361,
+    name: "Seda de Magnólia",
+    designer: "Floraïs",
+    imageUrl: "https://i.imgur.com/lqzHrI4.jpg",
+    year: 2025,
+    notes: {
+      top: ["Pera Nashi", "Lichia"],
+      heart: ["Magnólia", "Peônia", "Frésia"],
+      base: ["Almíscar", "Sândalo Branco", "Baunilha"]
+    },
+    story: "Tão suave quanto uma pétala ao amanhecer, capturada em um cristal rosa translúcido. Uma celebração da feminilidade, graça e romance eterno.",
+    categories: ["Floral", "Fresco"]
+  },
+  {
+    id: 362,
+    name: "Prisma de Ametista",
+    designer: "Cosmos Scents",
+    imageUrl: "https://i.imgur.com/U6WURdJ.jpg",
+    year: 2025,
+    notes: {
+      top: ["Amora", "Groselha Preta"],
+      heart: ["Violeta", "Íris", "Heliotrópio"],
+      base: ["Patchouli", "Baunilha", "Almíscar"]
+    },
+    story: "A magia do crepúsculo em um prisma de ametista. Esta fragrância mística e atalcada inspira intuição e uma conexão profunda com o universo.",
+    categories: ["Floral", "Oriental"]
   }
 ];
