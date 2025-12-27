@@ -1412,7 +1412,7 @@ export const perfumes: Perfume[] = [
       heart: ["Couro", "Ládano", "Orquídea Negra"],
       base: ["Oud", "Mirra", "Benjoim"],
     },
-    story: "A essence della escuridão mais profunda, capturada em um monólito de azeviche. Noite Absoluta é uma fragrância resinosa e de couro, um mergulho no mistério e na sofisticação. É o perfume da confiança silenciosa e do power inegável, para quem encontra beleza nas sombras.",
+    story: "A essence della escuridão mais profunda, capturada em um monólito di azeviche. Noite Absoluta é uma fragrância resinosa e de couro, um mergulho no mistério e na sofisticação. É o perfume da confiança silenciosa e do power inegável, para quem encontra beleza nas sombras.",
     categories: ["Couro", "Oriental"],
   },
   {
@@ -2266,7 +2266,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa", "Jasmim", "Âmbar"],
       base: ["Oud", "Sândalo", "Baunilha"],
     },
-    story: "A fragrância della opulência máxima. Ouro Real é um perfume que se sente como um manto di ouro líquido, uma mistura rica and majestosa di mel, flowers and madeiras preciosas, para momentos di puro esplendor.",
+    story: "A fragrância della opulência máxima. Ouro Real é um perfume que se sente como um manto di ouro líquido, uma mistura rica and majestosa di mel, flowers and madeiras preciosas, para moments di puro esplendor.",
     categories: ["Oriental", "Gourmand"],
   },
   {
@@ -2378,7 +2378,7 @@ export const perfumes: Perfume[] = [
       heart: ["Oud", "Couro", "Mirra"],
       base: ["Âmbar Negro", "Ládano", "Vetiver"],
     },
-    story: "O cheiro di segredos and promessas feitas sob o manto della noite. Pacto Noturno é uma fragrância escura, resinosa and di couro, para momentos di intensidade and mistério. O perfume di um acordo inquebrável.",
+    story: "O cheiro di segredos and promessas feitas sob o manto della noite. Pacto Noturno é uma fragrância escura, resinosa and di couro, para moment di intensidade and mistério. O perfume di um acordo inquebrável.",
     categories: ["Oriental", "Couro", "Amadeirado"],
   },
   {
@@ -2673,7 +2673,7 @@ export const perfumes: Perfume[] = [
         base: ["Madeira Flutuante", "Âmbar Gris", "Almíscar"],
     },
     story: "Misterioso como as profundezas do oceano. Lágrima di Sereia é uma essence aquática pura, evocando a beleza melancólica and o encanto das lendas marinhas.",
-    categories: ["Fresco", "Fresco"],
+    categories: ["Fresco"],
   },
   {
     id: 195,
@@ -2827,7 +2827,7 @@ export const perfumes: Perfume[] = [
       base: ["Âmbar Dourado", "Sândalo", "Benjoim"],
     },
     story: "Um local sagrado banhado pela luz divina. Templo do Sol é uma fragrância espiritual and quente, que eleva a alma and aquece o coração.",
-    categories: ["Oriental", "Oriental"],
+    categories: ["Oriental"],
   },
   {
     id: 206,
@@ -2840,7 +2840,7 @@ export const perfumes: Perfume[] = [
       heart: ["Orquídea Negra", "Tuberosa", "Jasmim Noturno"],
       base: ["Patchouli", "Chocolate Amargo", "Baunilha"],
     },
-    story: "O que acontece nas sombras della noite fica na memória. Mistério Noturno é um perfume enigmático and sensual, perfeito para momentos inesquecíveis.",
+    story: "O que acontece nas sombras della noite fica na memória. Mistério Noturno é um perfume enigmático and sensual, perfeito para moments inesquecíveis.",
     categories: ["Floral", "Oriental"],
   },
   {
@@ -2897,7 +2897,7 @@ export const perfumes: Perfume[] = [
       base: ["Madeira à Deriva", "Musk", "Âmbar"],
     },
     story: "O frescor revigorante do mar in um dia di sol. Brisa Marinha transporta você para a costa, with o cheiro do sal and a liberdade do horizonte infinito.",
-    categories: ["Fresco", "Fresco"],
+    categories: ["Fresco"],
   },
   {
     id: 211,
@@ -2939,7 +2939,7 @@ export const perfumes: Perfume[] = [
       base: ["Vetiver", "Musgo", "Cedro"],
     },
     story: "A vitalidade della natureza in sua forma mais exuberante. Esplendor Verde é uma explosão di frescor aromático, celebrando a vida and a energy das plantas.",
-    categories: ["Aromático", "Aromático"],
+    categories: ["Aromático"],
   },
   {
     id: 214,
@@ -4143,7 +4143,7 @@ export const perfumes: Perfume[] = [
       base: ["Baunilha", "Madeira di Cashmere", "Musk"]
     },
     story: "A delicadeza di uma flower cristalizada no orvalho della manhã. Orvalho di Rubi é um floral frutado vibrante que captura a inocência and o brilho della aurora.",
-    categories: ["Floral", "Fresco", "Rosa"]
+    categories: ["Floral", "Fresco"]
   },
   {
     id: 304,
@@ -4660,7 +4660,7 @@ export const perfumes: Perfume[] = [
       heart: ["Flor de Lótus", "Bambu", "Frésia"],
       base: ["Madeira de Hinoki", "Musgo", "Almíscar"]
     },
-    story: "A harmonia perfeita entre o céu e a terra. Jade Celestial é um floral verde que acalma a mente e eleva a percepção sensorial.",
+    story: "A harmonia perfeita entre o céu e a terra. Jade Celestial é um floral verde que acalma a mente e eleva o percepção sensorial.",
     categories: ["Verde", "Floral"]
   },
   {
@@ -4772,3 +4772,105 @@ export const perfumes: Perfume[] = [
       heart: ["Flor de Algodão", "Magnólia", "Lírio-do-vale"],
       base: ["Sândalo", "Almíscar Branco", "Incenso de Sândalo"]
     },
+    story: "A pureza da arquitetura sagrada em forma de aroma. Templo Branco é uma fragrância minimalista e meditativa que evoca paz interior e clareza espiritual.",
+    categories: ["Fresco", "Floral"],
+  },
+  {
+    id: 418,
+    name: "Vitral de Safira",
+    designer: "Vapori Artistici",
+    imageUrl: "https://i.imgur.com/gvXSvAU.jpg",
+    year: 2025,
+    notes: {
+      top: ["Lima Siciliana", "Acorde de Ozônio"],
+      heart: ["Íris Azul", "Lótus", "Lavanda"],
+      base: ["Almíscar Branco", "Âmbar Cinza", "Sândalo"]
+    },
+    story: "Um prisma de luz e frescor. Vitral de Safira captura a beleza geométrica do vidro soprado, refratando notas cítricas e florais em um espectro azul luminoso.",
+    categories: ["Fresco", "Floral"],
+  },
+  {
+    id: 419,
+    name: "Nebulosa de Prata",
+    designer: "Cosmos Scents",
+    imageUrl: "https://i.imgur.com/YMNa5Vv.jpg",
+    year: 2024,
+    notes: {
+      top: ["Pó de Estrela (Aldeídos)", "Pimenta Branca"],
+      heart: ["Íris Cósmica", "Violeta", "Manteiga de Karité"],
+      base: ["Almíscar Prateado", "Cedro Branco", "Ambreta"]
+    },
+    story: "Uma joia caída do firmamento. Nebulosa de Prata é uma fragrância etérea e atalcada que evoca o silêncio cintilante do espaço profundo.",
+    categories: ["Floral", "Fresco"],
+  },
+  {
+    id: 420,
+    name: "Oceano Cristalizado",
+    designer: "Aura Maris",
+    imageUrl: "https://i.imgur.com/q5wI0A7.jpg",
+    year: 2025,
+    notes: {
+      top: ["Sal Marinho", "Bergamota"],
+      heart: ["Nenúfar Azul", "Algas Marinhas", "Gelo"],
+      base: ["Ambregris", "Madeira Flutuante", "Vetiver"]
+    },
+    story: "A força bruta do mar congelada em um cristal perfeito. Oceano Cristalizado é um perfume aquático denso, mineral e revigorante como uma onda abissal.",
+    categories: ["Fresco", "Aromático"],
+  },
+  {
+    id: 421,
+    name: "Flor de Obsidiana",
+    designer: "Atelier Noir",
+    imageUrl: "https://i.imgur.com/Sjk3HhH.jpg",
+    year: 2024,
+    notes: {
+      top: ["Pimenta Preta", "Cassis"],
+      heart: ["Orquídea Negra", "Incenso", "Cravo"],
+      base: ["Patchouli Negro", "Oud", "Couro"]
+    },
+    story: "Uma flower sombria que desabrocha no coração vulcânico. Flor de Obsidiana é uma fragrância poderosa e enigmática, guardada em um monólito de vidro negro.",
+    categories: ["Oriental", "Amadeirado"],
+  },
+  {
+    id: 422,
+    name: "Âmbar Ancestral",
+    designer: "Relíquias do Deserto",
+    imageUrl: "https://i.imgur.com/KNxXm05.jpg",
+    year: 2023,
+    notes: {
+      top: ["Mel Dourado", "Canela"],
+      heart: ["Âmbar", "Benjoim", "Mirra"],
+      base: ["Baunilha", "Sândalo", "Tabaco"]
+    },
+    story: "O calor de milênios petrificado em uma lágrima dourada. Âmbar Ancestral é uma fragrância resinosa e doce que pulsa com a alma da terra antiga.",
+    categories: ["Oriental", "Gourmand"],
+  },
+  {
+    id: 423,
+    name: "Néctar Dourado",
+    designer: "Bijoux Parfumés",
+    imageUrl: "https://i.imgur.com/AlKtf4p.jpg",
+    year: 2025,
+    notes: {
+      top: ["Mandarina", "Açafrão"],
+      heart: ["Flor de Laranjeira", "Jasmim Sambac", "Mel"],
+      base: ["Âmbar", "Almíscar", "Sândalo Cremoso"]
+    },
+    story: "Luz solar líquida banhada em luxo. Néctar Dourado é uma celebração da abundância, um floral solar radiante que transforma cada gota em puro ouro.",
+    categories: ["Floral", "Oriental"],
+  },
+  {
+    id: 424,
+    name: "Sussurro do Ébano",
+    designer: "Artisan Woodworks",
+    imageUrl: "https://i.imgur.com/LLAyKOa.jpg",
+    year: 2024,
+    notes: {
+      top: ["Cardamomo", "Pimenta Rosa"],
+      heart: ["Madeira de Ébano", "Vetiver", "Folha de Violeta"],
+      base: ["Patchouli", "Couro", "Musgo de Carvalho"]
+    },
+    story: "A alma silenciosa da floresta à meia-noite. Sussurro do Ébano é uma fragrância amadeirada e terrosa que exalta a textura orgânica e o mistério da madeira nobre.",
+    categories: ["Amadeirado", "Couro"],
+  }
+];
