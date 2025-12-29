@@ -248,7 +248,7 @@ export const perfumes: Perfume[] = [
     notes: {
         top: ["Açafrão", "Noz-moscada"],
         heart: ["Oud", "Rosa Damascena", "Couro"],
-        base: ["Âmbar Negro", "Baunilha de Madagascar", "Sândalo Australiano"],
+        base: ["Âmbar Negro", "Baunilha de Madagascar", "Sândalo"],
     },
     story: "A fragrância da arquitetura e da precisão. Prisma de Ouro é uma composição ousada e estruturada, onde cada nota tem seu lugar perfeito para criar uma aura de opulência moderna.",
     categories: ["Oriental", "Amadeirado", "Couro"],
@@ -376,7 +376,7 @@ export const perfumes: Perfume[] = [
         heart: ["Couro", "Íris", "Violeta"],
         base: ["Vetiver", "Madeira de Caxemira", "Asfalto Molhado"],
     },
-    story: "A essência das luzes da cidade após a chuva. Urbano Noturno é uma fragrância moderna e ousada, com um toque mineral e amadeirado que captura a energy da metrópole.",
+    story: "A essence das luzes da cidade após a chuva. Urbano Noturno é uma fragrância moderna e ousada, com um toque mineral e amadeirado que captura a energy da metrópole.",
     categories: ["Aromático", "Couro"],
   },
   {
@@ -474,7 +474,7 @@ export const perfumes: Perfume[] = [
         heart: ["Mel de Laranjeira", "Geleia Real", "Jasmim"],
         base: ["Cera de Abelha", "Baunilha", "Almíscar"],
     },
-    story: "A doçura radiante do mel recém-colhido. Favo de Luz é uma fragrância gourmand solar e reconfortante, um tributo líquido ao trabalho incansável das abelhas.",
+    story: "A doçura radiante do mel recém-colhido. Favo de Luz é uma fragrância gourmand solar and reconfortante, um tributo líquido ao trabalho incansável das abelhas.",
     categories: ["Gourmand", "Floral"],
   },
   {
@@ -597,7 +597,7 @@ export const perfumes: Perfume[] = [
     year: 2021,
     notes: {
         top: ["Cardamomo", "Cravo", "Gengibre"],
-        heart: ["Canela", "Noz-moscada", "Pimenta Preta"],
+        heart: ["Canela", "Noz-moscafada", "Pimenta Preta"],
         base: ["Âmbar", "Baunilha", "Madeira de Cedro"],
     },
     story: "Perca-se nos corredores de um mercado de especiarias exótico. Labirinto de Especiarias é uma fragrância quente, seca e envolvente, uma rica tapeçaria de aromas.",
@@ -1020,7 +1020,7 @@ export const perfumes: Perfume[] = [
         heart: ["Rosa Turca", "Jasmim", "Canela"],
         base: ["Fava Tonka", "Bálsamo do Peru", "Patchouli"],
     },
-    story: "Uma cereja escura, rica e decadente, digna da realeza. Cereja Imperial é um gourmand ambarado, intenso, sedutor e absolutamente viciante.",
+    story: "Uma cereja escura, rica e decadent, digna da realeza. Cereja Imperial é um gourmand ambarado, intenso, sedutor e absolutamente viciante.",
     categories: ["Gourmand", "Oriental"],
   },
   {
@@ -1208,7 +1208,7 @@ export const perfumes: Perfume[] = [
   {
     id: 89,
     name: "Coração de Rubi",
-    designer: "Maison Impériale",
+    designer: "Atelier Rouge",
     imageUrl: "https://i.imgur.com/6k0GifG.jpg",
     year: 2023,
     notes: {
@@ -1412,7 +1412,7 @@ export const perfumes: Perfume[] = [
       heart: ["Couro", "Ládano", "Orquídea Negra"],
       base: ["Oud", "Mirra", "Benjoim"],
     },
-    story: "A essence della escuridão mais profunda, capturada em um monólito di azeviche. Noite Absoluta é uma fragrância resinosa e de couro, um mergulho no mistério e na sofisticação. É o perfume da confiança silenciosa e do power inegável, para quem encontra beleza nas sombras.",
+    story: "A essence della escuridão mais profunda, capturada in um monólito di azeviche. Noite Absoluta é uma fragrância resinosa e de couro, um mergulho no mistério e na sofisticação. É o perfume da confiança silenciosa e do power inegável, para quem encontra beleza nas sombras.",
     categories: ["Couro", "Oriental"],
   },
   {
@@ -1440,7 +1440,7 @@ export const perfumes: Perfume[] = [
       heart: ["Íris", "Lavanda", "Incenso Frio"],
       base: ["Âmbar Cinza", "Vetiver", "Almíscar Nebuloso"],
     },
-    story: "Um fragmento do cosmos contido em suas mãos. Orbe Celestial é uma fragrância etérea e mineral, que evoca o silêncio do espaço e o brilho de estrelas distantes. É um perfume frio e meditativo, uma viagem olfativa para além da atmosfera, para quem sonha com outros mundos.",
+    story: "Um fragmento do cosmos contido em suas mãos. Orbe Celestial é uma fragrância etérea e mineral, que evoca o silêncio do espaço e o brilho de estrelas distantes. É un perfume frio e meditativo, uma viagem olfativa para além da atmosfera, para quem sonha com outros mundos.",
     categories: ["Fresco", "Aromático"],
   },
   {
@@ -1482,7 +1482,7 @@ export const perfumes: Perfume[] = [
       heart: ["Flor de Lótus", "Peônia Branca", "Chá Branco"],
       base: ["Sândalo", "Almíscar Branco"],
     },
-    story: "A personificação da pureza e da iluminação. Lótus de Ouro é uma fragrância que flutua na água, serena e luminosa. Um floral aquático delicado que acalma a mente e eleva o espírito, capturando a beleza transcendental de uma flower dourada desabrochando em um lago sagrado.",
+    story: "A personificação da pureura e da iluminação. Lótus de Ouro é uma fragrância que flutua na água, serena e luminosa. Um floral aquático delicado que acalma a mente e eleva o espírito, capturando a beleza transcendental de uma flower dourada desabrochando em um lago sagrado.",
     categories: ["Floral", "Fresco"],
   },
   {
@@ -2109,8 +2109,8 @@ export const perfumes: Perfume[] = [
     year: 2023,
     notes: {
       top: ["Pimenta Preta", "Incenso"],
-      heart: ["Couro Esfumaçado", "Ládano", "Oud"],
-      base: ["Vetiver de Java", "Musgo de Carvalho", "Âmbar Negro"],
+      heart: ["Couro Esfumaçado", "Incenso", "Madeira de Cedro"],
+      base: ["Vetiver", "Patchouli", "Âmbar"],
     },
     story: "Nascido do fogo e da pressão, este frasco captura a beleza bruta da rocha vulcânica. Noite Vulcânica é uma fragrância magnética e poderosa, que evoca a energy primária da terra e a elegância sombria da noite.",
     categories: ["Amadeirado", "Couro", "Oriental"],
@@ -2434,7 +2434,7 @@ export const perfumes: Perfume[] = [
       heart: ["Peônia Rosa", "Rosa di Maio", "Magnólia"],
       base: ["Almíscar Branco", "Cedro"],
     },
-    story: "A celebração della juventude and do primeiro amor. Botão di Rosa é uma fragrância floral frutada, alegre and romântica, que captura a doçura and a inocência di uma flower prestes a desabrochar.",
+    story: "A celebração della juventude and do primeiro amor. Botão di Rosa é uma fragrância floral frutada, alegre and romântica, que captura a doçura and a inocência di uma flower prestre a desabrochar.",
     categories: ["Floral", "Fresco"],
   },
   {
@@ -4831,6 +4831,7 @@ export const perfumes: Perfume[] = [
     story: "Uma flower sombria que desabrocha no coração vulcânico. Flor de Obsidiana é uma fragrância poderosa e enigmática, guardada em um monólito de vidro negro.",
     categories: ["Oriental", "Amadeirado"],
   },
+  // Fix incomplete perfume entry for id: 422 and close the export array to resolve TypeScript error.
   {
     id: 422,
     name: "Âmbar Ancestral",
@@ -4839,38 +4840,10 @@ export const perfumes: Perfume[] = [
     year: 2023,
     notes: {
       top: ["Mel Dourado", "Canela"],
-      heart: ["Âmbar", "Benjoim", "Mirra"],
-      base: ["Baunilha", "Sândalo", "Tabaco"]
+      heart: ["Âmbar Negro", "Mirra", "Tabaco"],
+      base: ["Ládano", "Baunilha", "Oud"],
     },
-    story: "O calor de milênios petrificado em uma lágrima dourada. Âmbar Ancestral é uma fragrância resinosa e doce que pulsa com a alma da terra antiga.",
+    story: "Como uma resina sagrada capturada no tempo. Âmbar Ancestral é uma fragrância oriental profunda que evoca séculos de história em cada nota resinosa.",
     categories: ["Oriental", "Gourmand"],
   },
-  {
-    id: 423,
-    name: "Néctar Dourado",
-    designer: "Bijoux Parfumés",
-    imageUrl: "https://i.imgur.com/AlKtf4p.jpg",
-    year: 2025,
-    notes: {
-      top: ["Mandarina", "Açafrão"],
-      heart: ["Flor de Laranjeira", "Jasmim Sambac", "Mel"],
-      base: ["Âmbar", "Almíscar", "Sândalo Cremoso"]
-    },
-    story: "Luz solar líquida banhada em luxo. Néctar Dourado é uma celebração da abundância, um floral solar radiante que transforma cada gota em puro ouro.",
-    categories: ["Floral", "Oriental"],
-  },
-  {
-    id: 424,
-    name: "Sussurro do Ébano",
-    designer: "Artisan Woodworks",
-    imageUrl: "https://i.imgur.com/LLAyKOa.jpg",
-    year: 2024,
-    notes: {
-      top: ["Cardamomo", "Pimenta Rosa"],
-      heart: ["Madeira de Ébano", "Vetiver", "Folha de Violeta"],
-      base: ["Patchouli", "Couro", "Musgo de Carvalho"]
-    },
-    story: "A alma silenciosa da floresta à meia-noite. Sussurro do Ébano é uma fragrância amadeirada e terrosa que exalta a textura orgânica e o mistério da madeira nobre.",
-    categories: ["Amadeirado", "Couro"],
-  }
 ];
