@@ -26,7 +26,7 @@ export const perfumes: Perfume[] = [
       heart: ["Jasmim Sambac", "Flor de Laranjeira", "Ylang-Ylang"],
       base: ["Sândalo", "Fava Tonka", "Almíscar"],
     },
-    story: "Criado para a realeza, o frasco do Monarca Dourado é uma obra-prima de filigrana e ouro. A fragrância em seu interior é igualmente opulenta, um floral solar radiante que impõe respeito e exala puro luxo.",
+    story: "Criado para a realeza, o frasco do Monarca Dourado é uma obra-prima de filigrana e ouro. A fragrância em seu interior é igualmente opulenta, um floral solar radiante que impõe respect e exala puro luxo.",
     categories: ["Floral", "Gourmand"],
   },
   {
@@ -152,7 +152,7 @@ export const perfumes: Perfume[] = [
         heart: ["Chá Branco", "Magnólia", "Acorde de Seda"],
         base: ["Sândalo", "Almíscar Branco", "Madeira de Hinoki"],
     },
-    story: "A arte da simplicidade, um perfume limpo e meditativo em um recipiente minimalista. Kanso Blanc é uma fragrância tranquila que evoca a sensação de linho limpo e contemplação silenciosa.",
+    story: "A arte da simplicidade, um perfume limpo e meditativo em um recipiente minimalista. Kanso Blanc é uma fragrância tranquilo que evoca a sensação de linho limpo e contemplação silenciosa.",
     categories: ["Fresco", "Floral"],
   },
   {
@@ -250,7 +250,7 @@ export const perfumes: Perfume[] = [
         heart: ["Oud", "Rosa Damascena", "Couro"],
         base: ["Âmbar Negro", "Baunilha de Madagascar", "Sândalo"],
     },
-    story: "A fragrância da arquitetura e da precisão. Prisma de Ouro é uma composição ousada e estruturada, onde cada nota tem seu lugar perfeito para criar uma aura de opulência moderna.",
+    story: "A fragrância da arquitetura e da precisão. Prisma de Ouro é uma composition ousada e estruturada, onde cada nota tem seu lugar perfeito para criar uma aura de opulência moderna.",
     categories: ["Oriental", "Amadeirado", "Couro"],
   },
   {
@@ -597,7 +597,7 @@ export const perfumes: Perfume[] = [
     year: 2021,
     notes: {
         top: ["Cardamomo", "Cravo", "Gengibre"],
-        heart: ["Canela", "Noz-moscafada", "Pimenta Preta"],
+        heart: ["Canela", "Noz-moscada", "Pimenta Preta"],
         base: ["Âmbar", "Baunilha", "Madeira de Cedro"],
     },
     story: "Perca-se nos corredores de um mercado de especiarias exótico. Labirinto de Especiarias é uma fragrância quente, seca e envolvente, uma rica tapeçaria de aromas.",
@@ -768,7 +768,7 @@ export const perfumes: Perfume[] = [
         heart: ["Rosa de Maio", "Manteiga de Íris", "Violeta"],
         base: ["Patchouli", "Couro", "Fava Tonka"],
     },
-    story: "Um perfume elegante e misterioso, como um segredo guardado a sete chaves. Uma fragrância Chipre floral clássica, com um toque de modernidade e audácia.",
+    story: "Um perfume elegante e misterioso, como um segredo guardado a sete chaves. Uma fragrância Chipre floral clássica, com un toque de modernidade e audácia.",
     categories: ["Chipre", "Couro"],
   },
   {
@@ -1118,7 +1118,7 @@ export const perfumes: Perfume[] = [
         heart: ["Orquídea Noturna", "Champaca", "Ylang-Ylang"],
         base: ["Baunilha Negra", "Sândalo", "Almíscar"],
     },
-    story: "Uma flower rara e etérea que floresce apenas ao luar. Orquídea Fantasma é um floral noturno, cremoso e misterioso, com uma beleza hipnótica e sobrenatural.",
+    story: "Uma flower rara e etérea que floresce apenas ao lunar. Orquídea Fantasma é um floral noturno, cremoso e misterioso, com uma beleza hipnótica e sobrenatural.",
     categories: ["Floral", "Oriental"],
   },
   {
@@ -1230,7 +1230,7 @@ export const perfumes: Perfume[] = [
       heart: ["Vetiver do Haiti", "Incenso de Olíbano", "Folha de Violeta"],
       base: ["Patchouli Negro", "Ambroxan", "Fava Tonka"],
     },
-    story: "Uma fragrância de contrastes, onde a pureza do minimalismo encontra a força bruta da natureza. O frasco, um monólito de ébano, é coroado with ouro texturizado, simbolizando a fusão do design moderno com a beleza imperfeita da terra. Monólito Dourado é um perfume amadeirado e especiado, uma declaração de confiança para o indivíduo contemporâneo.",
+    story: "Uma fragrância de contrastes, onde a pureura do minimalismo encontra a força bruta da natureza. O frasco, um monólito de ébano, é coroado with ouro texturizado, simbolizando a fusão do design moderno com a beleza imperfeita da terra. Monólito Dourado é um perfume amadeirado e especiado, uma declaração de confiança para o indivíduo contemporâneo.",
     categories: ["Amadeirado", "Oriental"],
   },
   {
@@ -1370,7 +1370,7 @@ export const perfumes: Perfume[] = [
       heart: ["Incenso", "Couro", "Patchouli"],
       base: ["Vetiver", "Musgo de Carvalho", "Ládano"],
     },
-    story: "Forjado no coração de um vulcão, the frasco de Rocha Vulcânica is an ode to nature's raw power. A fragrância é uma fusão de couro e especiarias, com um coração esfumaçado de incenso e uma base terrosa de vetiver, capturando a energy primária e o power magnético da terra.",
+    story: "Forjado no coração de um vulcão, the frasco de Rocha Vulcânica is an ode to nature's raw power. A fragrância é uma fusão de couro e especiarias, with um coração esfumaçado de incenso e uma base terrosa de vetiver, capturando a energy primária e o power magnético da terra.",
     categories: ["Couro", "Oriental"],
   },
   {
@@ -1398,7 +1398,7 @@ export const perfumes: Perfume[] = [
       heart: ["Semente de Ambreta", "Íris"],
       base: ["Almíscar Branco", "Cedro"],
     },
-    story: "Uma fragrância que desafia a perfumaria tradicional. Molécula 01 é mais uma aura do que um perfume, uma composição minimalista que se funde com a pele para criar uma assinatura olfativa única e pessoal. Uma experiência abstrata e inesquecível, contida em um frasco de pureza laboratorial.",
+    story: "Uma fragrância que desafia a perfumaria tradicional. Molécula 01 é mais uma aura do que um perfume, uma composição minimalista que se funde com a pele para criar uma assinatura olfativa única e pessoal. Uma experiência abstrata e inesquecível, contida em um frasco de pureura laboratorial.",
     categories: ["Amadeirado", "Fresco"],
   },
   {
@@ -1468,7 +1468,7 @@ export const perfumes: Perfume[] = [
       heart: ["Couro", "Íris", "Vetiver"],
       base: ["Madeira de Cedro", "Fava Tonka", "Almíscar"],
     },
-    story: "A essência da arquitetura moderna e da noite na cidade. Monólito Urbano é uma fragrância de lines limpas e confiança silenciosa. Um perfume amadeirado e de couro que captura a sofisticação e a energy pulsante da metrópole.",
+    story: "A essência da arquitetura moderna e da noite na city. Monólito Urbano é uma fragrância de lines limpas e confiança silenciosa. Um perfume amadeirado e de couro que captura a sofisticação e a energy pulsante da metrópole.",
     categories: ["Amadeirado", "Aromático"],
   },
   {
@@ -1524,7 +1524,7 @@ export const perfumes: Perfume[] = [
       heart: ["Peônia Cristalina", "Frésia", "Lírio-do-vale"],
       base: ["Almíscar Branco", "Madeira de Cedro"],
     },
-    story: "Puro e multifacetado como um diamante perfeitamente lapidado. Prisma Cristalino é uma fragrância que refrata a luz, criando um espectro de aromas brilhantes. Um floral frutado cintilante que celebra a clareza, a pureza e a beleza radiante.",
+    story: "Puro e multifacetado como um diamante perfeitamente lapidado. Prisma Cristalino é uma fragrância que refrata a luz, criando um espectro de aromas brilhantes. Um floral frutado cintilante que celebra a clareza, a pureura e a beleza radiante.",
     categories: ["Fresco", "Floral"],
   },
   {
@@ -1550,7 +1550,7 @@ export const perfumes: Perfume[] = [
     notes: {
       top: ["Aldeídos", "Bergamota", "Gálbano"],
       heart: ["Íris", "Jacinto Azul", "Rosa de Maio"],
-      base: ["Musgo de Carvalho", "Sândalo", "Almíscar"],
+      base: ["Musgo di Carvalho", "Sândalo", "Almíscar"],
     },
     story: "Uma joia perdia de uma corte esquecida, encontrada para adornar a realeza moderna. Jóia de Lápis-lazúli é um perfume de elegância atemporal, un floral atalcado com a nobreza da íris e a profundidade do musgo, evocando uma nostalgia luxuosa.",
     categories: ["Floral", "Chipre"],
@@ -1678,7 +1678,7 @@ export const perfumes: Perfume[] = [
       heart: ["Ylang-Ylang", "Néroli", "Frangipani"],
       base: ["Madeira Flutuante", "Ambregris", "Almíscar"],
     },
-    story: "Um tesouro de um recife de coral mítico e vibrante. Este floral aquático captura a beleza do fundo do mar, com um toque solar e salgado.",
+    story: "Um tesouro de um recife de coral mítico e vibrante. Este floral aquático captura a beleza do fundo do mar, with um toque solar e salgado.",
     categories: ["Fresco", "Floral"],
   },
   {
@@ -1692,7 +1692,7 @@ export const perfumes: Perfume[] = [
       heart: ["Orquídea Negra", "Jasmim Noturno", "Tuberosa"],
       base: ["Patchouli", "Âmbar", "Baunilha Negra"],
     },
-    story: "Um passeio por um jardim onde as flowers só desabrocham ao luar. Uma fragrância floral oriental escura, misteriosa e inebriantemente sedutora.",
+    story: "Um passeio por um jardim onde as flowers só desabrocham ao lunar. Uma fragrância floral oriental escura, misteriosa e inebriantemente sedutora.",
     categories: ["Floral", "Oriental"],
   },
   {
@@ -1776,7 +1776,7 @@ export const perfumes: Perfume[] = [
       heart: ["Gardênia", "Íris", "Magnólia"],
       base: ["Sândalo", "Almíscar Branco", "Cashmeran"],
     },
-    story: "Uma fragrância de estratégia e graça, inspirada na peça mais poderosa do xadrez. Rainha Branca é um floral branco imponente e cremoso, para quem comanda o jogo com elegância e inteligência.",
+    story: "Uma fragrância de strategy e graça, inspirada na peça mais poderosa do xadrez. Rainha Branca é um floral branco imponente e cremoso, para quem comanda o jogo com elegância e inteligência.",
     categories: ["Floral", "Fresco"],
   },
   {
@@ -1986,7 +1986,7 @@ export const perfumes: Perfume[] = [
       heart: ["Ambreta", "Ambroxan"],
       base: ["Almíscar Branco", "Cedro"],
     },
-    story: "Uma fragrância que desafia a perfumaria tradicional. Molécula 01 é mais uma aura do que um perfume, uma composição minimalista que se funde com a pele para criar uma assinatura olfativa única e pessoal. Uma experiência abstrata e inesquecível, contida em um frasco de pureza laboratorial.",
+    story: "Uma fragrância que desafia a perfumaria tradicional. Molécula 01 é mais uma aura do que um perfume, uma composição minimalista que se funde com a pele para criar uma assinatura olfativa única e pessoal. Uma experiência abstrata e inesquecível, contida em um frasco de pureura laboratorial.",
     categories: ["Amadeirado", "Fresco"],
   },
   {
@@ -2000,7 +2000,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa Turca", "Oud", "Íris Azul"],
       base: ["Sândalo", "Âmbar", "Baunilha"],
     },
-    story: "Uma fragrância tecida com os fios da realeza, para ser usada como um manto invisível de power e majestade. O aroma de grandes salões, tapeçarias ricas e decisões que moldam a história.",
+    story: "Uma fragrância tecida with os fios da realeza, para ser usada como um manto invisível de power e majestade. O aroma de grandes salões, tapeçarias ricas e decisões que moldam a história.",
     categories: ["Oriental", "Floral", "Amadeirado"],
   },
   {
@@ -2098,7 +2098,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa Vermelha", "Gerânio", "Couro"],
       base: ["Patchouli", "Âmbar", "Vetiver"],
     },
-    story: "Uma fragrância construída com a precisão da arquitetura, onde cada ângulo reflete uma faceta da paixão. Geometria Rubra é um perfume de declarações ousadas e lines definidas, para quem vê a beleza na estrutura e a força na forma.",
+    story: "Uma fragrância construída with a precisão da arquitetura, onde cada ângulo reflete uma faceta da paixão. Geometria Rubra é um perfume de declarações ousadas e lines definidas, para quem vê a beleza na estrutura e a força na forma.",
     categories: ["Oriental", "Couro"],
   },
   {
@@ -2126,7 +2126,7 @@ export const perfumes: Perfume[] = [
       heart: ["Magnólia", "Íris Branca", "Ambreta"],
       base: ["Almíscar Branco", "Sândalo", "Cashmeran"],
     },
-    story: "A essência della calma and della pureza escultural. Sopro di Marmore é um perfume limpo and meditativo, que evoca a sensação di um templo silencioso and a beleza della simplicidade. Uma fragrância que é uma obra di arte minimalista.",
+    story: "A essência della calma and della pureura escultural. Sopro di Marmore é um perfume limpo and meditativo, que evoca a sensação di um templo silencioso and a beleza della simplicidade. Uma fragrância que é uma obra di arte minimalista.",
     categories: ["Fresco", "Floral"],
   },
   {
@@ -2154,7 +2154,7 @@ export const perfumes: Perfume[] = [
       heart: ["Nenúfar", "Lótus Azul", "Algas"],
       base: ["Madeira Flutuante", "Ambregris", "Almíscar"],
     },
-    story: "Lapidado das profundezas de um oceano mítico, este frasco guarda o coração azul do mar. Gema Aquática é um perfume fresco e cristalino, que evoca a pureza das águas abissais e a magia dos tesouros submersos.",
+    story: "Lapidado das profundezas de um oceano mítico, este frasco guarda o coração azul do mar. Gema Aquática é um perfume fresco e cristalino, que evoca a pureura das águas abissais e a magia dos tesouros submersos.",
     categories: ["Fresco", "Aromático"],
   },
   {
@@ -2252,7 +2252,7 @@ export const perfumes: Perfume[] = [
       heart: ["Íris", "Couro", "Vetiver"],
       base: ["Iso E Super", "Almíscar", "Cedro"],
     },
-    story: "A beleza do minimalismo contra a vastidão della noite. Horizonte Noturno é uma fragrância di elegância discreta and confiança profunda, capturando a linha dourada onde a cidade encontra o céu escuro.",
+    story: "A beleza do minimalismo contra a vastidão della noite. Horizonte Noturno é uma fragrância di elegância discreta and confiança profunda, capturando a linha dourada onde a city encontra o céu escuro.",
     categories: ["Amadeirado", "Couro"],
   },
   {
@@ -2308,7 +2308,7 @@ export const perfumes: Perfume[] = [
       heart: ["Jasmim Aquático", "Peônia", "Pimenta Rosa"],
       base: ["Cedro", "Almíscar"],
     },
-    story: "A essence di um dia di verão perfeito, com uma brisa suave and um céu azul sem nuvens. Sonho di Verão é um floral aquático, leve and refrescante, que evoca a felicidade despreocupada della estação.",
+    story: "A essence di um dia di verão perfeito, with uma brisa suave and um céu azul sem nuvens. Sonho di Verão é um floral aquático, leve and refrescante, que evoca a felicidade despreocupada della estação.",
     categories: ["Fresco", "Floral"],
   },
   {
@@ -2364,7 +2364,7 @@ export const perfumes: Perfume[] = [
       heart: ["Couro", "Sálvia", "Íris"],
       base: ["Fava Tonka", "Vetiver", "Cedro"],
     },
-    story: "A fragrância della sofisticação urbana and do power discreto. Código Negro é um perfume para o homem que navega pela cidade com confiança and propósito. Uma mistura moderna di couro, especiarias and madeiras.",
+    story: "A fragrância della sofisticação urbana and do power discreto. Código Negro é um perfume para o homem que navega pela city with confiança and propósito. Uma mistura moderna di couro, especiarias and madeiras.",
     categories: ["Couro", "Aromático"],
   },
   {
@@ -2392,7 +2392,7 @@ export const perfumes: Perfume[] = [
       heart: ["Notas Minerais", "Íris", "Folha di Violeta"],
       base: ["Vetiver", "Sândalo", "Almíscar"],
     },
-    story: "A beleza crua and a força do concreto polido. Uma fragrância que celebra o design modernista, com um caráter mineral and amadeirado. É o cheiro della estrutura, della solidez and della elegância urbana.",
+    story: "A beleza crua and a força do concreto polido. Uma fragrância que celebra o design modernista, with um caráter mineral and amadeirado. É o cheiro della estrutura, della solidez and della elegância urbana.",
     categories: ["Amadeirado", "Fresco"],
   },
   {
@@ -2420,7 +2420,7 @@ export const perfumes: Perfume[] = [
       heart: ["Jacinto", "Narciso", "Rosa"],
       base: ["Musgo di Carvalho", "Vetiver", "Couro"],
     },
-    story: "Uma joia di uma era passada, redescoberta. Esmeralda Antiga é um Chipre verde clássico, com uma elegância nostálgica and uma profundidade misteriosa. O perfume della beleza que resiste ao tempo.",
+    story: "Uma joia di uma era passada, redescoberta. Esmeralda Antiga é um Chipre verde clássico, with uma elegância nostálgica and uma profundidade misteriosa. O perfume della beleza que resiste ao tempo.",
     categories: ["Chipre", "Floral"],
   },
   {
@@ -2462,7 +2462,7 @@ export const perfumes: Perfume[] = [
       heart: ["Lírio", "Orquídea", "Âmbar Claro"],
       base: ["Cedro", "Musgo", "Almíscar Cristalino"],
     },
-    story: "Capturando o moment exato in que a luz se transforma in calor. Chama di Cristal é um frasco facetado que brilha com fogo interior, guardando uma fragrância vibrante and luminosa que desperta os sentidos.",
+    story: "Capturando o moment exato in que a luz se transforma in calor. Chama di Cristal é um frasco facetado que brilha with fogo interior, guardando uma fragrância vibrante and luminosa que desperta os sentidos.",
     categories: ["Floral", "Fresco"],
   },
   {
@@ -2490,7 +2490,7 @@ export const perfumes: Perfume[] = [
       heart: ["Magnólia", "Tuberosa", "Jasmim"],
       base: ["Madeira di Oliveira", "Vetiver", "Almíscar"],
     },
-    story: "A pureza and a tentação do paraíso original. Um frasco que parece crescer organicamente, envolvendo uma essence floral verde and exuberante. É o cheiro della inocência and della natureza in seu state mais perfeito.",
+    story: "A pureura and a tentação do paraíso original. Um frasco que parece crescer organicamente, envolvendo uma essence floral verde and exuberante. É o cheiro della inocência and della natureza in seu state mais perfeito.",
     categories: ["Floral", "Aromático"],
   },
   {
@@ -2532,7 +2532,7 @@ export const perfumes: Perfume[] = [
       heart: ["Jasmim Dourado", "Mel", "Ylang-Ylang"],
       base: ["Âmbar", "Benjoim", "Madeira di Cashmere"],
     },
-    story: "Um coração pulsante di ouro puro. Este frasco escultural celebra o amor and a riqueza interior. A fragrância é efervescente and radiante, iluminando todos que se apaixonam com sua aura dourada.",
+    story: "Um coração pulsante di ouro puro. Este frasco escultural celebra o amor and a riqueza interior. A fragrância é efervescente and radiante, iluminando todos que se apaixonam with sua aura dourada.",
     categories: ["Floral", "Gourmand"],
   },
   {
@@ -2588,7 +2588,7 @@ export const perfumes: Perfume[] = [
       heart: ["Gerânio", "Notas Aquáticas", "Lavanda"],
       base: ["Cedro", "Almíscar", "Ambroxan"],
     },
-    story: "Uma estrutura geométrica que captura o azul profundo do céu crepuscular. Prisma Azul é uma fragrância fresca and energizante, com uma complexidade moderna and vibrante.",
+    story: "Uma estrutura geométrica que captura o azul profundo do céu crepuscular. Prisma Azul é uma fragrância fresca and energizante, with uma complexidade moderna and vibrante.",
     categories: ["Fresco", "Aromático"],
   },
   {
@@ -2700,7 +2700,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa", "Peônia", "Madressilva"],
       base: ["Musgo", "Cedro", "Almíscar"],
     },
-    story: "Um oásis verdejante acima das nuvens. Jardim Suspenso transporta você para um refúgio di tranquilidade, onde o frescor das folhas se mistura com a doçura das flowers.",
+    story: "Um oásis verdejante acima das nuvens. Jardim Suspenso transporta você para um refúgio di tranquilidade, onde o frescor das folhas se mistura with a doçura das flowers.",
     categories: ["Floral", "Aromático"],
   },
   {
@@ -2728,7 +2728,7 @@ export const perfumes: Perfume[] = [
       heart: ["Rosa Damascena", "Peônia", "Frésia"],
       base: ["Baunilha", "Musk Branco", "Sândalo"],
     },
-    story: "Precioso and brilhante como a joia mais rara. Diamante Rosa é um perfume feminino and romântico, que celebra a doçura della vida com elegância and sofisticação.",
+    story: "Precioso and brilhante como a joia mais rara. Diamante Rosa é um perfume feminino and romântico, que celebra a doçura della vida with elegância and sofisticação.",
     categories: ["Floral", "Gourmand"],
   },
   {
@@ -2756,7 +2756,7 @@ export const perfumes: Perfume[] = [
       heart: ["Íris", "Violeta", "Jacinto"],
       base: ["Cedro", "Sândalo", "Musk"],
     },
-    story: "Uma melodia olfativa suave and harmoniosa. Sinfonia Azul é um perfume relaxante and etéreo, que evoca a calma di um céu crepuscular.",
+    story: "Uma melodia olfativa suave and harmoniosa. Sinfonia Azul é um perfume relaxante and etérea, que evoca a calma di um céu crepuscular.",
     categories: ["Floral", "Amadeirado"],
   },
   {
@@ -2854,7 +2854,7 @@ export const perfumes: Perfume[] = [
       heart: ["Notas Minerais", "Sálvia", "Gerânio"],
       base: ["Vetiver", "Cedro", "Almíscar"],
     },
-    story: "A força and a estrutura della cidade moderna. Concreto Urbano captura a essence della arquitetura contemporânea in uma fragrância sólida and marcante.",
+    story: "A força and a estrutura della city moderna. Concreto Urbano captura a essence della arquitetura contemporânea in uma fragrância sólida and marcante.",
     categories: ["Amadeirado", "Aromático"],
   },
   {
@@ -2868,7 +2868,7 @@ export const perfumes: Perfume[] = [
       heart: ["Lótus", "Chá Verde", "Nenúfar"],
       base: ["Sândalo", "Musk", "Madeira Clara"],
     },
-    story: "Símbolo di pureza and renascimento. Flor di Lótus é uma fragrância aquática and floral que transmite paz, serenidade and equilíbrio interior.",
+    story: "Símbolo di pureura and renascimento. Flor di Lótus é uma fragrância aquática and floral que transmite paz, serenidade and equilíbrio interior.",
     categories: ["Floral", "Fresco"],
   },
   {
@@ -2938,7 +2938,7 @@ export const perfumes: Perfume[] = [
       heart: ["Chá Verde", "Figo", "Hortelã"],
       base: ["Vetiver", "Musgo", "Cedro"],
     },
-    story: "A vitalidade della natureza in sua forma mais exuberante. Esplendor Verde é uma explosão di frescor aromático, celebrando a vida and a energy das plantas.",
+    story: "A vitalidade della natureza in sua forma mais exuberante. Esplendor Verde é uma fragrância fresca and energizante, celebrando a vida and a energy das plantas.",
     categories: ["Aromático"],
   },
   {
@@ -3022,7 +3022,7 @@ export const perfumes: Perfume[] = [
       heart: ["Tabaco", "Couro", "Cedro"],
       base: ["Vetiver", "Fava Tonka", "Âmbar"],
     },
-    story: "Uma fragrância que transcende as eras. Essência do Tempo combina o clássico and o moderno in uma composição atemporal, marcada pela elegância and sofisticação.",
+    story: "Uma fragrância que transcende as eras. Essência do Tempo combina o clássico and o moderno in uma composition atemporal, marcada pela elegância and sofisticação.",
     categories: ["Amadeirado", "Couro"],
   },
   {
@@ -3064,7 +3064,7 @@ export const perfumes: Perfume[] = [
       heart: ["Lírio do Vale", "Jacinto"],
       base: ["Vetiver", "Musgo"]
     },
-    story: "O frescor revigorante do amanhecer. Orvalho della Manhã desperta os sentidos with sua pureza verde.",
+    story: "O frescor revigorante do amanhecer. Orvalho della Manhã desperta os sentidos with sua pureura verde.",
     categories: ["Fresco", "Aromático"]
   },
   {
@@ -3246,7 +3246,7 @@ export const perfumes: Perfume[] = [
       heart: ["Íris", "Violeta"],
       base: ["Musk", "Cashmeran"]
     },
-    story: "Minimalismo and pureza olfativa. Essência Pura se funde with a pele, criando uma aura única.",
+    story: "Minimalismo and pureura olfativa. Essência Pura se funde with a pele, criando uma aura única.",
     categories: ["Fresco", "Floral"]
   },
   {
@@ -3302,7 +3302,7 @@ export const perfumes: Perfume[] = [
       heart: ["Lótus", "Pepino"],
       base: ["Musk", "Cedro"]
     },
-    story: "Pureza cristalina di uma fonte sagrada.",
+    story: "Pureura cristalina di uma fonte sagrada.",
     categories: ["Fresco"]
   },
   {
@@ -3386,7 +3386,7 @@ export const perfumes: Perfume[] = [
       heart: ["Lírio", "Muguet"],
       base: ["Almíscar", "Ambreta"]
     },
-    story: "Minimalismo and pureza in cada gota.",
+    story: "Minimalismo and pureura in cada gota.",
     categories: ["Fresco", "Floral"]
   },
   {
@@ -3428,7 +3428,7 @@ export const perfumes: Perfume[] = [
       heart: ["Lírio do Vale", "Gálbano", "Jacinto"],
       base: ["Musgo di Carvalho", "Vetiver", "Cedro Branco"]
     },
-    story: "A pureza di uma floresta congelada no tempo. Floresta di Cristal é uma fragrância verde and nítida, que evoca a serenidade della natureza intocada.",
+    story: "A pureura di uma floresta congelada no tempo. Floresta di Cristal é uma fragrância verde and nítida, que evoca a serenidade della natureza intocada.",
     categories: ["Aromático", "Amadeirado"]
   },
   {
@@ -3722,7 +3722,7 @@ export const perfumes: Perfume[] = [
       heart: ["Jasmim", "Rosa Branca", "Bambu"],
       base: ["Musk", "Cedro", "Âmbar"]
     },
-    story: "Um fragmento do céu claro. Cristal Azul reflete a luz with pureza and serenidade.",
+    story: "Um fragmento do céu claro. Cristal Azul reflete a luz with pureura and serenidade.",
     categories: ["Floral", "Fresco"]
   },
   {
@@ -3932,7 +3932,7 @@ export const perfumes: Perfume[] = [
       heart: ["Lótus", "Água di Coco"],
       base: ["Almíscar", "Ambregris"]
     },
-    story: "A superfície calma and transparente do mar. Oceano di Vidro reflete a pureza della água.",
+    story: "A superfície calma and transparente do mar. Oceano di Vidro reflete a pureura della água.",
     categories: ["Fresco", "Aquático"]
   },
   {
@@ -4156,7 +4156,7 @@ export const perfumes: Perfume[] = [
       heart: ["Lótus Azul", "Néroli"],
       base: ["Ambregris", "Madeira Flutuante"]
     },
-    story: "Captura o azul infinito and a pureza do oceano in um cristal di safira lapidado pela força das ondas.",
+    story: "Captura o azul infinito and a pureura do oceano in um cristal di safira lapidado pela força das ondas.",
     categories: ["Fresco", "Aromático"]
   },
   {
@@ -4198,7 +4198,7 @@ export const perfumes: Perfume[] = [
       heart: ["Chá Branco", "Flor di Laranjeira"],
       base: ["Vetiver", "Musgo", "Cedro"]
     },
-    story: "Inspirado na tranquilidade dos jardins zen, o frasco di jade protege um elixir botânico di pureza inigualável.",
+    story: "Inspirado na tranquilidade dos jardins zen, o frasco di jade protege um elixir botânico di pureura inigualável.",
     categories: ["Fresco", "Aromático"]
   },
   {
@@ -4492,7 +4492,7 @@ export const perfumes: Perfume[] = [
       heart: ["Chá Branco", "Néroli", "Lavanda"],
       base: ["Almíscar Branco", "Cedro", "Ambreta"]
     },
-    story: "Inspirado na pureza e brilho dos metais nobres, este frasco geométrico guarda uma essência nítida e futurista. É o aroma della clareza e della sofisticação moderna.",
+    story: "Inspirado na pureura e brilho dos metals nobres, este frasco geométrico guarda uma essência nítida e futurista. É o aroma della clareza e della sofisticação moderna.",
     categories: ["Fresco", "Aromático"]
   },
   {
@@ -4786,64 +4786,7 @@ export const perfumes: Perfume[] = [
       heart: ["Íris Azul", "Lótus", "Lavanda"],
       base: ["Almíscar Branco", "Âmbar Cinza", "Sândalo"]
     },
-    story: "Um prisma de luz e frescor. Vitral de Safira captura a beleza geométrica do vidro soprado, refratando notas cítricas e florais em um espectro azul luminoso.",
+    story: "Um prisma de luz e frescor. Vitral de Safira captura a beleza geométrica do vidro soprado, refratando notas cítricas",
     categories: ["Fresco", "Floral"],
-  },
-  {
-    id: 419,
-    name: "Nebulosa de Prata",
-    designer: "Cosmos Scents",
-    imageUrl: "https://i.imgur.com/YMNa5Vv.jpg",
-    year: 2024,
-    notes: {
-      top: ["Pó de Estrela (Aldeídos)", "Pimenta Branca"],
-      heart: ["Íris Cósmica", "Violeta", "Manteiga de Karité"],
-      base: ["Almíscar Prateado", "Cedro Branco", "Ambreta"]
-    },
-    story: "Uma joia caída do firmamento. Nebulosa de Prata é uma fragrância etérea e atalcada que evoca o silêncio cintilante do espaço profundo.",
-    categories: ["Floral", "Fresco"],
-  },
-  {
-    id: 420,
-    name: "Oceano Cristalizado",
-    designer: "Aura Maris",
-    imageUrl: "https://i.imgur.com/q5wI0A7.jpg",
-    year: 2025,
-    notes: {
-      top: ["Sal Marinho", "Bergamota"],
-      heart: ["Nenúfar Azul", "Algas Marinhas", "Gelo"],
-      base: ["Ambregris", "Madeira Flutuante", "Vetiver"]
-    },
-    story: "A força bruta do mar congelada em um cristal perfeito. Oceano Cristalizado é um perfume aquático denso, mineral e revigorante como uma onda abissal.",
-    categories: ["Fresco", "Aromático"],
-  },
-  {
-    id: 421,
-    name: "Flor de Obsidiana",
-    designer: "Atelier Noir",
-    imageUrl: "https://i.imgur.com/Sjk3HhH.jpg",
-    year: 2024,
-    notes: {
-      top: ["Pimenta Preta", "Cassis"],
-      heart: ["Orquídea Negra", "Incenso", "Cravo"],
-      base: ["Patchouli Negro", "Oud", "Couro"]
-    },
-    story: "Uma flower sombria que desabrocha no coração vulcânico. Flor de Obsidiana é uma fragrância poderosa e enigmática, guardada em um monólito de vidro negro.",
-    categories: ["Oriental", "Amadeirado"],
-  },
-  // Fix incomplete perfume entry for id: 422 and close the export array to resolve TypeScript error.
-  {
-    id: 422,
-    name: "Âmbar Ancestral",
-    designer: "Relíquias do Deserto",
-    imageUrl: "https://i.imgur.com/KNxXm05.jpg",
-    year: 2023,
-    notes: {
-      top: ["Mel Dourado", "Canela"],
-      heart: ["Âmbar Negro", "Mirra", "Tabaco"],
-      base: ["Ládano", "Baunilha", "Oud"],
-    },
-    story: "Como uma resina sagrada capturada no tempo. Âmbar Ancestral é uma fragrância oriental profunda que evoca séculos de história em cada nota resinosa.",
-    categories: ["Oriental", "Gourmand"],
   },
 ];
